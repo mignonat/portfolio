@@ -1,241 +1,239 @@
 [
     {
-        "group" : "Sous officier de la Marine Nationale",
-        "duration": "9 ans",
+        "group" : "Petty officer in the French Navy",
+        "duration": "9 years",
         "experiences" : [
             {
-                "employer" : "Centres de Développement des Applications de la Défense",
+                "employer" : "Development centre of the French defense",
                 "place" : "Toulon",
-                "title" : "Analyste/Programmeur",
+                "title" : "Analyst/Programmer",
                 "begin" : "02-01-2012",
                 "end" : "07-31-2014",
-                "duration": "2 ans et 6 mois",
+                "duration": "2 years et 6 month",
                 "details" : [
-                    "Utiliser une méthode agile de gestion de projet, propre aux armées (équivalent de Scrum)",
-                    "Assistant du chef de projet pour chiffrage du travail, et mise en place des itérations", 
-                    "Analyser les besoins du client. Evaluer les charges et les risques",
-                    "Réaliser des maquettes de présentation",
-                    "Déterminer les choix techniques d'architecture logicielle et matérielle",
-                    "Modéliser UML",
-                    "Élaborer / Rédiger les spécifications techniques de l’application",
-                    "Concevoir et réaliser des tests unitaires et d’intégrations : Test-driven developpment",
-                    "Gérer et intégrer des environnements",
-                    "Utiliser une forge logicielle : codendi, svn, jenkins, sonar, wiki",
-                    "Analyser les problèmes techniques et fonctionnels, et proposer des correctifs",
-                    "Respecter les normes et règles de sécurité applicative. Organiser et réaliser des revues de code",
-                    "Travailler en équipe. Former des collaborateursau Java Jee et PhpSymfony2",
-                    "Sécuriser une application : chiffrement des données et utilisation de framework de sécurité",
-                    "Principales technologies : Java JEE, PHP Symfony2, PHP Doctrine2, Axis2 web service,  EJB3, JPA2 (hibernate), JSF2, Junit, Spring Security, JQuery, CSS3",
-                    "Équipes projet de 2 à 5 personnes",
-                    "Volumétrie variable : projets de 20 à 1000 utilisateurs"
+                    "Use an agile development methodology from the army (similar to Scrum)",
+                    "Assist the project manager to define the iterations, the work load and time cost", 
+                    "Analyse the client need",
+                    "Assess the risks",
+                    "Make models of presentation",
+                    "Make the choice of software technical architecture",
+                    "UML model",
+                    "Write technical specifications of the application",
+                    "Design and implement unit testing and integration: Test-driven developpment",
+                    "Manage and integrate environments",
+                    "Use a software forge : codendi, svn, jenkins, sonar, wiki",
+                    "Analyze the technical and functional problems and propose corrective",
+                    "Meet the standards and rules of application security. Organize and perform code reviews",
+                    "Teamwork. Train staff to Java Jee and Php Symfony2",
+                    "Securing an application: data encryption and use of security framework",
+                    "Key technologies : Java JEE, PHP Symfony2, PHP Doctrine2, Axis2 web service,  EJB3, JPA2 (hibernate), JSF2, Junit, Spring Security, JQuery, CSS3",
+                    "Variable project team : from 2 to 5 people",
+                    "Variable projects : from 20 to 1000 users"
                 ],
                 "projects" : [{ 
                         "name": "PROJET CONFIDENTIEL",
                         "type": "JAVA JEE",
-                        "desc" : "Simulations opérationnelles pour aide aux décisions stratégiques.",
+                        "desc" : "Operational simulations to aid in strategic decisions.",
                         "id" : 1
                     },{
                         "name": "COMETE",
                         "type": "SYMFONY2",
-                        "desc" : "Gestion des compétences et des formations du personnel embarqué.",
+                        "desc" : "Management skills and training of personnel on board.",
                         "id" : 2
                     },{
                         "name": "SICPIA",
                         "type": "JAVA JEE",
-                        "desc" : "Simulation financière pour aide à la décision.",
+                        "desc" : "Budget simulation for decision support.",
                         "id" : 3
                     },{
                         "name": "WEBREF",
                         "type": "JAVA JEE",
-                        "desc" : "Architecture SOA pour interface unique d'accès à des réferentiels de données.",
+                        "desc" : "Service oriented architecture to get a single interface to access data repositories.",
                         "id" : 4
                     },{
                         "name": "PATRONS APPLICATIF",
                         "type": "JAVA JEE",
-                        "desc" : "Skelettes de projet pour les nouveaux projets JEE du centre.",
+                        "desc" : "Java JEE skeletons project for new JEE projects of the center.",
                         "id" : 5
                     }]
             },{
-                "employer" : "Frégate Légère Furtive - FLF Courbet",
+                "employer" : "Furtive frigate - FLF Courbet",
                 "place" : "Toulon",
-                "title" : "Administrateur système/réseaux",
+                "title" : "System and network administrator",
                 "begin" : "08-01-2010",
                 "end" : "02-01-2012",
-                "duration": "1 an et 6 mois",
+                "duration": "1 year et 6 month",
                 "details" : [ 
-                    "Administrer des systèmes : Linux (Samba) et Windows",
-                    "Administrer des réseaux : brasser des prises, configurer les droits sur les switchs, mettre en place un proxy (IpCop)",
-                    "Responsable du parc matériel : 80 PCs",
-                    "Mettre en place des outils de gestion de parc materiel (Ocs Inventory et Glpi)",
-                    "Administrer le site web intranet du bord (Spip)",
-                    "Maître d'oeuvre de 3 projets Java Swing pour les besoins opérationnels du bateau",
-                    "Manager, encadrer et former des collaborateurs",
-                    "Chef de quart transmissions à la mer avec un opérateur à manager",
-                    "Travail en environnement éprouvant et sous fortes contraintes",
-                    "Séjour à l'étranger fréquent"
+                    "Administrate systems : Linux (Samba) and Windows",
+                    "Administrate networks : Wired routers and switchs, set permissions on the switches, setting up a proxy (IpCop)",
+                    "In charge of the hardware parc : 80 UCs",
+                    "Set up management tools hardware park (Ocs Inventory and Glpi)",
+                    "Administrate the intranet website (Spip)",
+                    "Supervisor and director of 3 Java Swing projects for the operational needs of boat",
+                    "Manage, coach and train the staff",
+                    "Chief of the transmissions at sea with an operator",
+                    "Work in challenging environment and high load",
+                    "Frequent stays abroad"
                 ],
                 "projects" : [{ 
                         "name": "PROPGUARD",
                         "type": "JAVA SWING",
-                        "desc" : "Surveillance des températures et pressions des moteurs diesels d'un bâtiment de combat.",
+                        "desc" : "Monitoring of the temperatures and pressures of diesel engines of a warship.",
                         "id" : 6
                     },{
                         "name": "DREAMGUARD",
                         "type": "JAVA SWING",
-                        "desc" : "Collecte d'informations sur le rythme biologique des marins à la mer pour études sur le sommeil",
+                        "desc" : "Information collecting on the biological rhythm of seamen.",
                         "id" : 7
                     },{
                         "name": "SSIGUARD",
                         "type": "JAVA SWING",
-                        "desc" : "Gestion de la formation SSI du personnel.",
+                        "desc" : "Management of the staff training in IT security.",
                         "id" : 8
                     }]
             },{
-                "employer" : "Centre d'Instruction Naval Saint Mandrier",
+                "employer" : "Saint Mandrier Naval Instruction Center",
                 "place" : "Toulon",
-                "title" : "Chef de projet - Analyste-programmeur",
+                "title" : "Project manager - Analyst-programmer",
                 "begin" : "04-01-2010",
                 "end" : "08-01-2010",
-                "duration": "4 mois",
+                "duration": "4 month",
                 "details" : [
-                    "Chef de projet",
-                    "Contractualisation et planification avec le client",
-                    "Analyser et concevoir un système de contrôle d'accès avec des lecteurs de badges de proximité",
-                    "Élaborer la documentation fonctionnelle et technique",
-                    "Architecturer n-tiers : clients lourds en Java Swing, et interface de consultation en PHP", 
-                    "Réaliser les trois clients lourds Java : acquisition des pointages, contrôle des badges, et gestion des badges/utilisateurs",
-                    "Superviser la réalisation de l'interface Php",
-                    "Tester le système in-situs",
-                    "Équipe projet 2 personnes",
-                    "Volumétrie : 2 lieux de pointages distincts, 10 lecteurs de badges, 3000 pointages/jour",
-                    "Projet de remplacement d'un système obsolète : 20000€ d'économies"
+                    "Project manager",
+                    "Contracting and planning with the client",
+                    "Analyse the client need",
+                    "Analyze and design a system of access control with proximity card readers",
+                    "Write technical and functionnal documentation",
+                    "An n-tier architecture : 3 Java Swing clients, and a php interface for querying", 
+                    "Implement of the 3 Java clients : acquisition of the pointing, controlling the people, and managing of the badge/user",
+                    "Supervisor of the implémentation of PHP interface",
+                    "Test the system on-site",
+                    "Project team 2 people",
+                    "Volume : Two separate places of pointing, 10 card readers, 3000 pointings / day",
+                    "Project to replace an obsolete system: € 20,000 savings"
                 ],
                 "projects" : [{
                         "name": "FOXGUARD CIN",
                         "type": "JAVA SWING",
-                        "desc" : "Contrôle des accès avec lecteurs de badge de proximité sur plusieurs sites géographiques.",
+                        "desc" : "Access control with proximity card readers on multiple geographic locations.",
                         "id" : 9
                     }]
             },{
-                "employer" : "Frégate Anti Sous Marine - FASM Dupleix",
+                "employer" : "Anti submarine frigate - FASM Dupleix",
                 "place" : "Toulon",
-                "title" : "Administrateur système/réseaux",
+                "title" : "System and network administrator",
                 "begin" : "02-02-2007",
                 "end" : "04-01-2010",
-                "duration": "3 ans et 2 mois",
+                "duration": "3 years et 2 month",
                 "details" : [ 
-                    "Administrer des systèmes : Linux (samba) et Windows",
-                    "Administrer des réseaux : brassage des prises, configurer les droits sur les switchs",
-                    "Maître d'oeuvre de 4 projets Java Swing pour les besoins opérationnels du bateau",
-                    "Manager, encadrer et former des collaborateurs",
-                    "Chef de quart transmissions à la mer avec deux opérateurs à manager",
-                    "Travail en environnement éprouvant et sous fortes contraintes",
-                    "Séjour à l'étranger fréquent"
+                    "Administrate systems : Linux (Samba) and Windows",
+                    "Administrate networks : Wired routers and switchs, set permissions on the switches, setting up a proxy (IpCop)",
+                    "Supervisor and director of 4 Java Swing projects for the operational needs of boat",
+                    "Manage, coach and train the staff",
+                    "Chief of the transmissions at sea with two operators",
+                    "Work in challenging environment and high load",
+                    "Frequent stays abroad"
                 ],
                 "projects" : [{ 
                         "name": "GEOGUARD",
                         "type": "JAVA SWING",
-                        "desc" : "Outil graphique pour création de cartes vectorielle.",
+                        "desc" : "Graphical tool for creating vector maps.",
                         "id" : 10
                     },{
                         "name": "SITAC",
                         "type": "C++ QT",
-                        "desc" : "Gestion informatisé de la situation tactique du bâtiment en temps réel.",
+                        "desc" : "Computerized management of the tactical situation of the building in real time.",
                         "id" : 11
                     },{
                         "name": "SPACEGUARD",
                         "type": "JAVA SWING",
-                        "desc" : "Aide à la gestion du lien satellitaire d'un bâtiment de combat.",
+                        "desc" : "Help to manage the satellite link of a warship.",
                         "id" : 12
                     },{
                         "name": "FOXGUARD",
                         "type": "JAVA SWING",
-                        "desc" : "Contrôle de présence avec un lecteur de badge de proximité.",
+                        "desc" : "Access control with an proximity card reader.",
                         "id" : 13
                     },{
                         "name": "SHIPGUARD",
                         "type": "JAVA SWING",
-                        "desc" : "Cartographie et contrôle des navires émmettant AIS.",
+                        "desc" : "Control and mapping of vessel emitting AIS.",
                         "id" : 14
                     }]
             },{
-                "employer" : "Centre d'instruction Naval de Brest",
+                "employer" : "Brest Naval Instruction Center",
                 "place" : "Brest",
-                "title" : "École de Maistrance des sous-officiers",
+                "title" : "Petty officer's school (Maistrance)",
                 "begin" : "02-02-2006",
                 "end" : "02-02-2007",
-                "duration": "1 an",
+                "duration": "1 year",
                 "details" : [
-                    "Cours théoriques et pratiques d'ordre général et technique",
-                    "Militaire, francais et histoire",
-                    "Administration système : Windows et Linux",
-                    "Réseaux informatiques",
-                    "Réseaux de télécommunications",
-                    "Communications radio-électriques",
-                    "Obtention du brevet 'Spécialiste des Systèmes d'Informations et de Télécommunications'",
-                    "Classement 1/44"
+                    "Theoretical and practice course",
+                    "General courses : Military, french and history",
+                    "Technical course : system and network computer administration, telecommunication systems, radio communications",
+                    "Patent of the french army : 'Specialist Information Systems and Telecommunications'",
+                    "Ranking 1/44"
                 ],
                 "projects" : [ ]
             }
         ]
     },{
-        "group" : "Restauration",
-        "duration": "7 mois",
+        "group" : "Restaurant",
+        "duration": "6 month",
         "experiences" : [
             {
                 "employer" : "Bowling Center Hotel",
                 "place" : "Toulouse",
-                "title" : "Serveur en restaurant",
+                "title" : "Waiter",
                 "begin" : "08-01-2005",
                 "end" : "02-02-2006",
-                "duration": "6 mois",
+                "duration": "6 month",
                 "details" : [
-                    "Servir au restaurant",
-                    "Accueillir les clients du bowling"
+                    "Waiter",
+                    "Welcome of the bowling's customers"
                     ],
                 "projects" : []
             }
         ]
     },{
-        "group" : "Experiences au Canada",
-        "duration": "1 an et 4 mois",
+        "group" : "Foreign experience in Canada",
+        "duration": "1 year et 4 month",
         "experiences" : [{
-                "employer" : "Banque Royale du Canada",
+                "employer" : "Royal Canadian Bank",
                 "place" : "Montréal",
-                "title" : "Contrôleur de dossiers de prêts hypotécaires",
+                "title" : "Controller of files mortgages",
                 "begin" : "02-01-2005",
                 "end" : "07-01-2005",
-                "duration": "6 mois",
+                "duration": "6 month",
                 "details" : [
-                    "Vérifier les dossiers des prêts hypotécaires transmis à la banque par les notaires",
-                    "Saisir les informations dans le SI de la banque"
+                    "Check the records of mortgages received from notaries",
+                    "Enter information in the information system of the bank"
                 ],
                 "projects" : []
             },{
                 "employer" : "Kelsey's Restaurant",
                 "place" : "Montréal",
-                "title" : "Hôte d'accueil des clients",
+                "title" : "Home customer",
                 "begin" : "08-01-2004",
                 "end" : "02-01-2005",
-                "duration": "6 mois",
+                "duration": "6 month",
                 "details" : [ 
-                    "Accueillir et prendre en charge les clients",
-                    "Répartir les clients sur les différentes tables",
-                    "Aider les serveurs à remonter leurs tables"
+                    "Welcoming and supporting the customers",
+                    "Allocate customers on différent tables",
+                    "Servers help to set up their tables"
                 ],
                 "projects" : []
             },{
-                "employer" : "Collège La Pocatière",
+                "employer" : "College La Pocatière",
                 "place" : "Quebec",
-                "title" : "Stagiaire DUT Informatique",
+                "title" : "Computer Science Diploma intern",
                 "begin" : "03-01-2004",
                 "end" : "06-31-2004",
-                "duration": "4 mois",
+                "duration": "4 month",
                 "details" : [ 
-                    "Stage DUT informatique", 
-                    "Mettre en place un serveur Linux (WEB, FTP, Mail, etc...)", 
-                    "Réaliser un script en C pour automatisation des traitements à partir de fichiers CSV",
-                    "Réaliser une interface Web (Php) pour consultation par les étudiants de leurs mails et gestion de leurs fichiers personnels sur le serveur"
+                    "Set up a Linux server (Web, Ftp, Email, etc...)", 
+                    "Writing a C script to automate processing from CSV files",
+                    "Making an web interface (Php) to the students for reading their emails, and manage their own personal files on the server"
                 ],
                 "projects" : []
             }

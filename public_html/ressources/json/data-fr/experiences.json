@@ -4,7 +4,7 @@
         "duration": "9 ans",
         "experiences" : [
             {
-                "employer" : "Centres de Développement des Applications de la Défense",
+                "employer" : "Centre de Développement des Applications de la Défense",
                 "place" : "Toulon",
                 "title" : "Analyste/Programmeur",
                 "begin" : "02-01-2012",
@@ -12,10 +12,11 @@
                 "duration": "2 ans et 6 mois",
                 "details" : [
                     "Utiliser une méthode agile de gestion de projet, propre aux armées (équivalent de Scrum)",
-                    "Assistant du chef de projet pour chiffrage du travail, et mise en place des itérations", 
-                    "Analyser les besoins du client. Evaluer les charges et les risques",
+                    "Assistant du chef de projet pour définir les itérations, et la charge/chiffrage du travail",
+                    "Analyser les besoins du client",
+                    "Evaluer les risques",
                     "Réaliser des maquettes de présentation",
-                    "Déterminer les choix techniques d'architecture logicielle et matérielle",
+                    "Déterminer les choix techniques d'architecture logicielle",
                     "Modéliser UML",
                     "Élaborer / Rédiger les spécifications techniques de l’application",
                     "Concevoir et réaliser des tests unitaires et d’intégrations : Test-driven developpment",
@@ -23,7 +24,7 @@
                     "Utiliser une forge logicielle : codendi, svn, jenkins, sonar, wiki",
                     "Analyser les problèmes techniques et fonctionnels, et proposer des correctifs",
                     "Respecter les normes et règles de sécurité applicative. Organiser et réaliser des revues de code",
-                    "Travailler en équipe. Former des collaborateursau Java Jee et PhpSymfony2",
+                    "Travailler en équipe. Former des collaborateurs au Java Jee et Php Symfony2",
                     "Sécuriser une application : chiffrement des données et utilisation de framework de sécurité",
                     "Principales technologies : Java JEE, PHP Symfony2, PHP Doctrine2, Axis2 web service,  EJB3, JPA2 (hibernate), JSF2, Junit, Spring Security, JQuery, CSS3",
                     "Équipes projet de 2 à 5 personnes",
@@ -52,7 +53,7 @@
                     },{
                         "name": "PATRONS APPLICATIF",
                         "type": "JAVA JEE",
-                        "desc" : "Skelettes de projet pour les nouveaux projets JEE du centre.",
+                        "desc" : "Squelettes de projet pour les nouveaux projets JEE du centre.",
                         "id" : 5
                     }]
             },{
@@ -70,7 +71,7 @@
                     "Administrer le site web intranet du bord (Spip)",
                     "Maître d'oeuvre de 3 projets Java Swing pour les besoins opérationnels du bateau",
                     "Manager, encadrer et former des collaborateurs",
-                    "Chef de quart transmissions à la mer avec un opérateur à manager",
+                    "Chef de quart transmissions à la mer avec la responsabilité d'un opérateur",
                     "Travail en environnement éprouvant et sous fortes contraintes",
                     "Séjour à l'étranger fréquent"
                 ],
@@ -128,7 +129,7 @@
                     "Administrer des réseaux : brassage des prises, configurer les droits sur les switchs",
                     "Maître d'oeuvre de 4 projets Java Swing pour les besoins opérationnels du bateau",
                     "Manager, encadrer et former des collaborateurs",
-                    "Chef de quart transmissions à la mer avec deux opérateurs à manager",
+                    "Chef de quart transmissions à la mer avec la responsabilité de deux opérateurs",
                     "Travail en environnement éprouvant et sous fortes contraintes",
                     "Séjour à l'étranger fréquent"
                 ],
@@ -180,7 +181,7 @@
         ]
     },{
         "group" : "Restauration",
-        "duration": "7 mois",
+        "duration": "6 mois",
         "experiences" : [
             {
                 "employer" : "Bowling Center Hotel",
@@ -207,7 +208,7 @@
                 "end" : "07-01-2005",
                 "duration": "6 mois",
                 "details" : [
-                    "Vérifier les dossiers des prêts hypotécaires transmis à la banque par les notaires",
+                    "Vérifier les dossiers des prêts hypothécaires transmis à la banque par les notaires",
                     "Saisir les informations dans le SI de la banque"
                 ],
                 "projects" : []
