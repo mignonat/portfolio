@@ -1,0 +1,1 @@
+angular.module('ue', ['sharedFilter', 'ue.services', 'ue.directives', 'ue.filters', 'sharedServices']) ;

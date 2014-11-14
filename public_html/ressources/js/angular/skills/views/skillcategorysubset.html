@@ -1,0 +1,7 @@
+    <big><span class="glyphicon {{ category | skillCategoryGlyphicon }}"></span></big>
+    /
+    <span ng-repeat="id in idSkillsArray">
+        <span class="txtLarge">{{ category | skillTitleByCategoryAndId: id | lowercase }} / </span>
+    </span>
+    <br ng-hide="$last"/>
+    

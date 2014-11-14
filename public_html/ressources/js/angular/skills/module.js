@@ -1,0 +1,1 @@
+angular.module('skills', ['sharedFilter', 'skills.services', 'skills.directives', 'skills.filters']) ;

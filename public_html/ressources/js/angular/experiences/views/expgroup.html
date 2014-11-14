@@ -1,0 +1,11 @@
+    
+    <h3 class="padTop20">
+        {{ expGroup.group }} 
+        <span ng-show="expGroup.duration"> - <i>{{ expGroup.duration }}</i></span>
+    </h3>
+
+    <div class="row margLeft5">
+        <experience class="col-sm-12 col-md-12 col-lg-12"
+                ng-repeat="experience in expGroup.experiences">
+        </experience>
+    </div>

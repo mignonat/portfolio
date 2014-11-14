@@ -1,0 +1,19 @@
+    <h1> {{ 'NightSchoolUnits' | translate }} </h1>
+    
+    <div class="separator"></div>
+    
+    <div class="text-center margBot10">
+        <big><span class="glyphicon glyphicon-info-sign"></span></big> &nbsp;
+        {{ 'clickUeInfo' | translate }}
+    </div>
+    
+    <div class="row" ng-controller="ueController as ueCtrl">
+
+        <ue class="col-sm-12 col-md-12 col-lg-12"
+            ng-repeat="ue in ueCtrl.ues">
+        </ue>
+
+    </div>
+
+
+

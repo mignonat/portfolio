@@ -1,0 +1,245 @@
+[
+    {
+        "group" : "Sous officier de la Marine Nationale",
+        "duration": "9 ans",
+        "experiences" : [
+            {
+                "employer" : "Centres de Développement des Applications de la Défense",
+                "place" : "Toulon",
+                "title" : "Analyste/Programmeur",
+                "begin" : "02-01-2012",
+                "end" : "07-31-2014",
+                "duration": "2 ans et 6 mois",
+                "details" : [
+                    "Utiliser une méthode agile de gestion de projet, propre aux armées (équivalent de Scrum)",
+                    "Assistant du chef de projet pour chiffrage du travail, et mise en place des itérations", 
+                    "Analyser les besoins du client. Evaluer les charges et les risques",
+                    "Réaliser des maquettes de présentation",
+                    "Déterminer les choix techniques d'architecture logicielle et matérielle",
+                    "Modéliser UML",
+                    "Élaborer / Rédiger les spécifications techniques de l’application",
+                    "Concevoir et réaliser des tests unitaires et d’intégrations : Test-driven developpment",
+                    "Gérer et intégrer des environnements",
+                    "Utiliser une forge logicielle : codendi, svn, jenkins, sonar, wiki",
+                    "Analyser les problèmes techniques et fonctionnels, et proposer des correctifs",
+                    "Respecter les normes et règles de sécurité applicative. Organiser et réaliser des revues de code",
+                    "Travailler en équipe. Former des collaborateursau Java Jee et PhpSymfony2",
+                    "Sécuriser une application : chiffrement des données et utilisation de framework de sécurité",
+                    "Principales technologies : Java JEE, PHP Symfony2, PHP Doctrine2, Axis2 web service,  EJB3, JPA2 (hibernate), JSF2, Junit, Spring Security, JQuery, CSS3",
+                    "Équipes projet de 2 à 5 personnes",
+                    "Volumétrie variable : projets de 20 à 1000 utilisateurs"
+                ],
+                "projects" : [{ 
+                        "name": "PROJET CONFIDENTIEL",
+                        "type": "JAVA JEE",
+                        "desc" : "Simulations opérationnelles pour aide aux décisions stratégiques.",
+                        "id" : 1
+                    },{
+                        "name": "COMETE",
+                        "type": "SYMFONY2",
+                        "desc" : "Gestion des compétences et des formations du personnel embarqué.",
+                        "id" : 2
+                    },{
+                        "name": "SICPIA",
+                        "type": "JAVA JEE",
+                        "desc" : "Simulation financière pour aide à la décision.",
+                        "id" : 3
+                    },{
+                        "name": "WEBREF",
+                        "type": "JAVA JEE",
+                        "desc" : "Architecture SOA pour interface unique d'accès à des réferentiels de données.",
+                        "id" : 4
+                    },{
+                        "name": "PATRONS APPLICATIF",
+                        "type": "JAVA JEE",
+                        "desc" : "Skelettes de projet pour les nouveaux projets JEE du centre.",
+                        "id" : 5
+                    }]
+            },{
+                "employer" : "Frégate Légère Furtive - FLF Courbet",
+                "place" : "Toulon",
+                "title" : "Administrateur système/réseaux",
+                "begin" : "08-01-2010",
+                "end" : "02-01-2012",
+                "duration": "1 an et 6 mois",
+                "details" : [ 
+                    "Administrer des systèmes : Linux (Samba) et Windows",
+                    "Administrer des réseaux : brasser des prises, configurer les droits sur les switchs, mettre en place un proxy (IpCop)",
+                    "Responsable du parc matériel : 80 PCs",
+                    "Mettre en place des outils de gestion de parc materiel (Ocs Inventory et Glpi)",
+                    "Administrer le site web intranet du bord (Spip)",
+                    "Maître d'oeuvre de 3 projets Java Swing pour les besoins opérationnels du bateau",
+                    "Manager, encadrer et former des collaborateurs",
+                    "Chef de quart transmissions à la mer avec un opérateur à manager",
+                    "Travail en environnement éprouvant et sous fortes contraintes",
+                    "Séjour à l'étranger fréquent"
+                ],
+                "projects" : [{ 
+                        "name": "PROPGUARD",
+                        "type": "JAVA SWING",
+                        "desc" : "Surveillance des températures et pressions des moteurs diesels d'un bâtiment de combat.",
+                        "id" : 6
+                    },{
+                        "name": "DREAMGUARD",
+                        "type": "JAVA SWING",
+                        "desc" : "Collecte d'informations sur le rythme biologique des marins à la mer pour études sur le sommeil",
+                        "id" : 7
+                    },{
+                        "name": "SSIGUARD",
+                        "type": "JAVA SWING",
+                        "desc" : "Gestion de la formation SSI du personnel.",
+                        "id" : 8
+                    }]
+            },{
+                "employer" : "Centre d'Instruction Naval Saint Mandrier",
+                "place" : "Toulon",
+                "title" : "Chef de projet - Analyste-programmeur",
+                "begin" : "04-01-2010",
+                "end" : "08-01-2010",
+                "duration": "4 mois",
+                "details" : [
+                    "Chef de projet",
+                    "Contractualisation et planification avec le client",
+                    "Analyser et concevoir un système de contrôle d'accès avec des lecteurs de badges de proximité",
+                    "Élaborer la documentation fonctionnelle et technique",
+                    "Architecturer n-tiers : clients lourds en Java Swing, et interface de consultation en PHP", 
+                    "Réaliser les trois clients lourds Java : acquisition des pointages, contrôle des badges, et gestion des badges/utilisateurs",
+                    "Superviser la réalisation de l'interface Php",
+                    "Tester le système in-situs",
+                    "Équipe projet 2 personnes",
+                    "Volumétrie : 2 lieux de pointages distincts, 10 lecteurs de badges, 3000 pointages/jour",
+                    "Projet de remplacement d'un système obsolète : 20000€ d'économies"
+                ],
+                "projects" : [{
+                        "name": "FOXGUARD CIN",
+                        "type": "JAVA SWING",
+                        "desc" : "Contrôle des accès avec lecteurs de badge de proximité sur plusieurs sites géographiques.",
+                        "id" : 9
+                    }]
+            },{
+                "employer" : "Frégate Anti Sous Marine - FASM Dupleix",
+                "place" : "Toulon",
+                "title" : "Administrateur système/réseaux",
+                "begin" : "02-02-2007",
+                "end" : "04-01-2010",
+                "duration": "3 ans et 2 mois",
+                "details" : [ 
+                    "Administrer des systèmes : Linux (samba) et Windows",
+                    "Administrer des réseaux : brassage des prises, configurer les droits sur les switchs",
+                    "Maître d'oeuvre de 4 projets Java Swing pour les besoins opérationnels du bateau",
+                    "Manager, encadrer et former des collaborateurs",
+                    "Chef de quart transmissions à la mer avec deux opérateurs à manager",
+                    "Travail en environnement éprouvant et sous fortes contraintes",
+                    "Séjour à l'étranger fréquent"
+                ],
+                "projects" : [{ 
+                        "name": "GEOGUARD",
+                        "type": "JAVA SWING",
+                        "desc" : "Outil graphique pour création de cartes vectorielle.",
+                        "id" : 10
+                    },{
+                        "name": "SITAC",
+                        "type": "C++ QT",
+                        "desc" : "Gestion informatisé de la situation tactique du bâtiment en temps réel.",
+                        "id" : 11
+                    },{
+                        "name": "SPACEGUARD",
+                        "type": "JAVA SWING",
+                        "desc" : "Aide à la gestion du lien satellitaire d'un bâtiment de combat.",
+                        "id" : 12
+                    },{
+                        "name": "FOXGUARD",
+                        "type": "JAVA SWING",
+                        "desc" : "Contrôle de présence avec un lecteur de badge de proximité.",
+                        "id" : 13
+                    },{
+                        "name": "SHIPGUARD",
+                        "type": "JAVA SWING",
+                        "desc" : "Cartographie et contrôle des navires émmettant AIS.",
+                        "id" : 14
+                    }]
+            },{
+                "employer" : "Centre d'instruction Naval de Brest",
+                "place" : "Brest",
+                "title" : "École de Maistrance des sous-officiers",
+                "begin" : "02-02-2006",
+                "end" : "02-02-2007",
+                "duration": "1 an",
+                "details" : [
+                    "Cours théoriques et pratiques d'ordre général et technique",
+                    "Militaire, francais et histoire",
+                    "Administration système : Windows et Linux",
+                    "Réseaux informatiques",
+                    "Réseaux de télécommunications",
+                    "Communications radio-électriques",
+                    "Obtention du brevet 'Spécialiste des Systèmes d'Informations et de Télécommunications'",
+                    "Classement 1/44"
+                ],
+                "projects" : [ ]
+            }
+        ]
+    },{
+        "group" : "Restauration",
+        "duration": "7 mois",
+        "experiences" : [
+            {
+                "employer" : "Bowling Center Hotel",
+                "place" : "Toulouse",
+                "title" : "Serveur en restaurant",
+                "begin" : "08-01-2005",
+                "end" : "02-02-2006",
+                "duration": "6 mois",
+                "details" : [
+                    "Servir au restaurant",
+                    "Accueillir les clients du bowling"
+                    ],
+                "projects" : []
+            }
+        ]
+    },{
+        "group" : "Experiences au Canada",
+        "duration": "1 an et 4 mois",
+        "experiences" : [{
+                "employer" : "Banque Royale du Canada",
+                "place" : "Montréal",
+                "title" : "Contrôleur de dossiers de prêts hypotécaires",
+                "begin" : "02-01-2005",
+                "end" : "07-01-2005",
+                "duration": "6 mois",
+                "details" : [
+                    "Vérifier les dossiers des prêts hypotécaires transmis à la banque par les notaires",
+                    "Saisir les informations dans le SI de la banque"
+                ],
+                "projects" : []
+            },{
+                "employer" : "Kelsey's Restaurant",
+                "place" : "Montréal",
+                "title" : "Hôte d'accueil des clients",
+                "begin" : "08-01-2004",
+                "end" : "02-01-2005",
+                "duration": "6 mois",
+                "details" : [ 
+                    "Accueillir et prendre en charge les clients",
+                    "Répartir les clients sur les différentes tables",
+                    "Aider les serveurs à remonter leurs tables"
+                ],
+                "projects" : []
+            },{
+                "employer" : "Collège La Pocatière",
+                "place" : "Quebec",
+                "title" : "Stagiaire DUT Informatique",
+                "begin" : "03-01-2004",
+                "end" : "06-31-2004",
+                "duration": "4 mois",
+                "details" : [ 
+                    "Stage DUT informatique", 
+                    "Mettre en place un serveur Linux (WEB, FTP, Mail, etc...)", 
+                    "Réaliser un script en C pour automatisation des traitements à partir de fichiers CSV",
+                    "Réaliser une interface Web (Php) pour consultation par les étudiants de leurs mails et gestion de leurs fichiers personnels sur le serveur"
+                ],
+                "projects" : []
+            }
+        ]
+    }
+  
+]

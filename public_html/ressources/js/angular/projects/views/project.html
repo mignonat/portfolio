@@ -1,0 +1,35 @@
+        
+    <div class="panel panel-perso cursorHand border2 hoverShadow noselect"
+         ng-click="projectsCtrl.goToProject(project.id)">
+        
+        <div class="panel-heading text-center">
+            <h4 class="larger">
+                {{ projectsCtrl.getSkillById('frameworks', project.frameworks[0]).title }} - 
+                <i>{{ project.title }}</i>
+            </h4>
+            
+        </div>
+        
+        <div class="panel-body text-center pad0">
+            
+            <div class="container-fluid">
+                
+                <div class="row">
+                    
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <img class="img-thumbnail imgProject" 
+                             ng-src="{{ project.thumbUrl }}"
+                             alt="picture is loading ..."/>
+                    </div>
+                    
+                    <div class="col-sm-8 col-md-8 col-lg-8">
+                        <p class="justify margTop5">{{ project.resume }}</p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>

@@ -1,0 +1,114 @@
+
+    <div class="row">
+        
+        <div class="col-sm-10 col-md-10 col-lg-10">
+            
+            <h1 class="text-left margTop15">{{ 'Job' | translate }}</h1>
+            <blockquote>
+                
+                <p>
+                    <span><strong class="bold"><big>{{ 'identDetails' | translate }}</big></strong></span>
+                    
+                </p>
+                <p>
+                    <span>
+                        {{ 'address' | translate }}
+                        - {{ 'email' | translate }}
+                        - {{ 'telephone' | translate }}
+                    </span>
+                </p>
+                
+            </blockquote>
+            
+        </div>
+        
+        <div class="col-sm-2 col-md-2 col-lg-2 text-center pad0">
+            
+            <img class="img-thumbnail imgPicture animated200 flipInY"
+                    ng-src="ressources/images/identity.jpg"/>
+            
+        </div>
+        
+    </div>
+
+    <h2>{{ 'Goals' | translate }}</h2>
+    <blockquote>
+        <p class="justify">
+            {{ 'introduction' | translate }}
+        </p>
+    </blockquote>
+    
+    <h2>{{ 'References' | translate }}</h2>
+    <blockquote>
+        
+        <p ng-click="refHoluigue = !refHoluigue" class="cursorHand justify lh40">            
+            <label class="btn btn-perso"> 
+                <span class="glyphicon glyphicon-search"></span>
+                <span ng-hide="refHoluigue" class="glyphicon glyphicon-chevron-down"></span>
+                <span ng-show="refHoluigue" class="glyphicon glyphicon-chevron-up"></span>
+            </label>
+            <span>{{ 'reference1' | translate }}</span>
+            <br ng-show="refHoluigue"/>
+            <div collapse="!refHoluigue">
+                <img class="img-thumbnail text-center"
+                     ng-src="ressources/images/references/referenceHoluigue.png"/>
+            </div>
+        
+        </p>
+        
+        <p ng-click="refCin = !refCin" class="cursorHand justify lh40">
+            <label class="btn btn-perso"> 
+                <span class="glyphicon glyphicon-search"></span>
+                <span ng-hide="refCin" class="glyphicon glyphicon-chevron-down"></span>
+                <span ng-show="refCin" class="glyphicon glyphicon-chevron-up"></span>
+            </label>
+            <span>{{ 'reference2' | translate }}</span>
+            <br ng-show="refCin"/>
+            <div collapse="!refCin">
+                <img class="img-thumbnail text-center"
+                     ng-src="ressources/images/references/felicitation.jpg"/>
+            </div>
+            
+        </p>
+        
+        <p ng-click="refCrommelinck = !refCrommelinck" class="cursorHand justify lh40">
+            <label class="btn btn-perso"> 
+                <span class="glyphicon glyphicon-search"></span>
+                <span ng-hide="refCrommelinck" class="glyphicon glyphicon-chevron-down"></span>
+                <span ng-show="refCrommelinck" class="glyphicon glyphicon-chevron-up"></span>
+            </label>
+            <span>{{ 'reference3' | translate }}</span>
+            <br ng-show="refCrommelinck"/>
+            <div collapse="!refCrommelinck">
+                <img class="img-thumbnail text-center"
+                     ng-src="ressources/images/references/referenceCrommelinck.png"/>
+            </div>
+            
+        </p>
+    </blockquote>
+    
+    <div class="row">
+        
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            
+            <h2>{{ 'QualitiesTitle' | translate }}</h2>
+            <blockquote>
+                <p>
+                    {{ 'Qualities' | translate }}
+                </p>
+            </blockquote>
+            
+        </div>
+        
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            
+            <h2>{{ 'InterestsTitle' | translate }}</h2>
+            <blockquote>
+                <p>
+                    {{ 'Interests' | translate }}
+                </p>
+            </blockquote>
+            
+        </div>
+        
+    </div>

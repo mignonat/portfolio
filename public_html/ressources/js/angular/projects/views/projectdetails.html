@@ -1,0 +1,66 @@
+
+    <h1>{{ 'ProjectPage' | translate }} : {{ projectCtrl.project.title }}</h1>
+    <div class="separator"></div>
+           
+    <label class="txtLarge">{{ 'teamProject' | translate }}</label>
+    <span class="txtLarge">
+        : {{ projectCtrl.project.teamProject }} {{ 'people' | translate }}
+    </span>
+    <br/>
+    
+    <label class="txtLarge">{{ 'Duration' | translate }}</label>
+    <span class="txtLarge">
+        : {{ projectCtrl.project.duration }}
+    </span>
+    <span class="txtLarge" ng-show="projectCtrl.project.begin">
+        {{ 'from' | translate }} {{ projectCtrl.project.begin | dateTranslate }} 
+        {{ 'to' | translate }} {{ projectCtrl.project.end | dateTranslate }}
+    </span>
+    <br/>
+    
+    <h3>{{ 'Involvements' | translate }}</h3>
+    <blockquote>
+        <p ng-repeat="involvement in projectCtrl.project.involvements">
+            {{ involvement }}.
+        </p>
+    </blockquote>
+    
+    <h3>{{ 'softwareIntro' | translate }}</h3>
+    <blockquote class="margBot0">
+        <p ng-repeat="businessDetail in projectCtrl.project.businessDetails">
+            {{ businessDetail }}.
+        </p>
+    </blockquote>
+    
+    <div class="row">
+        
+        <div class="col-sm-6 col-md-6 col-lg-6" ng-show="projectCtrl.project.images.length > 0">
+            
+            <h3>{{ 'Gallery' | translate }}</h3>
+            <div class="blockquote" style="padding-top: 0px ; padding-bottom: 0px ;">
+                
+                <carouseltag ng-init="slides = projectCtrl.project.images; inter = 4000"
+                             disable-animation="true">
+                </carouseltag>
+                
+            </div>
+            
+        </div>
+        
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            
+            <h3>{{ 'TechDetails' | translate }}</h3>
+            <div class="blockquote">
+                <skillcategorysubset ng-repeat="category in projectCtrl.getCategoryList()"
+                                 ng-show="projectCtrl.project[category]"
+                                 ng-init="idSkillsArray = projectCtrl.project[category]">
+                </skillcategorysubset>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    
+    
+    

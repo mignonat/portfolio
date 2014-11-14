@@ -1,0 +1,36 @@
+  
+<div class="panel panel-perso">
+    
+    <div class="panel-heading text-center cursorHand noselect"
+         ng-click="showGraduateDetails = !showGraduateDetails">
+        
+        <img class="imgSchool img-thumbnail" ng-src="{{ graduate.imageUrl }}"/>
+        <br/>
+        
+        <span class="lh20 label label-perso" ng-show="graduate.end">
+            <big>{{ graduate.begin }} - {{ graduate.end }}</big>
+        </span>
+        <span class="lh20 label label-perso" ng-show="!graduate.end">
+            <big>{{ graduate.begin }} - {{ 'notYetObtained' | translate }}</big>
+        </span>
+        &nbsp;
+        <span class="label label-perso-bluegrey"><big>{{ graduate.level }}</big></span>
+        <br/>
+        
+        <label class="txtLarge text-center cursorHand">{{ graduate.title }}</label>
+        <br/>
+        
+        <span class="glyphicon glyphicon-chevron-down" ng-show="!showGraduateDetails"></span>
+        <span class="glyphicon glyphicon-chevron-up" ng-show="showGraduateDetails"></span>
+    </div>
+    
+    <div class="panel-body" ng-show="showGraduateDetails">
+        
+        <span class="lh20">{{ graduate.option }}</span>
+        <br/>
+
+        <span>{{ graduate.school }}</span> / <i><span>{{ graduate.city }}</span></i>
+        
+    </div>
+    
+</div>

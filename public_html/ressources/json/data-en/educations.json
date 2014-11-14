@@ -1,0 +1,70 @@
+[
+    { 
+        "name" : "Formation continue",
+        "graduates" : [
+            {
+                "title" : "Diplome d'ingénieur en ingéniérie des systèmes d'information",
+                "option" : "Obtention en cours du soir",
+                "imageUrl" : "ressources/images/school/eicnam.png",
+                "level" : "Bac +5",
+                "school" : "Ecole d’ingénieur du CNAM",
+                "city" : "Aix-En-Provence",
+                "begin" : "Fev 2012",
+                "end" : ""
+            },
+            {
+                "title" : "Titre RNCP niveau II - Concepteur en architecture informatique",
+                "option" : "Option systèmes d'information, en cours du soir",
+                "imageUrl" : "ressources/images/school/cnam.png",
+                "level" : "Bac +4",
+                "school" : "Conservatoire national des arts et métiers",
+                "city" : "Aix-En-Provence",
+                "begin" : "Fev 2012",
+                "end" : "Jun 2014"
+            },{
+                "title" : "Spécialiste des systèmes d'information et de télécommunication",
+                "option" : "Brevet d'aptitude technique des armées",
+                "imageUrl" : "ressources/images/school/cin.jpg",
+                "level" : "Bac",
+                "school" : "Marine Nationale",
+                "city" : "Brest - Toulon",
+                "begin" : "Fev 2006",
+                "end" : "Fev 2007"
+            }
+        ]
+    },{ 
+        "name" : "Formation initiale",
+        "graduates" : [
+            {
+                "title" : "DUT Informatique",
+                "option" : "Option génie logiciel",
+                "imageUrl" : "ressources/images/school/iut.jpg",
+                "level" : "Bac +2",
+                "school" : "IUT Paul Sabatier",
+                "city" : "Toulouse",
+                "begin" : "Sep 2002",
+                "end" : "Jun 2004"
+            },
+            {
+                "title" : "1ère année DEUG MIAS",
+                "option" : "Mathématiques et informatique appliquées aux sciences",
+                "imageUrl" : "ressources/images/school/fac.jpg",
+                "level" : "Bac +1",
+                "school" : "Faculté Toulouse III",
+                "city" : "Toulouse",
+                "begin" : "Sep 2000",
+                "end" : "Jun 2002"
+            },
+            {
+                "title" : "Baccalauréat scientifique",
+                "option" : "Option physique/chimie",
+                "imageUrl" : "ressources/images/school/lycee.jpg",
+                "level" : "Bac",
+                "school" : "Pierre Paul Riquet",
+                "city" : "Toulouse",
+                "begin" : "Sep 1997",
+                "end" : "Jun 2000"
+            }
+        ]
+    }
+]

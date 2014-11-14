@@ -1,0 +1,443 @@
+[
+    {
+        "category" : "projectSkills",
+        "skills": [{
+                "id": 1,
+                "title": "DÉFINITION DES ITERATIONS",
+                "detail": "Projet",
+                "level": 3
+            },{
+                "id": 2,
+                "title": "CONTACT CLIENT",
+                "detail": "Projet : relations externes",
+                "level": 3
+            },{
+                "id": 3,
+                "title": "ANALYSE FONCTIONNELLE",
+                "detail": "Projet : Définir et caractériser les fonctions répondant au mieux aux besoins du client",
+                "level": 3
+            },{
+                "id": 4,
+                "title": "TRAVAIL EN ÉQUIPE",
+                "detail": "Projet : relation interne, formation",
+                "level": 3
+            },{
+                "id": 5,
+                "title": "CHIFFRAGE DU TRAVAIL",
+                "detail": "Projet",
+                "level": 2
+            },{
+                "id": 6,
+                "title": "GESTION DES RESSOURCES",
+                "detail": "Projet : Diagrammes de Gantt",
+                "level": 2
+            },{
+                "id": 7,
+                "title": "UML",
+                "detail": "Projet : methode de conception Unified Modeling Langage",
+                "level": 3
+            },{
+                "id": 8,
+                "title": "MERISE",
+                "detail": "Projet : methode de conception. MCD, MLR, MPD",
+                "level": 3
+            },{
+                "id": 9,
+                "title": "GANTT",
+                "detail": "Projet : Diagramme pour planification de projet",
+                "level": 1
+            },{
+                "id": 10,
+                "title": "TOGAF",
+                "detail": "Projet : cadre d'architecture d'entreprise",
+                "level": 1
+            },{
+                "id": 11,
+                "title": "PERT",
+                "detail": "Projet : diagramme pour ordonnancement de projet",
+                "level": 1
+            }]
+    },{
+        "category" : "progLangages",
+        "skills": [{
+                "id": 1,
+                "title": "JAVA",
+                "detail": "Langage orienté objet",
+                "level": 3
+            },{
+                "id": 2,
+                "title": "C - C++",
+                "detail": "Langages procédural et orienté objet",
+                "level": 3
+            },{
+                "id": 3,
+                "title": "JAVASCRIPT",
+                "detail": "Langage fonctionnel",
+                "level": 3
+            },{
+                "id": 4,
+                "title": "PHP",
+                "detail": "Langage orienté objet",
+                "level": 3
+            },{
+                "id": 5,
+                "title": "CSS3",
+                "detail": "Cascading Sheet Style : Langage de mise en forme",
+                "level": 3
+            },{
+                "id": 6,
+                "title": "HTML",
+                "detail": "Langage du web",
+                "level": 3
+            },{
+                "id": 7,
+                "title": "XML",
+                "detail": "MétaLangage de balise",
+                "level": 3
+            },{
+                "id":8,
+                "title": "XSD",
+                "detail": "Langage pour définition de schéma de validation au format XML",
+                "level": 2
+            },{
+                "id": 9,
+                "title": "XHTML",
+                "detail": "Langage de balise XML pour création de vue web",
+                "level": 2
+            },{
+                "id": 10,
+                "title": "TWIG",
+                "detail": "Langage de template de vue",
+                "level": 2
+            }]
+    },{
+        "category" : "frameworks",
+        "skills": [{
+                "id": 1,
+                "title": "JAVA JEE6",
+                "detail": "Framework MVC - JAVA",
+                "level": 3
+            },{
+                "id": 2,
+                "title": "PHP SYMFONY2",
+                "detail": "Framework MVC - PHP/DOCTRINE2/TWIG",
+                "level": 3
+            },{
+                "id": 3,
+                "title": "ANGULARJS",
+                "detail": "Framework MVW web client IOC JAVASCRIPT",
+                "level": 3
+            },{
+                "id": 4,
+                "title": "ZEND FRAMEWORK 1",
+                "detail": "Framework PHP MVC",
+                "level": 2
+            },{
+                "id": 5,
+                "title": "JAVA SWING",
+                "detail": "Framework JAVA MVC GUI",
+                "level": 3
+            },{
+                "id": 6,
+                "title": "EJB3",
+                "detail": "Framework : JAVA IOC inversion de contrôle",
+                "level": 3
+            },{
+                "id": 7,
+                "title": "JPA2",
+                "detail": "Framework : JAVA ORM hibernate et eclipselink",
+                "level": 3
+            },{
+                "id": 8,
+                "title": "DOCTRINE 2",
+                "detail": "Framework : PHP ORM",
+                "level": 3
+            },{
+                "id": 9,
+                "title": "JSF2",
+                "detail": "Framework : JAVA template de vue",
+                "level": 3
+            },{
+                "id": 10,
+                "title": "PRIMEFACES",
+                "detail": "Framework : Surcouche de JAVA JSF",
+                "level": 3
+            },{
+                "id": 11,
+                "title": "JQUERY",
+                "detail": "Framework JAVASCRIPT",
+                "level": 3
+            },{
+                "id": 12,
+                "title": "BOOTSTRAP",
+                "detail": "Framework CSS",
+                "level": 2
+            },{
+                "id": 13,
+                "title": "SPRING SECURITY",
+                "detail": "Framework de sécurité JAVA",
+                "level": 3
+            },{
+                "id": 14,
+                "title": "QT C++",
+                "detail": "Framework C++",
+                "level": 2
+            }]
+    },{
+        "category" : "programmingTools",
+        "skills": [{
+                "id": 1,
+                "title": "NETBEANS",
+                "detail": "Oracle IDE : JAVA/PHP/Html5",
+                "level": 3
+            },{
+                "id": 2,
+                "title": "ECLIPSE",
+                "detail": "Fondation Eclipse IDE : JAVA/PHP/Html5",
+                "level": 2
+            },{
+                "id": 3,
+                "title": "QT CREATOR",
+                "detail": "C C++ IDE",
+                "level": 2
+            },{
+                "id": 4,
+                "title": "MODELIO - STARUML",
+                "detail": "Outils de modélisation",
+                "level": 3
+            },{
+                "id": 5,
+                "title": "FORGE CODENDI",
+                "detail": "Forge de développement",
+                "level": 3
+            },{
+                "id": 6,
+                "title": "SVN",
+                "detail": "Subversion : outil de versionning",
+                "level": 3
+            },{
+                "id": 7,
+                "title": "GIT",
+                "detail": "Git : outil de versionning",
+                "level": 1
+            },{
+                "id": 8,
+                "title": "MAVEN",
+                "detail": "Outil de gestion/automatisation de production des projets JAVA",
+                "level": 2
+            },{
+                "id": 9,
+                "title": "SONAR",
+                "detail": "Outil de contrôle de la qualité du code JAVA",
+                "level": 2
+            },{
+                "id": 10,
+                "title": "JENKINS",
+                "detail": "Outil intégration d'automatisation de tâches JAVA",
+                "level": 2
+            }]
+    },{
+        "category" : "networks",
+        "skills": [{
+                "id": 1,
+                "title": "MIDDLEWARE",
+                "detail": "Intergiciel",
+                "level": 3
+            },{
+                "id": 2,
+                "title": "ESB",
+                "detail": "Enterprise Service Bus",
+                "level": 3
+            },{
+                "id": 3,
+                "title": "SOA",
+                "detail": "Web : Service Oriented Architecture",
+                "level": 2
+            },{
+                "id": 4,
+                "title": "REST JSON",
+                "detail": "WEB Service : Representational state transfer",
+                "level": 3
+            },{
+                "id": 5,
+                "title": "SOAP XML",
+                "detail": "WEB Service : Simple Object Access protocol",
+                "level": 3
+            },{
+                "id": 6,
+                "title": "WEBSERVICE CONSOMMATION",
+                "detail": "JAVA AXIS2, et php",
+                "level": 3
+            },{
+                "id": 7,
+                "title": "WEBSERVICE PRODUCTION",
+                "detail": "JAVA",
+                "level": 3
+            },{
+                "id": 8,
+                "title": "LDAP",
+                "detail": "Consultation d'un annuaire en JAVA",
+                "level": 2
+            },{
+                "id": 9,
+                "title": "AJAX",
+                "detail": "WEB : Asynchronous JAVASCRIPT and XML",
+                "level": 3
+            },{
+                "id": 10,
+                "title": "LIAISON SÉRIE RS232",
+                "detail": "Port série",
+                "level": 3
+            }]
+    },{
+        "category" : "apis",
+        "skills": [{
+                "id": 1,
+                "title": "SDK JAVA",
+                "detail": "API : Standard Developpement Tool",
+                "level": 3
+            },{
+                "id": 2,
+                "title": "JAVA 2D",
+                "detail": "JAVA Drawing",
+                "level": 3
+            },{
+                "id": 3,
+                "title": "SOCKET",
+                "detail": "UDP et TCP en Java et C++",
+                "level": 3
+            },{
+                "id": 4,
+                "title": "POSIX",
+                "detail": "API : C C++",
+                "level": 3
+            },{
+                "id": 5,
+                "title": "APACHE AXIS2 WEB SERVICE",
+                "detail": "API JAVA Web Services jax-rs",
+                "level": 3
+            },{
+                "id": 6,
+                "title": "APACHE POI",
+                "detail": "API JAVA pour manipuler des fichiers de la suite Office Microsoft",
+                "level": 2
+            },{
+                "id": 7,
+                "title": "FLYING SAUCER PDF",
+                "detail": "API JAVA pour générer des pdfs à partir de fichiers XHTML",
+                "level": 2
+            },{
+                "id": 8,
+                "title": "JAX-WS",
+                "detail": "API JAVA pour production de web services",
+                "level": 3
+            },{
+                "id": 9,
+                "title": "JDBC",
+                "detail": "Java database connectivity technology",
+                "level": 3
+            },{
+                "id": 10,
+                "title": "JDOM",
+                "detail": "Java-based document object model for XM",
+                "level": 3
+            },{
+                "id": 11,
+                "title": "KEYSTORE",
+                "detail": "Magasin de clés de Java",
+                "level": 3
+            }]
+    },{
+        "category" : "appServers",
+        "skills": [{
+                "id": 1,
+                "title": "GLASSFISH 3.2",
+                "detail": "Serveur WEB/JAVA JEE",
+                "level": 3
+            },{
+                "id": 2,
+                "title": "WAMP",
+                "detail": "Serveur WEB/PHP",
+                "level": 3
+            },{
+                "id": 3,
+                "title": "JBOSS 7",
+                "detail": "Serveur WEB/JAVA JEE",
+                "level": 2
+            }]
+    },{
+        "category" : "sgbdrs",
+        "skills": [{
+                "id": 1,
+                "title": "MYSQL",
+                "detail": "Base de données",
+                "level": 3
+            },{
+                "id": 2,
+                "title": "ORACLE",
+                "detail": "Base de données",
+                "level": 2
+            },{
+                "id": 3,
+                "title": "SQL SERVER",
+                "detail": "Base de données",
+                "level": 2
+            },{
+                "id": 4,
+                "title": "POSTGRE",
+                "detail": "Base de données",
+                "level": 1
+            }]
+    },{
+        "category" : "admin",
+        "skills": [{
+                "id": 1,
+                "title": "OCS INVENTORY",
+                "detail": "Administration : Outil de gestion technique de parc informatique",
+                "level": 3
+            },{
+                "id": 2,
+                "title": "GLPI",
+                "detail": "Administration : Gestionnaire libre de parc informatique",
+                "level": 3
+            },{
+                "id": 3,
+                "title": "SAMBA",
+                "detail": "Administration : Implementation du protocole réseau SMB/CIFS",
+                "level": 2
+            },{
+                "id": 4,
+                "title": "IPCOP",
+                "detail": "Administration : Proxy Linux",
+                "level": 2
+            },{
+                "id": 5,
+                "title": "SWITCH/ROUTEUR",
+                "detail": "Administration : Configuration",
+                "level": 1
+            }]
+    },{
+        "category" : "misc",
+        "skills": [{
+                "id": 1,
+                "title": "MVC",
+                "detail": "WEB : design pattern Modèle/Vue/Controller",
+                "level": 3
+            },{
+                "id": 2,
+                "title": "DESIGN PATTERN",
+                "detail": "Bonnes pratiques de programmations JAVA PHP JAVASCRIPT",
+                "level": 3
+            },{
+                "id": 3,
+                "title": "EXPRESSION RÉGULIERE",
+                "detail": "Decrire un ensemble de chaînes de caractères possibles selon une syntaxe précise",
+                "level": 3
+            },{
+                "id": 4,
+                "title": "CRYPTOGRAPHIE",
+                "detail": "Cryptage des données",
+                "level": 3
+            }]
+    }
+]

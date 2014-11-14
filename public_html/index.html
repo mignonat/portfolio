@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MIGNONAT.COM</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Professional resume">
+        <meta name="author" content="Mignonat Laurent">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        
+        <link rel="icon" href="ressources/images/favicon.ico">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="ressources/css/main.css">
+        
+        <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+        <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+        <script src="ressources/js/ie-emulation-modes-warning.js"></script>
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+    </head>
+
+    <body>
+        
+        <div class="container">
+            
+            <nav role="navigation" class="navbar navbar-inverse">
+                
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" 
+                            data-target="#navbarCollapse" 
+                            data-toggle="collapse" 
+                            class="navbar-toggle">
+                        
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        
+                    </button>
+                    
+                    <a href="#" 
+                       onclick="setActive('home')" 
+                       class="navbar-brand animated100 flipInX">
+                        MIGNONAT Laurent
+                    </a>
+                    
+                </div>
+                
+                <!-- Collection of nav links, forms, and other content for toggling -->
+                <div id="navbarCollapse" class="collapse navbar-collapse">
+                    
+                    <ul class="nav navbar-nav">
+                        
+                        <li id="home" class="active">
+                            <a href="#/" onclick="setActive('home')">{{ 'Introduction' | translate }}</a>
+                        </li>
+                        
+                        <li id="experiences">
+                            <a href="#/experiences" onclick="setActive('experiences')">{{ 'Experiences' | translate }}</a>
+                        </li>
+                        
+                        <li id="portfolio">
+                            <a href="#/portfolio" onclick="setActive('portfolio')">{{ 'Portfolio' | translate }}</a>
+                        </li>
+                        
+                        <li id="educations">
+                            <a href="#/educations" onclick="setActive('educations')">{{ 'Educations' | translate }}</a>
+                        </li>
+                        
+                        <li id="nightschool">
+                            <a href="#/nightschool" onclick="setActive('nightschool')">{{ 'NightSchool' | translate }}</a>
+                        </li>
+                        
+                        <li id="skills">
+                            <a href="#/skills" onclick="setActive('skills')">{{ 'Skills' | translate }}</a>
+                        </li>
+                    </ul>
+                    
+                    <div class="nav navbar-nav navbar-right" ng-controller="imgLangageController as imgLangageCtrl">
+                        
+                        <a class="navLangImg" href="#/langage/{{ imgLangageCtrl.getInverseLangage() }}" onclick="setActive('home')">
+                            <img ng-src="ressources/images/lang/{{ imgLangageCtrl.getInverseLangage() }}.png"/>
+                        </a>
+                        
+                    </div>
+                </div>
+                
+            </nav>
+            
+            <!-- angular templating -->
+            <!-- this is where content will be injected -->
+            <div ng-view autoscroll="true" class="marg5"></div>
+            
+        </div>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="ressources/js/ie10-viewport.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-animate.js"></script>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.11.2/ui-bootstrap-tpls.js"></script>
+        
+        <script type="text/javascript">
+            angular.element(document.getElementsByTagName('head'))
+                   .append(angular.element('<base href="' + window.location.pathname + '" />'));
+        </script>
+        
+        <script src="ressources/js/angular/shared/services.js"></script>
+        <script src="ressources/js/angular/shared/filters.js"></script>
+
+        <script src="ressources/js/angular/educations/services.js"></script>
+        <script src="ressources/js/angular/educations/directives.js"></script>
+        <script src="ressources/js/angular/educations/filters.js"></script>
+        <script src="ressources/js/angular/educations/module.js"></script>
+        <script src="ressources/js/angular/educations/controllers.js"></script>
+
+        <script src="ressources/js/angular/ue/services.js"></script>
+        <script src="ressources/js/angular/ue/directives.js"></script>
+        <script src="ressources/js/angular/ue/filters.js"></script>
+        <script src="ressources/js/angular/ue/module.js"></script>
+        <script src="ressources/js/angular/ue/controllers.js"></script>
+
+        <script src="ressources/js/angular/skills/services.js"></script>
+        <script src="ressources/js/angular/skills/directives.js"></script>
+        <script src="ressources/js/angular/skills/filters.js"></script>
+        <script src="ressources/js/angular/skills/module.js"></script>
+        <script src="ressources/js/angular/skills/controllers.js"></script>
+        
+        <script src="ressources/js/angular/carousel/module.js"></script>
+        
+        <script src="ressources/js/angular/experiences/services.js"></script>
+        <script src="ressources/js/angular/experiences/directives.js"></script>
+        <script src="ressources/js/angular/experiences/filters.js"></script>
+        <script src="ressources/js/angular/experiences/module.js"></script>
+        <script src="ressources/js/angular/experiences/controllers.js"></script>
+        
+        <script src="ressources/js/angular/projects/services.js"></script>
+        <script src="ressources/js/angular/projects/directives.js"></script>
+        <script src="ressources/js/angular/projects/filters.js"></script>
+        <script src="ressources/js/angular/projects/module.js"></script>
+        <script src="ressources/js/angular/projects/controllers.js"></script>
+        
+        <script src="ressources/js/angular/app.js"></script>
+        <script src="ressources/js/mainLayout.js"></script>
+    </body>
+</html>

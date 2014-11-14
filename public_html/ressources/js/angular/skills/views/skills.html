@@ -1,0 +1,36 @@
+    
+    <div ng-controller="skillsController as skillsCtrl">
+
+        <h1> {{ 'Skills' | translate }} </h1>
+    
+        <div class="separator"></div>
+        
+        <div class="input-group searchBox">
+                        
+            <span class="input-group-addon"
+                  title="{{ 'Search' | translate }}">
+                    {{ 'Search' | translate }}
+                    <span class="glyphicon glyphicon-search"></span>        
+            </span>
+            <input type="text" class="form-control" ng-model="searchSkill" placeholder="ex: java, mvc, etc ..."/>
+            <span class="input-group-addon" 
+                  ng-click="searchSkill = ''"
+                  title="{{ 'ClearField' | translate }}">    
+                    <span class="glyphicon glyphicon-remove"></span>
+            </span>
+
+        </div>
+                
+        <div class="container-fluid">
+
+            <div class="row">
+                
+                <skillcategory class="col-sm-6 col-md-4 col-lg-4" 
+                               ng-repeat="skillCategory in skillsCtrl.skillCategories">
+                </skillcategory>
+                
+            </div>
+            
+        </div>
+        
+    </div>

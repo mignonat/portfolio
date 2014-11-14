@@ -1,0 +1,1 @@
+angular.module('projects', ['sharedFilter', 'skills', 'carousel', 'projects.services', 'projects.directives', 'projects.filters']) ;

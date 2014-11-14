@@ -1,0 +1,73 @@
+    <div class="blockquoteHeader cursorHand noselect"
+         ng-click="stateExperience = !stateExperience">
+        
+        <div class="row">
+            
+            <div class="col-sm-8 col-md-8 col-lg-8">
+                
+                <label class="btn btn-perso marg5 margLeft0" 
+                       ng-show="experience.details"
+                       ng-class="{cursorHand: experience.details.length > 0}">
+
+                    <span class="glyphicon glyphicon-search"></span>
+                    <span class="glyphicon glyphicon-chevron-down" ng-show="!stateExperience"></span>
+                    <span class="glyphicon glyphicon-chevron-up" ng-show="stateExperience"></span>
+                </label>
+                &nbsp;
+                <span class="txtNormal">
+                    <big><b>{{ experience.title }}</b></big>
+                </span>
+            </div>
+            
+            <div class="col-sm-4 col-md-4 col-lg-4 text-right">
+                
+                <span class="txtNormal">
+                    {{ experience.duration }} - 
+                    <i>{{ experience.place }}</i>
+                </span>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <div class="blockquote" 
+         ng-class="{ pad0: !stateExperience }" 
+         ng-show="stateExperience && experience.details">
+
+        <i class="text-muted">
+            <span>{{ experience.employer }}</span>
+            <span>
+                    -
+                    {{ 'from' | translate }}
+                    {{ experience.begin | dateTranslate }}
+                    {{ 'to' | translate }}
+                    {{ experience.end | dateTranslate }}
+
+            </span>
+        </i>
+        <h4>{{ 'Infos' | translate }}</h4>
+        <ul>
+            <li ng-repeat="detail in experience.details">{{ detail }}</li>
+        </ul>
+
+        <div ng-show="experience.projects">
+
+            <h4>{{ 'softwareProjects' | translate }}</h4>
+
+            <a class="nounderline blueColor margBot10 margLeft20" 
+               href="#/project/{{ project.id }}/exp"
+               ng-repeat="project in experience.projects">
+                 <span class="label label-perso lh20">
+                     {{ 'ProjectPage' | translate }} 
+                     <span class="glyphicon glyphicon-search"></span>
+                 </span>
+                  &nbsp;
+                 <span><b>{{ project.type }} / {{ project.name }} / </b></span>
+                 <span>{{ project.desc }}</span>
+                 <br ng-hide="$last"/>
+             </a>
+
+        </div>
+        
+    </div>

@@ -1,0 +1,14 @@
+    <h3>{{ skillCategory.category | translate }}</h3>
+    <div class="blockquote">
+        <table>
+            <tr ng-repeat="skill in skillCategory.skills | filter:searchSkill" title="{{ skill.detail }}">
+                <td>
+                    <strong>{{ skill.title }} </strong>
+                </td>
+                <td class="padl8">
+                    <img ng-src="ressources/images/star.png" ng-repeat="i in skillsCtrl.getArraySkill(skill.level)"/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    

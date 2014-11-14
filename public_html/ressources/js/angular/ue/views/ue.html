@@ -1,0 +1,158 @@
+    <div class="blockquoteHeader cursorHand noselect" ng-click="showDetail = !showDetail">
+        
+        <div class="row">
+
+            <div class="col-sm-9 col-md-9 col-lg-9">
+                
+                <label class="btn btn-perso marg5 margLeft0">
+                    <span class="glyphicon glyphicon-search"></span>
+                    <span class="glyphicon glyphicon-chevron-down" ng-show="!showDetail"></span>
+                    <span class="glyphicon glyphicon-chevron-up" ng-show="showDetail"></span>
+                </label>
+                &nbsp;
+                <span class="">
+                    {{ ue.code }} - <b>{{ ue.title }}</b> - <small><i>{{ ue.category | ueCatById }}</i></small>
+                </span>
+                
+            </div>
+
+            <div class="col-sm-3 col-md-3 col-lg-3 text-right">
+                
+                <span class="label label-perso-bluegrey lh20">
+                    <big>{{ ue.score | score: ue.scoreMax }}</big>
+                    &nbsp;
+                    <img class="pad0" ng-src="ressources/images/ok.png" ng-show="ue.score > 0"/>
+                    <img ng-src="ressources/images/progress_bar.png" ng-show="ue.score === 0"/>
+                </span>
+                
+            </div>
+
+        </div>
+        
+    </div>
+
+    <div class="blockquote" ng-show="showDetail" 
+         ng-class="{ pad0: !showDetail }">
+        
+        <span>
+            <i>{{ ue.date }}</i>
+        </span>        
+        <br/>
+        
+        <p class="txtLarge margTop10">{{ 'Goals' | translate }}</p>
+        <p class="margLeft5" ng-repeat="goal in ue.goals">
+            <span>{{ goal }}</span>
+        </p>
+        
+        <span class="label label-perso" ng-show="!showMore" ng-click="showMore = !showMore">
+            {{ "MoreDetails" | translate }} 
+            <span class="glyphicon glyphicon-chevron-down"></span>
+        </span>
+        
+        <label class="label label-perso" ng-show="showMore" ng-click="showMore = !showMore">
+            {{ "LessDetails" | translate }} 
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </label>
+        
+        <div class="margLeft5" ng-show="showMore">
+            <br/>
+            <div ng-repeat="chapter in ue.chapters">
+                
+                <label><i>{{ chapter.title }}</i></label>
+               
+                <p ng-show="chapter.detail">
+                     <span>{{ chapter.detail }}</span>
+                     <br/>
+                </p>
+                
+            </div>
+            
+        </div>
+                
+    </div>
+
+<!--
+
+
+<div class="panel panel-perso">
+
+    <div class="panel-heading cursorHand" 
+         ng-click="showDetail = !showDetail"> 
+        
+        <div class="container-fluid">
+            
+            <div class="row">
+                
+                <div class="col-sm-8 col-md-8 col-lg-8">
+                    <h5 class="ueH5LineHeight whiteOnBlue">
+                        <span class="label label-perso">{{ ue.code }}</span> - {{ ue.title }}
+                    </h5>
+                </div>
+                
+                <div class="col-sm-4 col-md-4 col-lg-4 text-right">
+                    
+                    <span class="label label-perso"><big>{{ ue.category | ueCatById }}</big></span>
+                    <br/>
+                    <span ng-show="!showDetail">
+                        <small>{{ 'Details' | translate }}</small>
+                        <span class="glyphicon glyphicon-chevron-down"></span>
+                    </span>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <div class="panel-body" ng-show="showDetail">
+        
+        <div ng-click="showDetail = !showDetail">
+            
+            <label><u>{{ 'Goals' | translate }} :</u></label>
+        
+            <p ng-repeat="goal in ue.goals">
+                <span>{{ goal }}</span>
+            </p>
+            
+            <br/>
+            
+            <label><u>{{ 'Graduation' | translate }}</u></label> : 
+            <span class="label label-perso-bluegrey">{{ ue.score | score: ue.scoreMax }}</span> -
+            <span class="label label-perso">{{ ue.date }}</span>
+            <br/>
+            <br/>
+            
+        </div>
+        
+        <label ng-show="showChapters">
+            <u>{{ "Details" | translate }} :</u>
+        </label>
+        
+        <button ng-click="showChapters = !showChapters"
+                ng-show="!showChapters">
+            {{ "Details" | translate }}&nbsp;<span class="glyphicon glyphicon-chevron-down"></span>
+        </button>
+        
+        <div ng-show="showChapters" ng-click="showChapters = !showChapters">
+            
+            <div ng-repeat="chapter in ue.chapters">
+                
+                <label><i>{{ chapter.title }}</i></label>
+                <br/>
+                <p><span>{{ chapter.detail }}</span></p>
+
+                <button ng-show="$last">
+                    <span class="glyphicon glyphicon-chevron-up"></span>&nbsp;
+                    {{ "Hide" | translate }} {{ "Details" | translate }}
+                </button>
+                
+            </div>
+            
+        </div>
+        
+        <span class="glyphicon glyphicon-remove pull-right" ng-click="showDetail = !showDetail"></span>
+        
+</div>  -->
+    

@@ -1,0 +1,24 @@
+    
+    <div ng-controller="projectIdController as projectIdCtrl">
+        
+        <a href="#/portfolio" ng-hide="projectIdCtrl.fromExperience">
+            <span class="btn btn-perso">
+                <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;
+                <big>{{ 'returnPortfolio' | translate }}</big>
+            </span>
+        </a>
+        <a href="#/experiences" ng-show="projectIdCtrl.fromExperience">
+            <span class="btn btn-perso">
+                <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;
+                <big>{{ 'returnExperiences' | translate }}</big>
+            </span>
+        </a>
+                
+        <projectdetails ng-controller="projectController as projectCtrl" 
+                       ng-init="projectCtrl.init(projectIdCtrl.projectId)">
+        </projectdetails>
+        
+    </div>
+
+
+    
