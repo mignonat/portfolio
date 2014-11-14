@@ -38,7 +38,7 @@
                     },{
                         "name": "COMETE",
                         "type": "SYMFONY2",
-                        "desc" : "Management skills and training of personnel on board.",
+                        "desc" : "Management of skills and training of personnel on board.",
                         "id" : 2
                     },{
                         "name": "SICPIA",
@@ -88,11 +88,11 @@
                     },{
                         "name": "SSIGUARD",
                         "type": "JAVA SWING",
-                        "desc" : "Management of the staff training in IT security.",
+                        "desc" : "Tool for management of the staff training in IT security.",
                         "id" : 8
                     }]
             },{
-                "employer" : "Saint Mandrier Naval Instruction Center",
+                "employer" : "Naval Instruction Center of Saint Mandrier",
                 "place" : "Toulon",
                 "title" : "Project manager - Analyst-programmer",
                 "begin" : "04-01-2010",
@@ -115,7 +115,7 @@
                 "projects" : [{
                         "name": "FOXGUARD CIN",
                         "type": "JAVA SWING",
-                        "desc" : "Access control with proximity card readers on multiple geographic locations.",
+                        "desc" : "Control of access with proximity card readers on multiple geographic locations.",
                         "id" : 9
                     }]
             },{
@@ -142,7 +142,7 @@
                     },{
                         "name": "SITAC",
                         "type": "C++ QT",
-                        "desc" : "Computerized management of the tactical situation of the building in real time.",
+                        "desc" : "Computerized management of the tactical situation of the warship in real time.",
                         "id" : 11
                     },{
                         "name": "SPACEGUARD",
@@ -152,16 +152,16 @@
                     },{
                         "name": "FOXGUARD",
                         "type": "JAVA SWING",
-                        "desc" : "Access control with an proximity card reader.",
+                        "desc" : "Software for controlling seamen's access with a proximity card reader.",
                         "id" : 13
                     },{
-                        "name": "SHIPGUARD",
+                        "name": "CONFIDENTIAL PROJECT",
                         "type": "JAVA SWING",
-                        "desc" : "Control and mapping of vessel emitting AIS.",
+                        "desc" : "Software for controlling and mapping of vessel emitting AIS.",
                         "id" : 14
                     }]
             },{
-                "employer" : "Brest Naval Instruction Center",
+                "employer" : "Naval Instruction Center of Brest",
                 "place" : "Brest",
                 "title" : "Petty officer's school (Maistrance)",
                 "begin" : "02-02-2006",

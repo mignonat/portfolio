@@ -228,12 +228,12 @@
             },{
                 "id": 9,
                 "title": "SONAR",
-                "detail": "Outil de contrôle de la qualité du code JAVA",
+                "detail": "Outil de contrôle continu de la qualité du code en JAVA",
                 "level": 2
             },{
                 "id": 10,
                 "title": "JENKINS",
-                "detail": "Outil intégration d'automatisation de tâches JAVA",
+                "detail": "Server d'intégration continu JAVA",
                 "level": 2
             }]
     },{
@@ -370,22 +370,22 @@
         "skills": [{
                 "id": 1,
                 "title": "MYSQL",
-                "detail": "Base de données",
+                "detail": "Base de données open-source",
                 "level": 3
             },{
                 "id": 2,
                 "title": "ORACLE",
-                "detail": "Base de données",
+                "detail": "Oracle base de données propriétaire",
                 "level": 2
             },{
                 "id": 3,
                 "title": "SQL SERVER",
-                "detail": "Base de données",
+                "detail": "Microsoft base de données propriétaire",
                 "level": 2
             },{
                 "id": 4,
-                "title": "POSTGRE",
-                "detail": "Base de données",
+                "title": "POSTGRESQL",
+                "detail": "Base de données open-source",
                 "level": 1
             }]
     },{

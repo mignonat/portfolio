@@ -1,20 +1,20 @@
 [
     {
-        "group" : "Sous officier de la Marine Nationale",
+        "group" : "Sous-officier de la Marine Nationale",
         "duration": "9 ans",
         "experiences" : [
             {
                 "employer" : "Centre de Développement des Applications de la Défense",
                 "place" : "Toulon",
-                "title" : "Analyste/Programmeur",
+                "title" : "Analyste-Programmeur",
                 "begin" : "02-01-2012",
                 "end" : "07-31-2014",
                 "duration": "2 ans et 6 mois",
                 "details" : [
-                    "Utiliser une méthode agile de gestion de projet, propre aux armées (équivalent de Scrum)",
-                    "Assistant du chef de projet pour définir les itérations, et la charge/chiffrage du travail",
+                    "Utiliser une méthode agile de gestion de projet propre aux armées (équivalent de Scrum)",
+                    "Assistant du chef de projet pour définir les itérations et la charge/chiffrage du travail",
                     "Analyser les besoins du client",
-                    "Evaluer les risques",
+                    "Évaluer les risques",
                     "Réaliser des maquettes de présentation",
                     "Déterminer les choix techniques d'architecture logicielle",
                     "Modéliser UML",
@@ -48,18 +48,18 @@
                     },{
                         "name": "WEBREF",
                         "type": "JAVA JEE",
-                        "desc" : "Architecture SOA pour interface unique d'accès à des réferentiels de données.",
+                        "desc" : "Architecture SOA pour interface unique d'accès à des référentiels de données.",
                         "id" : 4
                     },{
                         "name": "PATRONS APPLICATIF",
                         "type": "JAVA JEE",
-                        "desc" : "Squelettes de projet pour les nouveaux projets JEE du centre.",
+                        "desc" : "Squelettes de projets pour les nouveaux projets JEE du centre.",
                         "id" : 5
                     }]
             },{
                 "employer" : "Frégate Légère Furtive - FLF Courbet",
                 "place" : "Toulon",
-                "title" : "Administrateur système/réseaux",
+                "title" : "Administrateur systèmes/réseaux",
                 "begin" : "08-01-2010",
                 "end" : "02-01-2012",
                 "duration": "1 an et 6 mois",
@@ -73,7 +73,7 @@
                     "Manager, encadrer et former des collaborateurs",
                     "Chef de quart transmissions à la mer avec la responsabilité d'un opérateur",
                     "Travail en environnement éprouvant et sous fortes contraintes",
-                    "Séjour à l'étranger fréquent"
+                    "Séjours à l'étranger fréquents"
                 ],
                 "projects" : [{ 
                         "name": "PROPGUARD",
@@ -120,7 +120,7 @@
             },{
                 "employer" : "Frégate Anti Sous Marine - FASM Dupleix",
                 "place" : "Toulon",
-                "title" : "Administrateur système/réseaux",
+                "title" : "Administrateur systèmes/réseaux",
                 "begin" : "02-02-2007",
                 "end" : "04-01-2010",
                 "duration": "3 ans et 2 mois",
@@ -131,7 +131,7 @@
                     "Manager, encadrer et former des collaborateurs",
                     "Chef de quart transmissions à la mer avec la responsabilité de deux opérateurs",
                     "Travail en environnement éprouvant et sous fortes contraintes",
-                    "Séjour à l'étranger fréquent"
+                    "Séjours à l'étranger fréquents"
                 ],
                 "projects" : [{ 
                         "name": "GEOGUARD",

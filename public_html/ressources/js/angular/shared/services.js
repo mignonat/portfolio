@@ -11,41 +11,45 @@ angular.module('sharedServices', [])
         }
     })
     
-    //Translate the field into the right langage
+    //Translate the field into the right language
     .factory('factLangTranslate', ['$http', '$rootScope', function($http, $rootScope) {
-        $rootScope.langagesData = null ;
+        $rootScope.languagesData = null ;
 
         //langages.json
-        $http.get($rootScope.urlFileLangages)
+        $http.get($rootScope.urlFileLanguages)
          .success(function(data, status) {
-             $rootScope.langagesData = data ; console.log($rootScope.urlFileLangages + " loaded successfully");
+             $rootScope.languagesData = data ; console.log($rootScope.urlFileLanguages + " loaded successfully");
          })
          .error(function(data, status) {
-             console.log($rootScope.urlFileLangages + " => Get error => http statut " + status);
+             console.log($rootScope.urlFileLanguages + " => Get error => http statut " + status);
          });
          
         return function (fieldToTranslate) {
-            if ($rootScope.langagesData===null) { return '' ; }
-            var langageDatas = $rootScope.langagesData[$rootScope.currentLang] ;
-            return langageDatas[fieldToTranslate] || ("Factory langTranslate : " + fieldToTranslate + " unknow !") ;
+            if ($rootScope.languagesData===null) { return '' ; }
+            var languageDatas = $rootScope.languagesData[$rootScope.currentLang] ;
+            return languageDatas[fieldToTranslate] || ("Factory langTranslate : " + fieldToTranslate + " unknow !") ;
         } ;
     }])
 
     //Load the file 'fileName' into the rootScope variable 'rootVariableName'
     .factory('fileData', ['$http', '$rootScope', function($http, $rootScope) {
-        return function(rootVariableName, fileName) {
+        return function(rootVariableName, fileName, callbackReloadPage) {
             
             var fileUrl = $rootScope.urlDataRep + $rootScope.currentLang + "/" + fileName ;
         
             $http.get(fileUrl)
-             .success(function(data, status) {
-                 console.log(fileUrl + " loaded successfully");
-                 $rootScope[rootVariableName] = data ; 
-             })
-             .error(function(data, status) {
-                 console.log(fileUrl + " => Get error => http statut " + status);
-                 $rootScope[rootVariableName] = [] ; 
-             });
+                .success(function(data, status) {
+                    $rootScope[rootVariableName] = data ; 
+                    console.log(fileUrl + " loaded successfully");
+                    if (callbackReloadPage) { 
+                        callbackReloadPage() ; 
+                        console.log('Current page reloaded') ;
+                    }
+                })
+                .error(function(data, status) {
+                    $rootScope[rootVariableName] = [] ; 
+                    console.log(fileUrl + " => Get error => http statut " + status);
+                });
         } ;
         
     }])

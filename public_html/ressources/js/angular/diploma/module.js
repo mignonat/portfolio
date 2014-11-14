@@ -1,0 +1,1 @@
+angular.module('diploma', ['sharedFilter', 'diploma.services', 'diploma.directives', 'diploma.filters']) ;

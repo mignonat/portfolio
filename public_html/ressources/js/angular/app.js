@@ -1,4 +1,4 @@
-var app = angular.module('app', ['ngRoute', 'ngAnimate' , 'sharedServices', 'sharedFilter', 'educations', 'ue', 'skills', 'experiences', 'projects']) ;
+var app = angular.module('app', ['ngRoute', 'ngAnimate' , 'sharedServices', 'sharedFilter', 'diploma', 'ue', 'skills', 'experiences', 'projects']) ;
 
 // configure our routes
 app.config(['$routeProvider', '$locationProvider',
@@ -8,12 +8,8 @@ app.config(['$routeProvider', '$locationProvider',
         .when('/', {
                 templateUrl : 'pages/home.html'
         })
-        .when('/langage/:lang', {
-                templateUrl : 'pages/home.html',
-                controller : 'langageCtrl'
-        })
-        .when('/educations', {
-                templateUrl : 'pages/educations.html'
+        .when('/diploma', {
+                templateUrl : 'pages/diploma.html'
         })
         .when('/nightschool', {
                 templateUrl : 'pages/nightschool.html'
@@ -47,10 +43,10 @@ app.run(['$rootScope', 'fileData', function($rootScope, fileData) {
     $rootScope.currentLang = "en";
     $rootScope.urlRepRessource = "ressources/";
     $rootScope.urlRepAngular = ressource + "js/angular/" ;
-    $rootScope.urlFileLangages = ressource + "json/langages.json";
+    $rootScope.urlFileLanguages = ressource + "json/langages.json";
     $rootScope.urlFileConfig = ressource + "json/config.json";
     $rootScope.urlDataRep = ressource + "json/data-" ;
-    $rootScope.educationsData = [] ;
+    $rootScope.diplomaData = [] ;
     $rootScope.uesData = [] ;
     $rootScope.ueCatData = [] ;
     $rootScope.skillCatData = [] ;
@@ -60,41 +56,51 @@ app.run(['$rootScope', 'fileData', function($rootScope, fileData) {
     //Load file diploma.json into $rootScope variable diplomaData
     fileData("uesData", "ues.json") ;
     fileData("ueCatData", "ueCategories.json") ;
-    fileData("educationsData", "educations.json") ; 
+    fileData("diplomaData", "diploma.json") ; 
     fileData("skillCatData", "skills.json") ;
     fileData("experiencesGroupData", "experiences.json") ;
     fileData("projectsData", "projects.json") ;
     
 }])
 
-.controller('imgLangageController', ['$rootScope', 
-    function($rootScope){
-        this.getInverseLangage = function() {
-            return (($rootScope.currentLang === 'fr')? 'en' : 'fr') ;
-        } ;
-    }
-])
-
-.controller('langageCtrl', [ '$rootScope', '$routeParams', 'fileData', 
-    function ($rootScope, $routeParams, fileData) {
+//Management of the languages
+.controller('languagesController', [ '$rootScope', '$route', '$routeParams', 'fileData', 
+    function ($rootScope, $route, $routeParams, fileData) {
+        
         if ($routeParams.lang) {
-
-            $rootScope.currentLang = $routeParams.lang ;
+            this.changeLanguage($routeParams.lang) ;
+        }
+        
+        this.getCurrentLanguage = function() {
+            return $rootScope.currentLang ;
+        }
+        
+        this.getInverseLanguage = function() {
+            return (($rootScope.currentLang === 'fr')? 'en' : 'fr') ;
+        }
+        
+        this.changeLanguage = function(lang) {
+            
+            console.log("Switching language from " + $rootScope.currentLang + " to "+ lang);
+            
+            $rootScope.currentLang = lang ;
 
             //Load file diploma.json into $rootScope variable diplomaData
             fileData("uesData", "ues.json") ;
             fileData("ueCatData", "ueCategories.json") ;
-            fileData("educationsData", "educations.json") ; 
+            fileData("diplomaData", "diploma.json") ; 
             fileData("skillCatData", "skills.json") ;
             fileData("experiencesGroupData", "experiences.json") ;
-            fileData("projectsData", "projects.json") ;
+            fileData("projectsData", "projects.json", function() { 
+                console.log("Switching to language "+ lang + " finished") ; 
+                $route.reload() ; 
+            }) ;
             
-            console.log("Langage switched to " + $rootScope.currentLang);
         }
     }
-]) 
+])
 
-// For view project.html
+//Use for passing the id of the project to the view project.html
 .controller('projectIdController', ['$routeParams', 
     function($routeParams) {
         this.projectId = $routeParams.projectId ;
@@ -115,7 +121,8 @@ app.run(['$rootScope', 'fileData', function($rootScope, fileData) {
     }
 });
 
-//No ng-app directive needed in html
+//We first load the language files before loading the app
+//In this way, no ng-app directive is needed in html
 angular.element(document).ready(function() {
     angular.bootstrap(document, ['app']);
 });

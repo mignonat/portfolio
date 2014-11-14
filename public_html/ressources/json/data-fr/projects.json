@@ -19,8 +19,8 @@
         ],
         "businessDetails": [
             "Le rôle de cette application n'est pas détaillé car elle est sensible et classifiée confidentiel défense",
-            "C'est un dévelloppement pour l'Etat Major Opérationnel (EMO) de la Marine Nationale",
-            "L’EMO est chargé de suivre le contrat fixé à la Marine Nationale et les missions par fonction stratégique",
+            "C'est un développement pour l'Etat Major Opérationnel (EMO) de la Marine Nationale",
+            "L’EMO est chargé de suivre le contrat fixé à la Marine Nationale et les missions par fonctions stratégiques",
             "Volumétrie : 50 utilisateurs"
         ],
         "begin": "02-01-2014",
@@ -120,8 +120,8 @@
             "Améliorer l'efficacité opérationnelle des équipes impliquées dans le processus de la programmation financière",
             "Représenter les situations financière et capacitaire afin de procéder à une meilleure analyse",
             "Faciliter les travaux de programmation grâce à un système de scénarios de simulation dans le temps",
-            "Assurer la tracabilité et la transparence des décisions",
-            "Permettre l'édition des fiches de synthèse des opérations d'armement pour être présenté au ministre de la défense",
+            "Assurer la traçabilité et la transparence des décisions",
+            "Permettre l'édition des fiches de synthèse des opérations d'armement pour présentation au ministre de la défense",
             "Volumétrie : 20 utilisateurs"
         ],
         "begin": "08-01-2012",
@@ -192,7 +192,7 @@
         "id": 4,
         "title": "WEBREF",
         "teamProject": 3,
-        "resume": "Mise en place d'une architecture SOA pour centraliser l'accès à des réferentiels de données",
+        "resume": "Mise en place d'une architecture SOA pour centraliser l'accès à des référentiels de données",
         "thumbUrl": "ressources/images/thumbProject/webref.jpg",
         "involvements": [
             "Membre de l'équipe projet",
@@ -210,8 +210,8 @@
             "Accompagner les démarches de Data Mining et de Master Data Management (MDM)",
             "Des 'référentiels' (bases de données) existent dans de nombreux domaines : logistique, etc...",
             "Ils sont dispersés dans les différentes entités du ministère",
-            "Les base de données sont de nature différentes : Oracle et MSSQL principalement",
-            "L'ESB WebRef est l'interface unique pour la consultation de ces réferentiels",
+            "Les bases de données sont de natures différentes : Oracle et MSSQL principalement",
+            "L'ESB WebRef est l'interface unique pour la consultation de ces référentiels",
             "Volumétrie : 5000 requêtes applicatives / jour ; jusqu'à 2 millions de lignes par référentiel"
         ],
         "begin": "04-01-2012",
@@ -238,7 +238,7 @@
     },
     {
         "id": 5,
-        "title": "PATRONS APPLICATIF",
+        "title": "PATRONS APPLICATIFS",
         "teamProject": 1,
         "resume": "Mise à disposition de squelettes d'application JAVA JEE pour servir de cadre aux nouveaux projets du centre de développement",
         "thumbUrl": "ressources/images/thumbProject/pattern.jpg",
@@ -253,9 +253,9 @@
         ],
         "businessDetails": [
             "Elle s'inscrit dans le cadre de la mise en place de la forge logicielle et d’outils collaboratifs",
-            "Il s'agit de plusieurs squelettes applicatifs JAVA JEE avec des fonctionalitées de bases",
+            "Il s'agit de plusieurs squelettes applicatifs JAVA JEE avec des fonctionnalités de bases",
             "Gestion des utilisateurs à partir du LDAP, gestion hiérarchique des rôles, etc ...",
-            "Ces squelettes sont utilisés pour les nouveaux dévelloppement des différentes équipes projets du Centre"
+            "Ces squelettes sont utilisés pour les nouveaux développement des différentes équipes projets du Centre"
         ],
         "begin": "02-01-2012",
         "end": "04-01-2012",
@@ -296,11 +296,11 @@
         "businessDetails": [
             "Le réseau de surveillance des moteurs diesels du bateau produit des données toutes les 4 heures",
             "Il s'agit essentiellement de températures et de pressions des 7 moteurs diesels",
-            "Les données brutes, en trés grand nombre, étaient envoyés sur une imprimante papier",
+            "Les données brutes, en très grands nombres, étaient envoyées sur une imprimante papier",
             "Cette impression offrait seulement un cliché peu lisible à un instant donné",
             "J'ai conçu un switch pour dériver les données sur le port série d'un ordinateur, ou sur l'imprimante",
-            "L'application intègre automatiquement les données envoyés sur le port série, dans la base de données",
-            "L'outil est paramétrable au maximum car les zones à surveiller sont parfois trés spécifique",
+            "L'application intègre automatiquement les données envoyées sur le port série, dans la base de données",
+            "L'outil est paramétrable au maximum car les zones à surveiller sont parfois très spécifiques",
             "Les graphiques permettent d'évaluer en un coup d'oeil l'évolution des t° et pressions des moteurs",
             "On peut afficher des courbes représentant l'historique de fonctionnement des 15 derniers jours",
             "Des alarmes préviennent les opérateurs machines si des valeurs sont en anomalies",
@@ -366,8 +366,8 @@
         ],
         "businessDetails": [
             "En mer, les marins travaillent jour et nuit pour assurer la continuité opérationnelle",
-            "Des chercheurs de l'hopital interarmées de Toulon menent des études sur le sommeil des marins",
-            "Cette application est utilisé par des panels de marins durant des missions en mer",
+            "Des chercheurs de l'hopital interarmées de Toulon mènent des études sur le sommeil des marins",
+            "Cette application est utilisée par des panels de marins durant des missions en mer",
             "Elle leur permet de saisir les informations concernant leur rythme biologique",
             "Cette collecte de données permet aux chercheurs de réaliser des études statistiques"
         ],
@@ -455,7 +455,7 @@
             "Fonctionne avec des lecteurs de badge de proximité, et des boitiers adaptateurs série RS232/Ethernet",
             "Application n-tiers : une partie principale en Java et une autre en Php",
             "Utilise un système personnalisé de synchronisation des bases de données",
-            "Deux sites géographiques de contrôle et 10 lecteurs de badges au total",
+            "Deux sites géographiques de contrôle et 9 lecteurs de badges au total",
             "Volumétrie : 3000 lectures de badges / jour",
             "En remplacement d'un ancien système vieillissant et onéreux"
         ],

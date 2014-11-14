@@ -3,58 +3,58 @@
         "category" : "projectSkills",
         "skills": [{
                 "id": 1,
-                "title": "DÉFINITION DES ITERATIONS",
-                "detail": "Projet",
+                "title": "DEFINE THE ITERATIONS",
+                "detail": "Project",
                 "level": 3
             },{
                 "id": 2,
-                "title": "CONTACT CLIENT",
-                "detail": "Projet : relations externes",
+                "title": "CLIENT CONTACT",
+                "detail": "Project : client and customer contact",
                 "level": 3
             },{
                 "id": 3,
-                "title": "ANALYSE FONCTIONNELLE",
-                "detail": "Projet : Définir et caractériser les fonctions répondant au mieux aux besoins du client",
+                "title": "FONCTIONAL ANALYSIS",
+                "detail": "Project : Define and characterize the functions that best meet customer needs",
                 "level": 3
             },{
                 "id": 4,
-                "title": "TRAVAIL EN ÉQUIPE",
-                "detail": "Projet : relation interne, formation",
+                "title": "WORKTEAM",
+                "detail": "Project : internal relationship, and staff formation",
                 "level": 3
             },{
                 "id": 5,
-                "title": "CHIFFRAGE DU TRAVAIL",
-                "detail": "Projet",
+                "title": "COUNTING TIME WORK",
+                "detail": "Project",
                 "level": 2
             },{
                 "id": 6,
-                "title": "GESTION DES RESSOURCES",
-                "detail": "Projet : Diagrammes de Gantt",
+                "title": "RESSOURCES MANAGEMENT",
+                "detail": "Project : Gantt diagram",
                 "level": 2
             },{
                 "id": 7,
                 "title": "UML",
-                "detail": "Projet : methode de conception Unified Modeling Langage",
+                "detail": "Project : Unified Modeling Langage",
                 "level": 3
             },{
                 "id": 8,
                 "title": "MERISE",
-                "detail": "Projet : methode de conception. MCD, MLR, MPD",
+                "detail": "Project : French design method. MCD, MLR, MPD",
                 "level": 3
             },{
                 "id": 9,
                 "title": "GANTT",
-                "detail": "Projet : Diagramme pour planification de projet",
+                "detail": "Project : Diagram for project planning",
                 "level": 1
             },{
                 "id": 10,
                 "title": "TOGAF",
-                "detail": "Projet : cadre d'architecture d'entreprise",
+                "detail": "Project : Enterprise Architecture Framework",
                 "level": 1
             },{
                 "id": 11,
                 "title": "PERT",
-                "detail": "Projet : diagramme pour ordonnancement de projet",
+                "detail": "Project : Chart for project scheduling",
                 "level": 1
             }]
     },{
@@ -62,52 +62,52 @@
         "skills": [{
                 "id": 1,
                 "title": "JAVA",
-                "detail": "Langage orienté objet",
+                "detail": "Object oriented language",
                 "level": 3
             },{
                 "id": 2,
                 "title": "C - C++",
-                "detail": "Langages procédural et orienté objet",
+                "detail": "procedural and object oriented language",
                 "level": 3
             },{
                 "id": 3,
                 "title": "JAVASCRIPT",
-                "detail": "Langage fonctionnel",
+                "detail": "Functional language",
                 "level": 3
             },{
                 "id": 4,
                 "title": "PHP",
-                "detail": "Langage orienté objet",
+                "detail": "scripting language Object oriented",
                 "level": 3
             },{
                 "id": 5,
                 "title": "CSS3",
-                "detail": "Cascading Sheet Style : Langage de mise en forme",
+                "detail": "Cascading Sheet Style",
                 "level": 3
             },{
                 "id": 6,
                 "title": "HTML",
-                "detail": "Langage du web",
+                "detail": "HyperText Markup Language",
                 "level": 3
             },{
                 "id": 7,
                 "title": "XML",
-                "detail": "MétaLangage de balise",
+                "detail": "Meta Language",
                 "level": 3
             },{
                 "id":8,
                 "title": "XSD",
-                "detail": "Langage pour définition de schéma de validation au format XML",
+                "detail": "Specifies how to formally describe the elements in an XML document",
                 "level": 2
             },{
                 "id": 9,
                 "title": "XHTML",
-                "detail": "Langage de balise XML pour création de vue web",
+                "detail": "XML tag language for creating web view",
                 "level": 2
             },{
                 "id": 10,
                 "title": "TWIG",
-                "detail": "Langage de template de vue",
+                "detail": "Symfony Templating language",
                 "level": 2
             }]
     },{
@@ -140,12 +140,12 @@
             },{
                 "id": 6,
                 "title": "EJB3",
-                "detail": "Framework : JAVA IOC inversion de contrôle",
+                "detail": "Framework : JAVA IOC inversion of control",
                 "level": 3
             },{
                 "id": 7,
                 "title": "JPA2",
-                "detail": "Framework : JAVA ORM hibernate et eclipselink",
+                "detail": "Framework : JAVA ORM hibernate and eclipselink",
                 "level": 3
             },{
                 "id": 8,
@@ -155,12 +155,12 @@
             },{
                 "id": 9,
                 "title": "JSF2",
-                "detail": "Framework : JAVA template de vue",
+                "detail": "Framework : JAVA view templating",
                 "level": 3
             },{
                 "id": 10,
                 "title": "PRIMEFACES",
-                "detail": "Framework : Surcouche de JAVA JSF",
+                "detail": "Framework : extension of JAVA JSF",
                 "level": 3
             },{
                 "id": 11,
@@ -175,7 +175,7 @@
             },{
                 "id": 13,
                 "title": "SPRING SECURITY",
-                "detail": "Framework de sécurité JAVA",
+                "detail": "JAVA security framework",
                 "level": 3
             },{
                 "id": 14,
@@ -193,7 +193,7 @@
             },{
                 "id": 2,
                 "title": "ECLIPSE",
-                "detail": "Fondation Eclipse IDE : JAVA/PHP/Html5",
+                "detail": "Eclipse Foundation IDE : JAVA/PHP/Html5",
                 "level": 2
             },{
                 "id": 3,
@@ -203,37 +203,37 @@
             },{
                 "id": 4,
                 "title": "MODELIO - STARUML",
-                "detail": "Outils de modélisation",
+                "detail": "Modeling Tools",
                 "level": 3
             },{
                 "id": 5,
                 "title": "FORGE CODENDI",
-                "detail": "Forge de développement",
+                "detail": "Forge development",
                 "level": 3
             },{
                 "id": 6,
                 "title": "SVN",
-                "detail": "Subversion : outil de versionning",
+                "detail": "Subversion : versionning tool",
                 "level": 3
             },{
                 "id": 7,
                 "title": "GIT",
-                "detail": "Git : outil de versionning",
+                "detail": "Git : versionning tool",
                 "level": 1
             },{
                 "id": 8,
                 "title": "MAVEN",
-                "detail": "Outil de gestion/automatisation de production des projets JAVA",
+                "detail": "a software project management and comprehension tool",
                 "level": 2
             },{
                 "id": 9,
                 "title": "SONAR",
-                "detail": "Outil de contrôle de la qualité du code JAVA",
+                "detail": "Continuous Inspection of Code Quality",
                 "level": 2
             },{
                 "id": 10,
                 "title": "JENKINS",
-                "detail": "Outil intégration d'automatisation de tâches JAVA",
+                "detail": "Open-source continuous integration server.",
                 "level": 2
             }]
     },{
@@ -241,7 +241,7 @@
         "skills": [{
                 "id": 1,
                 "title": "MIDDLEWARE",
-                "detail": "Intergiciel",
+                "detail": "Used only by softwares",
                 "level": 3
             },{
                 "id": 2,
@@ -265,7 +265,7 @@
                 "level": 3
             },{
                 "id": 6,
-                "title": "WEBSERVICE CONSOMMATION",
+                "title": "WEBSERVICE CONSUMPTION",
                 "detail": "JAVA AXIS2, et php",
                 "level": 3
             },{
@@ -276,7 +276,7 @@
             },{
                 "id": 8,
                 "title": "LDAP",
-                "detail": "Consultation d'un annuaire en JAVA",
+                "detail": "Lightweight Directory Access Protocol",
                 "level": 2
             },{
                 "id": 9,
@@ -285,8 +285,8 @@
                 "level": 3
             },{
                 "id": 10,
-                "title": "LIAISON SÉRIE RS232",
-                "detail": "Port série",
+                "title": "SERIAL LINK RS232",
+                "detail": "Serial port",
                 "level": 3
             }]
     },{
@@ -304,7 +304,7 @@
             },{
                 "id": 3,
                 "title": "SOCKET",
-                "detail": "UDP et TCP en Java et C++",
+                "detail": "UDP and TCP (Java and C++)",
                 "level": 3
             },{
                 "id": 4,
@@ -319,17 +319,17 @@
             },{
                 "id": 6,
                 "title": "APACHE POI",
-                "detail": "API JAVA pour manipuler des fichiers de la suite Office Microsoft",
+                "detail": "API JAVA for manipulating files of the Microsoft Office suite",
                 "level": 2
             },{
                 "id": 7,
                 "title": "FLYING SAUCER PDF",
-                "detail": "API JAVA pour générer des pdfs à partir de fichiers XHTML",
+                "detail": "API JAVA for generating pdfs from XHTML files",
                 "level": 2
             },{
                 "id": 8,
                 "title": "JAX-WS",
-                "detail": "API JAVA pour production de web services",
+                "detail": "API JAVA for producing web services",
                 "level": 3
             },{
                 "id": 9,
@@ -344,7 +344,7 @@
             },{
                 "id": 11,
                 "title": "KEYSTORE",
-                "detail": "Magasin de clés de Java",
+                "detail": "Java keystore",
                 "level": 3
             }]
     },{
@@ -352,17 +352,17 @@
         "skills": [{
                 "id": 1,
                 "title": "GLASSFISH 3.2",
-                "detail": "Serveur WEB/JAVA JEE",
+                "detail": "WEB/JAVA JEE Server",
                 "level": 3
             },{
                 "id": 2,
                 "title": "WAMP",
-                "detail": "Serveur WEB/PHP",
+                "detail": "WEB/PHP Server",
                 "level": 3
             },{
                 "id": 3,
                 "title": "JBOSS 7",
-                "detail": "Serveur WEB/JAVA JEE",
+                "detail": "WEB/JAVA JEE Server",
                 "level": 2
             }]
     },{
@@ -370,22 +370,22 @@
         "skills": [{
                 "id": 1,
                 "title": "MYSQL",
-                "detail": "Base de données",
+                "detail": "Open-Source database",
                 "level": 3
             },{
                 "id": 2,
                 "title": "ORACLE",
-                "detail": "Base de données",
+                "detail": "Proprietary database",
                 "level": 2
             },{
                 "id": 3,
                 "title": "SQL SERVER",
-                "detail": "Base de données",
+                "detail": "Proprietary database",
                 "level": 2
             },{
                 "id": 4,
-                "title": "POSTGRE",
-                "detail": "Base de données",
+                "title": "POSTGRESQL",
+                "detail": "Open-Source database",
                 "level": 1
             }]
     },{
@@ -393,26 +393,26 @@
         "skills": [{
                 "id": 1,
                 "title": "OCS INVENTORY",
-                "detail": "Administration : Outil de gestion technique de parc informatique",
+                "detail": "Administration : Technical management tool for IT park",
                 "level": 3
             },{
                 "id": 2,
                 "title": "GLPI",
-                "detail": "Administration : Gestionnaire libre de parc informatique",
+                "detail": "Administration : Open source manager of computer equipment",
                 "level": 3
             },{
                 "id": 3,
                 "title": "SAMBA",
-                "detail": "Administration : Implementation du protocole réseau SMB/CIFS",
+                "detail": "Administration : protocol SMB/CIFS",
                 "level": 2
             },{
                 "id": 4,
                 "title": "IPCOP",
-                "detail": "Administration : Proxy Linux",
+                "detail": "Administration : Linux Proxy",
                 "level": 2
             },{
                 "id": 5,
-                "title": "SWITCH/ROUTEUR",
+                "title": "SWITCH/ROUTER",
                 "detail": "Administration : Configuration",
                 "level": 1
             }]
@@ -421,22 +421,22 @@
         "skills": [{
                 "id": 1,
                 "title": "MVC",
-                "detail": "WEB : design pattern Modèle/Vue/Controller",
+                "detail": "WEB : design pattern Model/View/Controller",
                 "level": 3
             },{
                 "id": 2,
                 "title": "DESIGN PATTERN",
-                "detail": "Bonnes pratiques de programmations JAVA PHP JAVASCRIPT",
+                "detail": "Good programming practices JAVA PHP JAVASCRIPT",
                 "level": 3
             },{
                 "id": 3,
-                "title": "EXPRESSION RÉGULIERE",
-                "detail": "Decrire un ensemble de chaînes de caractères possibles selon une syntaxe précise",
+                "title": "REGULAR EXPRESSION",
+                "detail": "Describe a set of possible character strings according to a specific syntax",
                 "level": 3
             },{
                 "id": 4,
-                "title": "CRYPTOGRAPHIE",
-                "detail": "Cryptage des données",
+                "title": "CRYPTOGRAPHY",
+                "detail": "Data encryption",
                 "level": 3
             }]
     }

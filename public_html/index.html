@@ -69,8 +69,8 @@
                             <a href="#/portfolio" onclick="setActive('portfolio')">{{ 'Portfolio' | translate }}</a>
                         </li>
                         
-                        <li id="educations">
-                            <a href="#/educations" onclick="setActive('educations')">{{ 'Educations' | translate }}</a>
+                        <li id="diploma">
+                            <a href="#/diploma" onclick="setActive('diploma')">{{ 'Diploma' | translate }}</a>
                         </li>
                         
                         <li id="nightschool">
@@ -82,13 +82,14 @@
                         </li>
                     </ul>
                     
-                    <div class="nav navbar-nav navbar-right" ng-controller="imgLangageController as imgLangageCtrl">
+                    <div class="nav navbar-nav navbar-right" ng-controller="languagesController as languagesCtrl">
                         
-                        <a class="navLangImg" href="#/langage/{{ imgLangageCtrl.getInverseLangage() }}" onclick="setActive('home')">
-                            <img ng-src="ressources/images/lang/{{ imgLangageCtrl.getInverseLangage() }}.png"/>
-                        </a>
+                        <span class="navLangImg" ng-click="languagesCtrl.changeLanguage(languagesCtrl.getInverseLanguage())">
+                            <img ng-src="ressources/images/lang/{{ languagesCtrl.getInverseLanguage() }}.png"/>
+                        </span>
                         
                     </div>
+                    
                 </div>
                 
             </nav>
@@ -117,11 +118,11 @@
         <script src="ressources/js/angular/shared/services.js"></script>
         <script src="ressources/js/angular/shared/filters.js"></script>
 
-        <script src="ressources/js/angular/educations/services.js"></script>
-        <script src="ressources/js/angular/educations/directives.js"></script>
-        <script src="ressources/js/angular/educations/filters.js"></script>
-        <script src="ressources/js/angular/educations/module.js"></script>
-        <script src="ressources/js/angular/educations/controllers.js"></script>
+        <script src="ressources/js/angular/diploma/services.js"></script>
+        <script src="ressources/js/angular/diploma/directives.js"></script>
+        <script src="ressources/js/angular/diploma/filters.js"></script>
+        <script src="ressources/js/angular/diploma/module.js"></script>
+        <script src="ressources/js/angular/diploma/controllers.js"></script>
 
         <script src="ressources/js/angular/ue/services.js"></script>
         <script src="ressources/js/angular/ue/directives.js"></script>

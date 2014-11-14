@@ -1,0 +1,70 @@
+[
+    { 
+        "name" : "Diploma in-service training",
+        "graduates" : [
+            {
+                "title" : "Engineer in engineering of information systems",
+                "option" : "Night school studies",
+                "imageUrl" : "ressources/images/school/eicnam.png",
+                "level" : "Master degree level",
+                "school" : "Engineering School CNAM",
+                "city" : "Aix-En-Provence",
+                "begin" : "Feb 2012",
+                "end" : ""
+            },
+            {
+                "title" : "Diploma of software architecture designer",
+                "option" : "Night school studies - Information system option",
+                "imageUrl" : "ressources/images/school/cnam.png",
+                "level" : "Fourth-year university level",
+                "school" : "CNAM - Conservatoire national des arts et métiers",
+                "city" : "Aix-En-Provence",
+                "begin" : "Feb 2012",
+                "end" : "Jun 2014"
+            },{
+                "title" : "Specialist in information and telecommunication systems",
+                "option" : "Certificate of technical ability",
+                "imageUrl" : "ressources/images/school/cin.jpg",
+                "level" : "Bachelor level",
+                "school" : "French Navy",
+                "city" : "Brest and Toulon",
+                "begin" : "Feb 2006",
+                "end" : "Feb 2007"
+            }
+        ]
+    },{ 
+        "name" : "First-degree course",
+        "graduates" : [
+            {
+                "title" : "Second year IT university diploma",
+                "option" : "Software engineering option",
+                "imageUrl" : "ressources/images/school/iut.jpg",
+                "level" : "Second-year university level",
+                "school" : "IUT Paul Sabatier",
+                "city" : "Toulouse",
+                "begin" : "Sep 2002",
+                "end" : "Jun 2004"
+            },
+            {
+                "title" : "First-year university MIAS",
+                "option" : "Mathematics and computer applied to sciences",
+                "imageUrl" : "ressources/images/school/fac.jpg",
+                "level" : "First-year university level",
+                "school" : "Faculté Toulouse III",
+                "city" : "Toulouse",
+                "begin" : "Sep 2000",
+                "end" : "Jun 2002"
+            },
+            {
+                "title" : "Bachelor of science",
+                "option" : "Physical and chemical option",
+                "imageUrl" : "ressources/images/school/lycee.jpg",
+                "level" : "Bachelor level",
+                "school" : "Pierre Paul Riquet",
+                "city" : "Toulouse",
+                "begin" : "Sep 1997",
+                "end" : "Jun 2000"
+            }
+        ]
+    }
+]

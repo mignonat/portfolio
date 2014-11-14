@@ -1,4 +1,4 @@
-var menus = [ "home", "educations", "skills", "experiences", "portfolio", "nightschool" ] ;
+var menus = [ "home", "educations", "skills", "diploma", "portfolio", "nightschool" ] ;
 
 function setActive(menu) {
     for (var i=0 ; i < menus.length ; i++) {

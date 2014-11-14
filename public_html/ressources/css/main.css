@@ -84,14 +84,10 @@ a.nounderline { text-decoration: none ; }
     margin-bottom: 6px ;
 }
 
-a.navLangImg {
+.navLangImg {
     line-height: 50px;
     padding: 0px ;
     padding-right: 8px ;
-}
-
-a.navLangImg:first-child {
-    padding-left: 8px ;
 }
 
 /*************************************/
