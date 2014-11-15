@@ -3,12 +3,14 @@
         
         <div class="col-sm-10 col-md-10 col-lg-10">
             
-            <h1 class="text-left margTop15">{{ 'Job' | translate }}</h1>
+            <h1 class="text-left margTop15">
+                {{ 'Job' | translate }} 
+                
+            </h1>
             <blockquote>
                 
                 <p>
                     <span><strong class="bold"><big>{{ 'identDetails' | translate }}</big></strong></span>
-                    
                 </p>
                 <p>
                     <span>
@@ -112,3 +114,24 @@
         </div>
         
     </div>
+    
+    <h2>{{ 'misc' | translate }}</h2>
+    <blockquote>
+        
+        <p class="margBot10">
+            <a href="ressources/pdf/cv.pdf" target="_self" class="nounderline blueColor">
+                <img ng-src="ressources/images/pdf.png" style="width: 30px ; height: 30px ;"/> | 
+                <span class="txtNormal">{{ 'downloadResume' | translate }}</span>
+            </a>
+        </p>
+        
+        <p>
+            <a href="https://github.com/mignonat/portfolio" target="_self" class="nounderline blueColor">
+                <img ng-src="ressources/images/git.png" style="width: 30px ; height: 30px ;"/> | 
+                <span class="txtNormal">{{ 'git' | translate }}</span>
+            </a>
+        </p>
+        
+    </blockquote>
+    
+    

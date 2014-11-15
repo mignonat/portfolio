@@ -84,7 +84,9 @@
                     
                     <div class="nav navbar-nav navbar-right" ng-controller="languagesController as languagesCtrl">
                         
-                        <span class="navLangImg" ng-click="languagesCtrl.changeLanguage(languagesCtrl.getInverseLanguage())">
+                        <span class="navLangImg" 
+                              ng-click="languagesCtrl.changeLanguage(languagesCtrl.getInverseLanguage())"
+                              title="{{ languagesCtrl.getTitleMessage() }}">
                             <img ng-src="ressources/images/lang/{{ languagesCtrl.getInverseLanguage() }}.png"/>
                         </span>
                         

@@ -76,7 +76,9 @@
         "reference1": "Recommandation de l'ingénieur divisionnaire Holuigue",
         "reference2": "Lettre de félicitation du centre d'instruction Naval",
         "reference3": "Recommandation du Maître Principal Crommelink",
-        "SkillsTitle": "Principales compétences"
+        "SkillsTitle": "Principales compétences",
+        "downloadResume" : "Télecharger le CV en PDF",
+        "git": "Portfolio réalisé avec Angularjs, voir le projet sur github"
     },
     "en" : {
         "langage" : "en",
@@ -128,7 +130,7 @@
         "frameworks" : "Frameworks",
         "networks": "Networks",
         "admin": "Administration",
-        "misc": "Miscelaneous",
+        "misc": "Miscellaneous",
         "Search" : "Search",
         "Portfolio" : "Portfolio",
         "ClearField" : "Clean the field",
@@ -155,7 +157,9 @@
         "reference1": "Reference from divisional engineer Mr Holuigue",
         "reference2": "Letter of Congratulations from Naval Instruction Center",
         "reference3": "Reference from chief warrant officer Crommelink",
-        "SkillsTitle": "Main skills"
+        "SkillsTitle": "Main skills",
+        "downloadResume" : "Download this professional resume in PDF format",
+        "git": "Portfolio powered with Angularjs, click to see the project on github"
     }
 }
 

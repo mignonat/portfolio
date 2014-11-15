@@ -79,6 +79,10 @@ app.run(['$rootScope', 'fileData', function($rootScope, fileData) {
             return (($rootScope.currentLang === 'fr')? 'en' : 'fr') ;
         }
         
+        this.getTitleMessage = function() {
+            return (($rootScope.currentLang === 'fr')? 'Display the portfolio in English' : 'Afficher le portfolio en Français') ;
+        }
+        
         this.changeLanguage = function(lang) {
             
             console.log("Switching language from " + $rootScope.currentLang + " to "+ lang);
