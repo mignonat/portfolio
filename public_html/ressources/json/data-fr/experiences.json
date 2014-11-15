@@ -12,18 +12,20 @@
                 "duration": "2 ans et 6 mois",
                 "details" : [
                     "Utiliser une méthode agile de gestion de projet propre aux armées (équivalent de Scrum)",
-                    "Assistant du chef de projet pour définir les itérations et la charge/chiffrage du travail",
+                    "Assistant du chef de projet",
+                    "Définir les itérations et les temps de réalisations",
                     "Analyser les besoins du client",
                     "Évaluer les risques",
                     "Réaliser des maquettes de présentation",
                     "Déterminer les choix techniques d'architecture logicielle",
                     "Modéliser UML",
-                    "Élaborer / Rédiger les spécifications techniques de l’application",
-                    "Concevoir et réaliser des tests unitaires et d’intégrations : Test-driven developpment",
+                    "Élaborer / Rédiger les spécifications techniques et fonctionnelles",
+                    "Écrire les tests unitaires et d’intégrations : Test-driven developpment",
                     "Gérer et intégrer des environnements",
                     "Utiliser une forge logicielle : codendi, svn, jenkins, sonar, wiki",
                     "Analyser les problèmes techniques et fonctionnels, et proposer des correctifs",
-                    "Respecter les normes et règles de sécurité applicative. Organiser et réaliser des revues de code",
+                    "Respecter les normes et règles de sécurité applicative.",
+                    "Organiser et réaliser des revues de code",
                     "Travailler en équipe. Former des collaborateurs au Java Jee et Php Symfony2",
                     "Sécuriser une application : chiffrement des données et utilisation de framework de sécurité",
                     "Principales technologies : Java JEE, PHP Symfony2, PHP Doctrine2, Axis2 web service,  EJB3, JPA2 (hibernate), JSF2, Junit, Spring Security, JQuery, CSS3",
@@ -70,7 +72,7 @@
                     "Mettre en place des outils de gestion de parc materiel (Ocs Inventory et Glpi)",
                     "Administrer le site web intranet du bord (Spip)",
                     "Maître d'oeuvre de 3 projets Java Swing pour les besoins opérationnels du bateau",
-                    "Manager, encadrer et former des collaborateurs",
+                    "Travailler en équipe. Manager, encadrer et former des collaborateurs",
                     "Chef de quart transmissions à la mer avec la responsabilité d'un opérateur",
                     "Travail en environnement éprouvant et sous fortes contraintes",
                     "Séjours à l'étranger fréquents"
@@ -105,7 +107,7 @@
                     "Élaborer la documentation fonctionnelle et technique",
                     "Architecturer n-tiers : clients lourds en Java Swing, et interface de consultation en PHP", 
                     "Réaliser les trois clients lourds Java : acquisition des pointages, contrôle des badges, et gestion des badges/utilisateurs",
-                    "Superviser la réalisation de l'interface Php",
+                    "Travailler en équipe. Superviser la réalisation de l'interface Php",
                     "Tester le système in-situs",
                     "Équipe projet 2 personnes",
                     "Volumétrie : 2 lieux de pointages distincts, 10 lecteurs de badges, 3000 pointages/jour",
@@ -128,7 +130,7 @@
                     "Administrer des systèmes : Linux (samba) et Windows",
                     "Administrer des réseaux : brassage des prises, configurer les droits sur les switchs",
                     "Maître d'oeuvre de 4 projets Java Swing pour les besoins opérationnels du bateau",
-                    "Manager, encadrer et former des collaborateurs",
+                    "Travailler en équipe. Manager, encadrer et former des collaborateurs",
                     "Chef de quart transmissions à la mer avec la responsabilité de deux opérateurs",
                     "Travail en environnement éprouvant et sous fortes contraintes",
                     "Séjours à l'étranger fréquents"
@@ -176,7 +178,7 @@
                     "Obtention du brevet 'Spécialiste des Systèmes d'Informations et de Télécommunications'",
                     "Classement 1/44"
                 ],
-                "projects" : [ ]
+                "projects" : []
             }
         ]
     },{
@@ -222,7 +224,7 @@
                 "details" : [ 
                     "Accueillir et prendre en charge les clients",
                     "Répartir les clients sur les différentes tables",
-                    "Aider les serveurs à remonter leurs tables"
+                    "Travailler en équipe. Aider les serveurs à remonter leurs tables"
                 ],
                 "projects" : []
             },{

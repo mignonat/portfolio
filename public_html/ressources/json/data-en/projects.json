@@ -7,14 +7,14 @@
         "thumbUrl": "ressources/images/thumbProject/confidential.jpg",
         "involvements": [
             "Member of the project team",
-            "Implement an agile development method developed by the French army",
-            "Determine and counting the time realization of the project's iterations",
-            "Participate in functional analysis",
+            "Implementing an agile development method developed by the French army",
+            "Defining the iterations and counting the project's realization time",
+            "Participating to the functional analysis",
             "UML modeling : usecases and class",
-            "Design entirely the model of entities",
-            "Write functional and technical documentation",
+            "Designing the entire model of entities",
+            "Writing the functional and technical documentation",
             "Tests driven developpment",
-            "Form a civilian employee to Java JEE"
+            "Forming a person to Java JEE"
         ],
         "businessDetails": [
             "The functionality of this application is not detailed because it is sensitive and classified confidential defense",
@@ -25,7 +25,7 @@
         ],
         "begin": "02-01-2014",
         "end": "07-01-2014",
-        "duration": "5 month",
+        "duration": "5 months",
         "progLangages": [1, 3, 5, 9, 7, 8],
         "apis": [1, 10],
         "frameworks": [1, 6, 7, 9, 10, 11, 12, 13],
@@ -44,16 +44,16 @@
         "thumbUrl": "ressources/images/thumbProject/noname.jpg",
         "involvements": [
             "Member of the project team",
-            "Integration to the existing project team",
-            "Entirely design and make major changes",
+            "Integrating the existing project team",
+            "Designing and making major changes",
             "UML modeling : class diagram",
-            "Write technical documentation",
-            "Correct and optimize the existing code",
+            "Writing the technical documentation",
+            "Correcting and optimizing existing code",
             "Processing existing datas from CSV files (Php Cli)",
-            "Support and train students in Symfony2"
+            "Supporting and training students in Symfony2"
         ],
         "businessDetails": [
-            "Management of the seamen's skills on vessels of the Navy",
+            "Management of the seamen's skills on French Navy vessels",
             "Management of the catalogue of functions and tasks associated",
             "Custom management of the roles",
             "Management of the functions allocation",
@@ -63,7 +63,7 @@
         ],
         "begin": "06-01-2013",
         "end": "02-01-2014",
-        "duration": "8 month",
+        "duration": "8 months",
         "progLangages": [4, 3, 5, 6, 10],
         "apis": [],
         "frameworks": [2, 8, 11, 12],
@@ -74,28 +74,28 @@
         "sgbdrs": [3],
         "images": [{
                 "url": "ressources/images/project/comete/image1.png",
-                "desc": "Maquette de présentation"
+                "desc": "Presentation model"
             },{
                 "url": "ressources/images/project/comete/image2.png",
-                "desc": "Recherche multicritère"
+                "desc": "Search by criteria"
             },{
                 "url": "ressources/images/project/comete/image3.png",
-                "desc": "Recherche multicritère"
+                "desc": "Search by criteria"
             },{
                 "url": "ressources/images/project/comete/image4.png",
-                "desc": "Recherche multicritère"
+                "desc": "Search by criteria"
             },{
                 "url": "ressources/images/project/comete/image5.png",
-                "desc": "Gestion des gestionnaires RH"
+                "desc": "Management of the HR managers"
             },{
                 "url": "ressources/images/project/comete/image6.png",
-                "desc": "Gestion des fonctions suivant les unités"
+                "desc": "Management of the functions by unit"
             },{
                 "url": "ressources/images/project/comete/image7.png",
-                "desc": "Gestion des qualifications"
+                "desc": "Qualifications management"
             },{
                 "url": "ressources/images/project/comete/image8.png",
-                "desc": "Qualification par individu"
+                "desc": "Individual qualification management"
             }]
     },
     {
@@ -105,15 +105,15 @@
         "resume": "Budget simulations for the General Staff of the french army to aid budgetary decisions on armament projects",
         "thumbUrl": "ressources/images/thumbProject/sicpia.jpg",
         "involvements": [
-            "Assist the project manager",
-            "Responsible for the technical realization",
-            "Implement an agile development method developed by the French army",
-            "Participate in functional analysis",
+            "Assisting the project manager",
+            "Having the responsibility for the technical realization",
+            "Implementing an agile development method developed by the French army",
+            "Participating to the functional analysis",
             "Designing and implementing entirely application",
             "UML modeling : usecases, class and sequence",
-            "Write functional and technical documentation",
-            "Perform unit testing and integration JUNIT",
-            "Sécuriser l'application : framework de sécurité et cryptage des fichiers et de la base de données"
+            "Writing the functional and technical documentation",
+            "Writing unit and integration tests with JUNIT",
+            "Ensuring the software security : using framework of security, and encrypting files and databases"
         ],
         "businessDetails": [
             "Assist the general staff of the army in the Ministry of Defence budget preparation ",
@@ -126,7 +126,7 @@
         ],
         "begin": "08-01-2012",
         "end": "06-01-2013",
-        "duration": "10 month",
+        "duration": "10 months",
         "progLangages": [1, 3, 5, 9],
         "apis": [1, 5, 6, 7, 11],
         "frameworks": [1, 6, 7, 9, 10, 11, 12, 13],
@@ -137,55 +137,55 @@
         "sgbdrs": [2, 3],
         "images": [{
                 "url": "ressources/images/project/sicpia/image0.png",
-                "desc": "Catalogue des données"
+                "desc": "Data repositories"
             },{
                 "url": "ressources/images/project/sicpia/image1.png",
-                "desc": "UML - Cas d'utilisations (usecases)"
+                "desc": "UML - Usecases diagram"
             },{
                 "url": "ressources/images/project/sicpia/image2.png",
-                "desc": "UML - Diagramme de séquence"
+                "desc": "UML - Sequence diagram"
             },{
                 "url": "ressources/images/project/sicpia/image3.png",
-                "desc": "Architecture et choix technologiques"
+                "desc": "Architecture and technological choices"
             },{
                 "url": "ressources/images/project/sicpia/image4.png",
-                "desc": "Diargramme de classe des entités"
+                "desc": "Entities class diagram"
             },{
                 "url": "ressources/images/project/sicpia/image5.png",
-                "desc": "MPD - Modèle Physique des données"
+                "desc": "MPD - Physical Data Model"
             },{
                 "url": "ressources/images/project/sicpia/image6.png",
-                "desc": "Maquette"
+                "desc": "Presentation model"
             },{
                 "url": "ressources/images/project/sicpia/image7.png",
-                "desc": "Fiche opération d'armement"
+                "desc": "Arming operation sheet"
             },{
                 "url": "ressources/images/project/sicpia/image8.png",
-                "desc": "Fiche de mesure"
+                "desc": "Measurement sheet"
             },{
                 "url": "ressources/images/project/sicpia/image9.png",
-                "desc": "Fiche équipement"
+                "desc": "Equipment sheet"
             },{
                 "url": "ressources/images/project/sicpia/image10.png",
-                "desc": "Gestion des utilisateurs"
+                "desc": "Users management"
             },{
                 "url": "ressources/images/project/sicpia/image11.png",
-                "desc": "Visualisation globale"
+                "desc": "Global visualization"
             },{
                 "url": "ressources/images/project/sicpia/image12.png",
-                "desc": "Fiche opération d'armement : maille financière"
+                "desc": "Arming operation : financial details"
             },{
                 "url": "ressources/images/project/sicpia/image13.png",
-                "desc": "Fiche opération d'armement : gestion documentaire chiffré sur disque"
+                "desc": "Arming operation : management of documentary encrypted on disk"
             },{
                 "url": "ressources/images/project/sicpia/image14.png",
-                "desc": "Import initial d'un fichier Excel"
+                "desc": "Initial import an Excel file"
             },{
                 "url": "ressources/images/project/sicpia/image15.png",
-                "desc": "Récapitulatif avant import"
+                "desc": "Summary before import"
             },{
                 "url": "ressources/images/project/sicpia/image16.png",
-                "desc": "Résultat de l'import"
+                "desc": "Import result"
             }]
     },
     {
@@ -196,15 +196,15 @@
         "thumbUrl": "ressources/images/thumbProject/webref.jpg",
         "involvements": [
             "Member of the project team",
-            "Participate in functional analysis",
-            "Define and implement the SOA",
-            "Completely design the architecture of the application",
+            "Participating to the functional analysis",
+            "Defining and implementing the SOA",
+            "Designing the entire architecture of the application",
             "UML modeling : usecases, class and sequence",
-            "Design and implement a cache system for the SOAP web services ",
-            "Implement",
-            "Write functional and technical documentation",
+            "Designing and implementing a cache system for the SOAP web services",
+            "Implementing",
+            "Writing the functional and technical documentation",
             "Making a Java Swing tool for improving data recovery",
-            "Train two civilians in Java JEE"
+            "Training two persons to Java JEE"
         ],
         "businessDetails": [
             "To support the process of Data Mining and Master Data Management (MDM)",
@@ -216,7 +216,7 @@
         ],
         "begin": "04-01-2012",
         "end": "08-01-2012",
-        "duration": "4 month",
+        "duration": "4 months",
         "progLangages": [1],
         "apis": [1, 8],
         "frameworks": [1, 6, 7],
@@ -227,13 +227,13 @@
         "sgbdrs": [2, 3],
         "images": [{
                 "url": "ressources/images/project/webref/image1.png",
-                "desc": "Logique de fonctionnement"
+                "desc": "Operating logic"
             },{
                 "url": "ressources/images/project/webref/image2.png",
-                "desc": "UML - Diagramme de classe EJBs et Entités"
+                "desc": "UML - EJB ans entities class diagram"
             },{
                 "url": "ressources/images/project/webref/image3.png",
-                "desc": "UML - Diagramme de classe des EJBs"
+                "desc": "UML - EJB class diagram"
             }]
     },
     {
@@ -243,12 +243,12 @@
         "resume": "Provision of skeletons of Java JEE application for providing the basic components to the new projects of the development center",
         "thumbUrl": "ressources/images/thumbProject/pattern.jpg",
         "involvements": [
-            "Responsible for the technical realization",
-            "Participate in functional analysis",
+            "Having the responsibility for the technical realization",
+            "Participating to the functional analysis",
             "UML modeling : usecases, class and sequence",
             "Designing and implementing entirely application",
-            "Write functional and technical documentation",
-            "Perform unit testing and integration JUNIT",
+            "Writing the functional and technical documentation",
+            "Writing unit and integration tests with JUNIT",
             "Self-JEE training"
         ],
         "businessDetails": [
@@ -259,7 +259,7 @@
         ],
         "begin": "02-01-2012",
         "end": "04-01-2012",
-        "duration": "2 month",
+        "duration": "2 months",
         "progLangages": [1, 3, 5, 9],
         "apis": [1, 5],
         "frameworks": [1, 6, 7, 9, 10, 11, 12, 13],
@@ -270,13 +270,13 @@
         "sgbdrs": [1, 2, 3],
         "images": [{
                 "url": "ressources/images/project/pattern/image0.png",
-                "desc": "Gestion des utilisateurs"
+                "desc": "Users management"
             },{
                 "url": "ressources/images/project/pattern/image1.png",
-                "desc": "UML - Diagramme de séquence"
+                "desc": "UML - Sequence diagram"
             },{
                 "url": "ressources/images/project/pattern/image2.png",
-                "desc": "UML - Diagramme de classe des EJBs"
+                "desc": "UML - EJB class diagram"
             }]
     },
     {
@@ -287,28 +287,27 @@
         "thumbUrl": "ressources/images/thumbProject/propguard.jpg",
         "involvements": [
             "Project manager",
-            "Analyze customer needs and carry out the functional analysis",
+            "Analyzing the customer needs and carrying out the functional analysis",
             "UML modeling : class and sequence",
-            "Design and realize the system entirely",
-            "Test the system on site",
-            "Deliver the product to the customer"
+            "Designing and realizing the entire system",
+            "Testing the product then delivering it to the client"
         ],
         "businessDetails": [
-            "Le réseau de surveillance des moteurs diesels du bateau produit des données toutes les 4 heures",
-            "Il s'agit essentiellement de températures et de pressions des 7 moteurs diesels",
-            "Les données brutes, en trés grand nombre, étaient envoyés sur une imprimante papier",
-            "Cette impression offrait seulement un cliché peu lisible à un instant donné",
-            "J'ai conçu un switch pour dériver les données sur le port série d'un ordinateur, ou sur l'imprimante",
-            "L'application intègre automatiquement les données envoyés sur le port série, dans la base de données",
-            "L'outil est paramétrable au maximum car les zones à surveiller sont parfois trés spécifique",
-            "Les graphiques permettent d'évaluer en un coup d'oeil l'évolution des t° et pressions des moteurs",
-            "On peut afficher des courbes représentant l'historique de fonctionnement des 15 derniers jours",
-            "Des alarmes préviennent les opérateurs machines si des valeurs sont en anomalies",
-            "Des pannes moteurs sont, et ont été, évitées grâce à la détection visuelle d'une courbe légèrement ascendante"
+            "The monitoring network of diesel engines produced data every 4 hours",
+            "The data are essentially temperature and pressure of the diesel engines",
+            "The raw data, in very large numbers, were sent on a paper printer",
+            "This impression was offering only a few readable snapshot at a given moment",
+            "I designed a switch for deriving data on the serial port of a computer or on the printer",
+            "The application automatically integrates data sent over the serial port in the database",
+            "The tool had to be as configurable as possible because areas to watch are sometimes very specific",
+            "The graphs allow assess in a glance the evolution of the engines t ° and pressure",
+            "It's possible to view graphs showing the operating data since the last 15 days",
+            "Alarms can warn machinery operators if values exceed the threshold limits",
+            "Some engine failures are, and have been prevented through the visual detection of a slight upward curve"
         ],
         "begin": "",
         "end": "",
-        "duration": "3 month",
+        "duration": "3 months",
         "progLangages": [1],
         "apis": [1, 2, 9],
         "frameworks": [5],
@@ -319,37 +318,37 @@
         "sgbdrs": [1],
         "images": [{
                 "url": "ressources/images/project/propguard/image1.png",
-                "desc": "Fenêtre principale"
+                "desc": "Main window"
             },{
                 "url": "ressources/images/project/propguard/image2.png",
-                "desc": "Graphique de contrôle températures et pressions"
+                "desc": "Graphics control of temperatures and pressures"
             },{
                 "url": "ressources/images/project/propguard/image3.png",
-                "desc": "Fenêtre de connexion"
+                "desc": "Login"
             },{
                 "url": "ressources/images/project/propguard/image4.png",
-                "desc": "Gestion des utilisateurs"
+                "desc": "Users management"
             },{
                 "url": "ressources/images/project/propguard/image5.png",
-                "desc": "Gestion de la base de donnée"
+                "desc": "Database management"
             },{
                 "url": "ressources/images/project/propguard/image6.png",
-                "desc": "Gestion des couleurs"
+                "desc": "Graph's color management"
             },{
                 "url": "ressources/images/project/propguard/image7.png",
-                "desc": "Choix des graphiques à afficher"
+                "desc": "Choice of graphics to display"
             },{
                 "url": "ressources/images/project/propguard/image8.png",
-                "desc": "Visualisation des alarmes"
+                "desc": "Alarms window"
             },{
                 "url": "ressources/images/project/propguard/image9.png",
-                "desc": "Configuration des seuils d'alarmes"
+                "desc": "Configuration of alarm thresholds"
             },{
                 "url": "ressources/images/project/propguard/image10.png",
-                "desc": "Reception des données de l'automate"
+                "desc": "Receiving data from the PLC"
             },{
                 "url": "ressources/images/project/propguard/image11.png",
-                "desc": "Traitement des données de l'automate"
+                "desc": "Data processing"
             }]
     },
     {
@@ -360,20 +359,20 @@
         "thumbUrl": "ressources/images/thumbProject/dreamguard.jpg",
         "involvements": [
             "Project manager",
-            "Analyze customer needs and carry out the functional analysis",
-            "Design and implement the entirely software",
-            "Deliver the product to the customer"
+            "Analyzing the customer needs and carrying out the functional analysis",
+            "Designing and implementing the entire software",
+            "Testing the product then delivering it to the client"
         ],
         "businessDetails": [
-            "En mer, les marins travaillent jour et nuit pour assurer la continuité opérationnelle",
-            "Des chercheurs de l'hopital interarmées de Toulon menent des études sur le sommeil des marins",
-            "Cette application est utilisé par des panels de marins durant des missions en mer",
-            "Elle leur permet de saisir les informations concernant leur rythme biologique",
-            "Cette collecte de données permet aux chercheurs de réaliser des études statistiques"
+            "At sea, sailors work day and night to ensure business continuity",
+            "At Toulon's hospital, researchers conduct studies about seamen sleep",
+            "This application is used by seamen groups during missions at sea",
+            "It allows them to enter information about their biological rhythm",
+            "This data collection allows researchers to conduct statistical studies"
         ],
         "begin": "",
         "end": "",
-        "duration": "2 month",
+        "duration": "2 months",
         "progLangages": [1, 7],
         "apis": [1, 2],
         "frameworks": [5],
@@ -384,10 +383,10 @@
         "sgbdrs": [1],
         "images": [{
                 "url": "ressources/images/project/dreamguard/image1.png",
-                "desc": "Fenêtre et menu des activités"
+                "desc": "Main window"
             },{
                 "url": "ressources/images/project/dreamguard/image2.png",
-                "desc": "Exemple de saisie"
+                "desc": "Input exemple"
             }]
     },
     {
@@ -398,15 +397,15 @@
         "thumbUrl": "ressources/images/thumbProject/ssiguard.jpg",
         "involvements": [
             "Project manager",
-            "Analyze customer needs and carry out the functional analysis",
-            "Design and implement the entirely software",
-            "Deliver the product to the customer"
+            "Analyzing the customer needs and carrying out the functional analysis",
+            "Designing and implementing the entire software",
+            "Testing the product then delivering it to the client"
         ],
         "businessDetails": [
-            "Outil de gestion pour le responsable de la formation SSI du personnel à bord du bateau",
-            "Gestion individuelle de la formation et de la sensibilisation du personnel",
-            "Alertes automatiques pour désigner les gens non à jour de leur formation SSI",
-            "Édition des statistiques globales de formation pour rendre compte hebdomadairement aux autorités"
+            "Management tool for the IT security manager onboard, which is responsible for staff training aboard",
+            "Management of the staff's training and awareness about IT security",
+            "Automatic alerts to the manager for seeing the people who are not up to date of their IT security training",
+            "Printing of statistics about staff's IT security training for reporting weekly to authorities"
         ],
         "begin": "",
         "end": "",
@@ -421,16 +420,16 @@
         "sgbdrs": [],
         "images": [{
                 "url": "ressources/images/project/ssiguard/image1.png",
-                "desc": "Gestion des individus"
+                "desc": "Users managements"
             },{
                 "url": "ressources/images/project/ssiguard/image2.png",
-                "desc": "Contrôle des individus"
+                "desc": "Users control"
             },{
                 "url": "ressources/images/project/ssiguard/image3.png",
-                "desc": "Statistique par companie"
+                "desc": "Statistics by company"
             },{
                 "url": "ressources/images/project/ssiguard/image4.png",
-                "desc": "Statistique par catégorie de grade"
+                "desc": "Statistics by grade category"
             }]
     },
     {
@@ -441,26 +440,25 @@
         "thumbUrl": "ressources/images/thumbProject/foxguardcs.jpg",
         "involvements": [
             "Project manager",
-            "Define the specifications with the client, plan the implementation",
-            "Participate in functional analysis avec le client",
-            "Design the entirely system",
-            "Write functional and technical documentation",
-            "Fully realize the Java Swing clients : acquisition of the pointing, controlling the people, and managing of the badge/user",
-            "Supervisor of the implémentation of PHP interface",
-            "Test and deliver the product on-site"
+            "Defining the specifications with the client, then planning the implementation",
+            "Participating to the functional analysis",
+            "Designing the entire system",
+            "Writing the functional and technical documentation",
+            "Implementing the Java Swing clients : acquisition of the pointing, controlling the people, and managing of the badge/user",
+            "Managing the implementation of PHP interface",
+            "Testing the product then delivering it to the client"
         ],
         "businessDetails": [
-            "Système permettant la gestion, le contrôle, et la consultation des accès sur base",
-            "Fonctionne avec des lecteurs de badge de proximité, et des boitiers adaptateurs série RS232/Ethernet",
-            "Application n-tiers : une partie principale en Java et une autre en Php",
-            "Utilise un système personnalisé de synchronisation des bases de données",
-            "Deux sites géographiques de contrôle et 9 lecteurs de badges au total",
-            "Volumétrie : 3000 lectures de badges / jour",
-            "En remplacement d'un ancien système vieillissant et onéreux"
+            "System for the management, control, and querying of access to the military base",
+            "Works with proximity card readers, and adapters (RS232 to Ethernet)",
+            "An n-tier architecture : 3 Java Swing clients, and a php interface for querying",
+            "Using of a personalized system for database synchronization",
+            "Volume : Two separate places of pointing, 10 card readers, 3000 pointings / day",
+            "Project to replace an obsolete system: € 20,000 savings"
         ],
         "begin": "04-01-2010",
         "end": "08-01-2010",
-        "duration": "4 month",
+        "duration": "4 months",
         "progLangages": [1, 4, 3],
         "apis": [1, 9, 2, 3],
         "frameworks": [5],
@@ -471,37 +469,37 @@
         "sgbdrs": [1],
         "images": [{
                 "url": "ressources/images/project/foxguardcs/image1.png",
-                "desc": "Fenêtre principale du client"
+                "desc": "Main window of the control client "
             },{
                 "url": "ressources/images/project/foxguardcs/image2.png",
-                "desc": "Démarrage de l'application"
+                "desc": "Starting"
             },{
                 "url": "ressources/images/project/foxguardcs/image3.png",
-                "desc": "Synchronisation des bases de données"
+                "desc": "Databases synchronization"
             },{
                 "url": "ressources/images/project/foxguardcs/image4.png",
-                "desc": "Fenêtres de configuration"
+                "desc": "Configuration"
             },{
                 "url": "ressources/images/project/foxguardcs/image5.png",
-                "desc": "Logique de fonctionnement du système"
+                "desc": "Operating logic"
             }]
     },
     {
         "id": 10,
         "title": "GEOGUARD",
         "teamProject": 1,
-        "resume": "Graphical tool for creating vector maps in a specific French Navy format",
+        "resume": "Graphical tool for creating vectorial maps in a specific French Navy format",
         "thumbUrl": "ressources/images/thumbProject/geoguard.jpg",
         "involvements": [
             "Project manager",
-            "Analyze customer needs and carry out the functional analysis",
-            "Design and implement the entirely software",
-            "Deliver the product to the customer"
+            "Analyzing the customer needs and carrying out the functional analysis",
+            "Designing and implementing the entire software",
+            "Testing the product then delivering it to the client"
         ],
         "businessDetails": [
-            "Outil graphique de création de carte vectorielle dans un format spécifique Marine Nationale",
-            "Récupérer les trames GPS émisent en UDP sur le réseaux ethernet du bord",
-            "Historiser dans un format spécifique à la Marine, la position du bateau pour les rejeux d'exercices"
+            "Graphical tool for creating vectorial maps in a specific French Navy format",
+            "Reading (with TCP and UDP) of the GPS network frames",
+            "Saving in a French Navy specific format, the ship's position for replaying the exercise"
         ],
         "begin": "",
         "end": "",
@@ -516,13 +514,13 @@
         "sgbdrs": [],
         "images": [{
                 "url": "ressources/images/project/geoguard/image1.png",
-                "desc": "Fenêtre principale"
+                "desc": "Main window, creation of an vectorial map"
             },{
                 "url": "ressources/images/project/geoguard/image2.png",
-                "desc": "Création de la carte vectorielle"
+                "desc": "Visualization of the vectorial map"
             },{
                 "url": "ressources/images/project/geoguard/image3.png",
-                "desc": "Configurations"
+                "desc": "Configuration"
             }]
     },
     {
@@ -533,18 +531,18 @@
         "thumbUrl": "ressources/images/thumbProject/sitac.png",
         "involvements": [
             "Member of the project team",
-            "Implement all graphic objects in 2D",
-            "Implement the reading (with TCP and UDP) of the AIS's / GPS's network frames",
-            "Implement decoding and processing of AIS's network frames"
+            "Implementing all 2D graphic objects",
+            "Implementing the reading (with TCP and UDP) of the AIS's / GPS's network frames",
+            "Implementing the decoding and processing of AIS's network frames"
         ],
         "businessDetails": [
-            "Système délocalisé de table traçante informatisée",
-            "Permets l'affichage, l'archivage, et le rejeu de la situation tactique en temps réel",
-            "Alternative à l’utilisation des tables traçantes vieillissantes et peu fiables sur FASM"
+            "Computerized management of the tactical situation of the warship in real time",
+            "Allows viewing, and archiving the tactical situation in real time, and replaying it",
+            "Alternative to the use of unreliable material on old FASM warship"
         ],
         "begin": "",
         "end": "",
-        "duration": "2 month",
+        "duration": "2 months",
         "progLangages": [2],
         "apis": [3],
         "frameworks": [14],
@@ -555,32 +553,33 @@
         "sgbdrs": [1],
         "images": [{
                 "url": "ressources/images/project/sitac/image1.png",
-                "desc": "Fenêtre principale"
+                "desc": "Main window"
             },{
                 "url": "ressources/images/project/sitac/image2.png",
-                "desc": "Configuration des objets"
+                "desc": "Configuration"
             }]
     },
     {
         "id": 12,
         "title": "SPACEGUARD",
         "teamProject": 1,
-        "resume": "Aide à la gestion du lien satellitaire Syracuse des bâtiments de combat",
+        "resume": "Aid for managing the Syracuse satellite link of the warships",
         "thumbUrl": "ressources/images/thumbProject/spaceguard.jpg",
         "involvements": [
             "Project manager",
-            "Analyze customer needs and carry out the functional analysis",
-            "Design and implement the entirely software",
-            "Deliver the product to the customer"
+            "Analyzing the customer needs and carrying out the functional analysis",
+            "Designing and implementing the entire software",
+            "Testing the product then delivering it to the client"
         ],
         "businessDetails": [
-            "Mise à disposition d'informations calculées en temps réel grâce à la position GPS",
-            "Elles sont utilent pour le paramétrage et la configuration de la station Syracuse",
-            "Information et prévision du masquage des antennes paraboliques dans la mâture du bateau"
+            "Provision of calculated information in real time using the GPS position",
+            "They are useful for setup and configuration of the Syracuse station",
+            "Syracuse is the French military satellite communication system",
+            "Giving information and prediction about the satellite link's masking by the mast of the boat"
         ],
         "begin": "",
         "end": "",
-        "duration": "2 month",
+        "duration": "2 months",
         "progLangages": [1],
         "apis": [1, 2, 3],
         "frameworks": [5],
@@ -591,10 +590,10 @@
         "sgbdrs": [],
         "images": [{
                 "url": "ressources/images/project/spaceguard/image1.png",
-                "desc": "Fenêtre principale"
+                "desc": "Main window"
             },{
                 "url": "ressources/images/project/spaceguard/image2.png",
-                "desc": "Fenêtre principale"
+                "desc": "Main window"
             }]
     },
     {
@@ -605,17 +604,17 @@
         "thumbUrl": "ressources/images/thumbProject/foxguard.jpg",
         "involvements": [
             "Project manager",
-            "Analyze customer needs and carry out the functional analysis",
-            "Design and implement the entirely software",
-            "Deliver the product to the customer"
+            "Analyzing the customer needs and carrying out the functional analysis",
+            "Designing and implementing the entire software",
+            "Testing the product then delivering it to the client"
         ],
         "businessDetails": [
-            "Contrôle et requête sur la présence de personnel à bord",
-            "Utilisation d'un lecteur de badge de proximité"
+            "Controlling and querying the presence of personnel on board",
+            "Using a proximity badge reader"
         ],
         "begin": "",
         "end": "",
-        "duration": "2 month",
+        "duration": "2 months",
         "progLangages": [1],
         "apis": [1],
         "frameworks": [5],
@@ -626,33 +625,33 @@
         "sgbdrs": [],
         "images": [{
                 "url": "ressources/images/project/foxguard/image1.png",
-                "desc": "Fenêtre principale"
+                "desc": "Main window"
             },{
                 "url": "ressources/images/project/foxguard/image2.png",
-                "desc": "Contrôle de présence"
+                "desc": "Querying the presence of personnel on board"
             }]
     },{
         "id": 14,
         "title": "CONFIDENTIAL PROJECT",
-        "teamProject": 2,
+        "teamProject": 1,
         "resume": "Software for controlling and mapping of vessel emitting AIS.",
         "thumbUrl": "ressources/images/thumbProject/confidential.jpg",
         "involvements": [
             "Project manager",
-            "Analyze customer needs and carry out the functional analysis",
+            "Analyzing the customer needs and carrying out the functional analysis",
             "Designing and implementing entirely application",
-            "Test and deliver the product on-site"
+            "Testing the product then delivering it to the client"
         ],
         "businessDetails": [
-            "Logiciel Confidentiel Défense utilisé par le central opération de la frégate",
-            "Décodage et traitement des trames AIS et GPS émises sur le réseau du bord",
-            "Affichage détaillé sur une carte des bateaux environnants émettant AIS",
-            "Détection automatique des bâtiments d'intérêts, surveillé par la France",
-            "Génération automatique des messages officiels ACP pour compte rendu des détections"
+            "Confidential Defence software used by operational central of the frigate",
+            "Reading (TCP and UDP) and processing of the AIS's / GPS's network frames",
+            "Detailed map displaying the surrounding boats emitting AIS",
+            "Automatic detection of boats of interest, watched by France",
+            "Automatic building of ACPs message for detection reporting to the authorities"
         ],
         "begin": "",
         "end": "",
-        "duration": "5 month",
+        "duration": "5 months",
         "progLangages": [1],
         "apis": [1, 9, 2, 3],
         "frameworks": [5],

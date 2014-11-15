@@ -4,29 +4,31 @@
         "duration": "9 years",
         "experiences" : [
             {
-                "employer" : "Development centre of the French defense",
+                "employer" : "Development centre of the French Army",
                 "place" : "Toulon",
                 "title" : "Analyst/Programmer",
                 "begin" : "02-01-2012",
                 "end" : "07-31-2014",
-                "duration": "2 years et 6 month",
+                "duration": "2 years and 6 months",
                 "details" : [
-                    "Use an agile development methodology from the army (similar to Scrum)",
-                    "Assist the project manager to define the iterations, the work load and time cost", 
-                    "Analyse the client need",
-                    "Assess the risks",
-                    "Make models of presentation",
-                    "Make the choice of software technical architecture",
-                    "UML model",
-                    "Write technical specifications of the application",
+                    "Using an agile development methodology from the army (similar to Scrum)",
+                    "Assisting the project manager",
+                    "Defining the iterations, counting the implementing time", 
+                    "Analysing the client need",
+                    "Assessing the risks",
+                    "Making models of presentation",
+                    "Making the choice of software technical architecture",
+                    "UML modeling",
+                    "Writing the technical and functionnal specifications",
                     "Design and implement unit testing and integration: Test-driven developpment",
                     "Manage and integrate environments",
                     "Use a software forge : codendi, svn, jenkins, sonar, wiki",
                     "Analyze the technical and functional problems and propose corrective",
-                    "Meet the standards and rules of application security. Organize and perform code reviews",
-                    "Teamwork. Train staff to Java Jee and Php Symfony2",
+                    "Meet the standards and rules of application security",
+                    "Organize and perform code reviews",
+                    "Team working. Train staff to Java Jee and Php Symfony2",
                     "Securing an application: data encryption and use of security framework",
-                    "Key technologies : Java JEE, PHP Symfony2, PHP Doctrine2, Axis2 web service,  EJB3, JPA2 (hibernate), JSF2, Junit, Spring Security, JQuery, CSS3",
+                    "Key technologies : Java JEE, PHP Symfony2, PHP Doctrine2, Axis2 web service, EJB3, JPA2 (hibernate), JSF2, Junit, Spring Security, JQuery, CSS3",
                     "Variable project team : from 2 to 5 people",
                     "Variable projects : from 20 to 1000 users"
                 ],
@@ -62,15 +64,15 @@
                 "title" : "System and network administrator",
                 "begin" : "08-01-2010",
                 "end" : "02-01-2012",
-                "duration": "1 year et 6 month",
+                "duration": "1 year and 6 months",
                 "details" : [ 
                     "Administrate systems : Linux (Samba) and Windows",
-                    "Administrate networks : Wired routers and switchs, set permissions on the switches, setting up a proxy (IpCop)",
+                    "Administrate networks : wiring the routers and switches, set switches permissions, set up a proxy (IpCop)",
                     "In charge of the hardware parc : 80 UCs",
                     "Set up management tools hardware park (Ocs Inventory and Glpi)",
                     "Administrate the intranet website (Spip)",
                     "Supervisor and director of 3 Java Swing projects for the operational needs of boat",
-                    "Manage, coach and train the staff",
+                    "Team working. Manage, coach and train the staff",
                     "Chief of the transmissions at sea with an operator",
                     "Work in challenging environment and high load",
                     "Frequent stays abroad"
@@ -97,7 +99,7 @@
                 "title" : "Project manager - Analyst-programmer",
                 "begin" : "04-01-2010",
                 "end" : "08-01-2010",
-                "duration": "4 month",
+                "duration": "4 months",
                 "details" : [
                     "Project manager",
                     "Contracting and planning with the client",
@@ -106,7 +108,7 @@
                     "Write technical and functionnal documentation",
                     "An n-tier architecture : 3 Java Swing clients, and a php interface for querying", 
                     "Implement of the 3 Java clients : acquisition of the pointing, controlling the people, and managing of the badge/user",
-                    "Supervisor of the implémentation of PHP interface",
+                    "Team working. Supervisor of the implémentation of PHP interface",
                     "Test the system on-site",
                     "Project team 2 people",
                     "Volume : Two separate places of pointing, 10 card readers, 3000 pointings / day",
@@ -124,12 +126,12 @@
                 "title" : "System and network administrator",
                 "begin" : "02-02-2007",
                 "end" : "04-01-2010",
-                "duration": "3 years et 2 month",
-                "details" : [ 
+                "duration": "3 years and 2 months",
+                "details" : [
                     "Administrate systems : Linux (Samba) and Windows",
-                    "Administrate networks : Wired routers and switchs, set permissions on the switches, setting up a proxy (IpCop)",
+                    "Administrate networks : wiring the routers and switches, set switches permissions, set up a proxy (IpCop)",
                     "Supervisor and director of 4 Java Swing projects for the operational needs of boat",
-                    "Manage, coach and train the staff",
+                    "Team working. Manage, coach and train the staff",
                     "Chief of the transmissions at sea with two operators",
                     "Work in challenging environment and high load",
                     "Frequent stays abroad"
@@ -179,7 +181,7 @@
         ]
     },{
         "group" : "Restaurant",
-        "duration": "6 month",
+        "duration": "6 months",
         "experiences" : [
             {
                 "employer" : "Bowling Center Hotel",
@@ -187,7 +189,7 @@
                 "title" : "Waiter",
                 "begin" : "08-01-2005",
                 "end" : "02-02-2006",
-                "duration": "6 month",
+                "duration": "6 months",
                 "details" : [
                     "Waiter",
                     "Welcome of the bowling's customers"
@@ -197,14 +199,14 @@
         ]
     },{
         "group" : "Foreign experience in Canada",
-        "duration": "1 year et 4 month",
+        "duration": "1 year and 4 months",
         "experiences" : [{
                 "employer" : "Royal Canadian Bank",
                 "place" : "Montréal",
                 "title" : "Controller of files mortgages",
                 "begin" : "02-01-2005",
                 "end" : "07-01-2005",
-                "duration": "6 month",
+                "duration": "6 months",
                 "details" : [
                     "Check the records of mortgages received from notaries",
                     "Enter information in the information system of the bank"
@@ -216,7 +218,7 @@
                 "title" : "Home customer",
                 "begin" : "08-01-2004",
                 "end" : "02-01-2005",
-                "duration": "6 month",
+                "duration": "6 months",
                 "details" : [ 
                     "Welcoming and supporting the customers",
                     "Allocate customers on différent tables",
@@ -229,9 +231,9 @@
                 "title" : "Computer Science Diploma intern",
                 "begin" : "03-01-2004",
                 "end" : "06-31-2004",
-                "duration": "4 month",
-                "details" : [ 
-                    "Set up a Linux server (Web, Ftp, Email, etc...)", 
+                "duration": "4 months",
+                "details" : [
+                    "Setting up a Linux server (Web, Ftp, Email, etc...)", 
                     "Writing a C script to automate processing from CSV files",
                     "Making an web interface (Php) to the students for reading their emails, and manage their own personal files on the server"
                 ],

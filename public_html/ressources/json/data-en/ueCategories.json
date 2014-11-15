@@ -1,7 +1,7 @@
 [
   {
     "id" : 0,
-    "title" : "Base de données"
+    "title" : "Databases"
   },
   {
     "id" : 1,
@@ -9,42 +9,42 @@
   },
   {
     "id" : 2,
-    "title" : "Programmation"
+    "title" : "Programming"
   },
   {
     "id" : 3,
-    "title" : "Mathématiques"
+    "title" : "Mathematics"
   },
   {
     "id" : 4,
-    "title" : "Réseau"
+    "title" : "Network"
   },
   {
     "id" : 5,
-    "title" : "Méthodologie"
+    "title" : "Methodology"
   },
   {
     "id" : 6,
-    "title" : "Economie"
+    "title" : "Economy"
   },
   {
     "id" : 7,
-    "title" : "Systèmes d'information"
+    "title" : "Information system"
   },
   {
     "id" : 8,
-    "title" : "Urbanisation"
+    "title" : "Information systems design"
   },
   {
     "id" : 9,
-    "title" : "Systèmes"
+    "title" : "Operating systems"
   },
   {
     "id" : 10,
-    "title" : "Ingenieur"
+    "title" : "Engineer"
   },
   {
     "id" : 11,
-    "title" : "Langue"
+    "title" : "Language"
   }
 ]

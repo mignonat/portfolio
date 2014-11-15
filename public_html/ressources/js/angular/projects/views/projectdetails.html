@@ -12,9 +12,12 @@
     <span class="txtLarge">
         : {{ projectCtrl.project.duration }}
     </span>
-    <span class="txtLarge" ng-show="projectCtrl.project.begin">
-        {{ 'from' | translate }} {{ projectCtrl.project.begin | dateTranslate }} 
-        {{ 'to' | translate }} {{ projectCtrl.project.end | dateTranslate }}
+    &nbsp;
+    <span class="txtLarge text-muted" ng-show="projectCtrl.project.begin">
+        <small>
+            {{ 'from' | translate }} {{ projectCtrl.project.begin | dateTranslate }} 
+            {{ 'to' | translate }} {{ projectCtrl.project.end | dateTranslate }}
+        </small>
     </span>
     <br/>
     

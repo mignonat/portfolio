@@ -150,7 +150,7 @@
             },{
                 "id": 8,
                 "title": "DOCTRINE 2",
-                "detail": "Framework : PHP ORM",
+                "detail": "Framework : PHP Symfony ORM",
                 "level": 3
             },{
                 "id": 9,
