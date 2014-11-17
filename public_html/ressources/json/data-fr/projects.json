@@ -40,7 +40,7 @@
         "id": 2,
         "title": "COMETE",
         "teamProject": 4,
-        "resume": "Gestion des rôles, des compétences, des formations et des aquis du personnel embarqué sur les bateaux de la Marine Nationale",
+        "resume": "Gestion des rôles, des compétences, des formations et des acquis du personnel embarqué sur les bateaux de la Marine Nationale",
         "thumbUrl": "ressources/images/thumbProject/noname.jpg",
         "involvements": [
             "Membre de l'équipe projet",
@@ -102,7 +102,7 @@
         "id": 3,
         "title": "SICPIA",
         "teamProject": 2,
-        "resume": "Projet de simulation financière, à destination de l'état major des armées, pour aide à la décision budgetaire sur les opérations d'armements",
+        "resume": "Projet de simulation financière, à destination de l'état major des armées, pour aide à la décision budgétaire sur les opérations d'armements",
         "thumbUrl": "ressources/images/thumbProject/sicpia.jpg",
         "involvements": [
             "Assister le chef de projet",
@@ -240,7 +240,7 @@
         "id": 5,
         "title": "PATRONS APPLICATIFS",
         "teamProject": 1,
-        "resume": "Mise à disposition de squelettes d'application JAVA JEE pour servir de cadre aux nouveaux projets du centre de développement",
+        "resume": "Mise à disposition de squelettes d'applications JAVA JEE pour servir de cadre aux nouveaux projets du centre de développement",
         "thumbUrl": "ressources/images/thumbProject/pattern.jpg",
         "involvements": [
             "Responsable de la réalisation",
@@ -437,7 +437,7 @@
         "id": 9,
         "title": "FOXGUARD CIN",
         "teamProject": 2,
-        "resume": "Contrôle des accès, avec lecteurs de badge de proximité, sur plusieurs sites géographiques",
+        "resume": "Contrôle des accès, avec lecteurs de badges de proximité, sur plusieurs sites géographiques",
         "thumbUrl": "ressources/images/thumbProject/foxguardcs.jpg",
         "involvements": [
             "Maître d'oeuvre",
@@ -445,14 +445,14 @@
             "Participer activement à l'analyse fonctionnelle avec le client",
             "Concevoir complètement le système",
             "Élaborer la documentation fonctionnelle et technique",
-            "Réaliser complètement la partie Java Swing (aquisition des pointages, contrôle visuel, et gestion des badges)",
+            "Réaliser complètement la partie Java Swing (acquisition des pointages, contrôle visuel, et gestion des badges)",
             "Superviser la réalisation de la partie Php (consultation des données) par un collaborateur ",
             "Tester le système in-situs",
             "Livrer le produit au client"
         ],
         "businessDetails": [
             "Système permettant la gestion, le contrôle, et la consultation des accès sur base",
-            "Fonctionne avec des lecteurs de badge de proximité, et des boitiers adaptateurs série RS232/Ethernet",
+            "Fonctionne avec des lecteurs de badges de proximité, et des boitiers adaptateurs série RS232/Ethernet",
             "Application n-tiers : une partie principale en Java et une autre en Php",
             "Utilise un système personnalisé de synchronisation des bases de données",
             "Deux sites géographiques de contrôle et 9 lecteurs de badges au total",
@@ -491,7 +491,7 @@
         "id": 10,
         "title": "GEOGUARD",
         "teamProject": 1,
-        "resume": "Outil graphique de création de carte vectorielle dans un format spécifique Marine Nationale",
+        "resume": "Outil graphique de création de cartes vectorielles dans un format spécifique Marine Nationale",
         "thumbUrl": "ressources/images/thumbProject/geoguard.jpg",
         "involvements": [
             "Maître d'oeuvre",
@@ -500,8 +500,8 @@
             "Livrer le produit au client"
         ],
         "businessDetails": [
-            "Outil graphique de création de carte vectorielle dans un format spécifique Marine Nationale",
-            "Récupérer les trames GPS émisent en UDP sur le réseaux ethernet du bord",
+            "Outil graphique de création de cartes vectorielles dans un format spécifique Marine Nationale",
+            "Récupérer les trames GPS émises en UDP sur le réseaux ethernet du bord",
             "Historiser dans un format spécifique à la Marine, la position du bateau pour les rejeux d'exercices"
         ],
         "begin": "",
@@ -540,7 +540,7 @@
         ],
         "businessDetails": [
             "Système délocalisé de table traçante informatisée",
-            "Permets l'affichage, l'archivage, et le rejeu de la situation tactique en temps réel",
+            "Permet l'affichage, l'archivage, et le rejeu de la situation tactique en temps réel",
             "Alternative à l’utilisation des tables traçantes vieillissantes et peu fiables sur FASM"
         ],
         "begin": "",
@@ -576,7 +576,7 @@
         ],
         "businessDetails": [
             "Mise à disposition d'informations calculées en temps réel grâce à la position GPS",
-            "Elles sont utilent pour le paramétrage et la configuration de la station Syracuse",
+            "Elles sont utiles pour le paramétrage et la configuration de la station Syracuse",
             "Information et prévision du masquage des antennes paraboliques dans la mâture du bateau"
         ],
         "begin": "",
@@ -602,7 +602,7 @@
         "id": 13,
         "title": "FOXGUARD",
         "teamProject": 1,
-        "resume": "Contrôle de présence, avec un lecteur de badge de proximité",
+        "resume": "Contrôle de présence, avec un lecteur de badges de proximité",
         "thumbUrl": "ressources/images/thumbProject/foxguard.jpg",
         "involvements": [
             "Maître d'oeuvre",
@@ -612,7 +612,7 @@
         ],
         "businessDetails": [
             "Contrôle et requête sur la présence de personnel à bord",
-            "Utilisation d'un lecteur de badge de proximité"
+            "Utilisation d'un lecteur de badges de proximité"
         ],
         "begin": "",
         "end": "",
@@ -636,7 +636,7 @@
         "id": 14,
         "title": "PROJET CONFIDENTIEL",
         "teamProject": 2,
-        "resume": "Logiciel de cartographie et de contrôle des navires emmettant AIS sur les théatres d'opérations.",
+        "resume": "Logiciel de cartographie et de contrôle des navires émettant AIS sur les théatres d'opérations.",
         "thumbUrl": "ressources/images/thumbProject/confidential.jpg",
         "involvements": [
             "Maître d'oeuvre",
@@ -645,10 +645,10 @@
             "Tester et livrer le produit in-situs"
         ],
         "businessDetails": [
-            "Logiciel Confidentiel Défense utilisé par le central opération de la frégate",
+            "Logiciel Confidentiel Défense utilisé par le central opérations de la frégate",
             "Décodage et traitement des trames AIS et GPS émises sur le réseau du bord",
             "Affichage détaillé sur une carte des bateaux environnants émettant AIS",
-            "Détection automatique des bâtiments d'intérêts, surveillé par la France",
+            "Détection automatique des bâtiments d'intérêts, surveillés par la France",
             "Génération automatique des messages officiels ACP pour compte rendu des détections"
         ],
         "begin": "",

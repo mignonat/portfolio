@@ -5,13 +5,19 @@
             
             <h1 class="text-left margTop15">
                 {{ 'Job' | translate }} 
-                
             </h1>
             <blockquote>
                 
                 <p>
-                    <span><strong class="bold"><big>{{ 'identDetails' | translate }}</big></strong></span>
+                    <span>
+                        <strong class="bold">
+                            <big>
+                                {{ 'identDetails' | translate }}
+                            </big>
+                        </strong>
+                    </span>
                 </p>
+                
                 <p>
                     <span>
                         {{ 'address' | translate }}
@@ -43,7 +49,9 @@
     <h2>{{ 'References' | translate }}</h2>
     <blockquote>
         
-        <p ng-click="refHoluigue = !refHoluigue" class="cursorHand justify lh40">            
+        <p ng-click="refHoluigue = !refHoluigue" 
+           class="cursorHand justify lh40">  
+            
             <label class="btn btn-perso"> 
                 <span class="glyphicon glyphicon-search"></span>
                 <span ng-hide="refHoluigue" class="glyphicon glyphicon-chevron-down"></span>
@@ -58,7 +66,9 @@
         
         </p>
         
-        <p ng-click="refCin = !refCin" class="cursorHand justify lh40">
+        <p ng-click="refCin = !refCin" 
+           class="cursorHand justify lh40">
+            
             <label class="btn btn-perso"> 
                 <span class="glyphicon glyphicon-search"></span>
                 <span ng-hide="refCin" class="glyphicon glyphicon-chevron-down"></span>
@@ -73,7 +83,9 @@
             
         </p>
         
-        <p ng-click="refCrommelinck = !refCrommelinck" class="cursorHand justify lh40">
+        <p ng-click="refCrommelinck = !refCrommelinck" 
+           class="cursorHand justify lh40">
+            
             <label class="btn btn-perso"> 
                 <span class="glyphicon glyphicon-search"></span>
                 <span ng-hide="refCrommelinck" class="glyphicon glyphicon-chevron-down"></span>
@@ -125,12 +137,25 @@
             </a>
         </p>
         
+        <p class="margBot10">
+            <a href="http://fr.linkedin.com/pub/laurent-mignonat/93/964/b72/" 
+               target="_self" 
+               class="nounderline blueColor">
+                <img ng-src="ressources/images/linkedin.png" style="width: 30px ; height: 30px ;"/> | 
+                <span class="txtNormal">{{ 'linkedin' | translate }}</span>
+            </a>
+        </p>
+        
         <p>
-            <a href="https://github.com/mignonat/portfolio" target="_self" class="nounderline blueColor">
+            <a href="https://github.com/mignonat/portfolio/tree/master/public_html/ressources/js/angular" 
+               target="_self" 
+               class="nounderline blueColor">
                 <img ng-src="ressources/images/git.png" style="width: 30px ; height: 30px ;"/> | 
                 <span class="txtNormal">{{ 'git' | translate }}</span>
             </a>
         </p>
+        
+        
         
     </blockquote>
     

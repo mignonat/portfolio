@@ -5,759 +5,269 @@
     "ects" : 6,
     "title" : "Test of English for International Communication",
     "goals" : [ 
-               "Mesurer le niveau d'anglais"
+               " English language test designed specifically to measure the everyday English skills of people working in an international environment."
              ],
-    "chapters" : [ 
-                    { 
-                      "title" : "English language test.",
-                      "detail" : "Designed specifically to measure the everyday English skills of people working in an international environment."
-                    }
-                  ],
+    "chapters" : [],
     "score": 750,
     "scoreMax": 990,
-    "date" : "Juin 2013"
+    "date" : "June 2013"
   },{
     "code" : "NFE113",
     "category" : 0,
     "ects" : 6,
-    "title" : "Conception et administration de bases de données",
+    "title" : "Design and administration of databases",
     "goals" : [ 
                "Savoir concevoir et administrer une base de données relationnelle.",
                "Manipuler une base de données relationnelle via un langage procédural tel PL/SQL.",
                "Connaître les caractéristiques du SGBD Oracle."  
               ],
-    "chapters" : [ 
-                    { 
-                      "title" : "Introduction",
-                      "detail" : "Définitions et approches générales aux bases de données et aux systèmes de gestion de bases de données. Rappel : La modélisation conceptuelle de données : le modèle E-R et le modèle EER : les mécanismes d'abstraction et la démarche / règles de constitution d'un MCD. Rappel : Les concepts de base du modèle relationnel et les règles de passage du modèle E-R au modèle relationnel. La théorie de la normalisation du modèle relationnel, 4ème et 5ème formes normales."
-                    },
-                    { 
-                      "title" : "Architecture d'une Base de données relationnelle",
-                      "detail" : "Description détaillée de la structure logique. Description de la structure physique."
-                    },
-                    { 
-                      "title" : "Architecture d'un SGBDR",
-                      "detail" : "Les modules fonctionnels : analyseur de requête et gestionnaire de données. L'optimiseur des requêtes : rôles, stratégie d'exécution des plans d'exécution, modes d'évaluation du coût de requête, limites. Le gestionnaire des transactions : définition et propriétés. La gestion des accès concurrents : définition et propriétés. Le verrouillage des données : concepts de base, granularité, typologies, compatibilité entre les modes de verrouillage. La gestion de reprise après incident : approches, nature des pannes, stratégie."
-                    },
-                    { 
-                      "title" : "Mise en oeuvre d'une base de données relationnelle",
-                      "detail" : "Rappel : les opérateurs algébriques. Création d'une base de données (instance Oracle) : tablespaces, tables, vues, index, trigger, procédure, ...etc. Gestion des droits d'accès (Grant, Revoke). Alimentation d'une base de données. Manipulation d'une base de données. SQL et PL/SQL : application aux 'triggers'."
-                    },
-                    { 
-                      "title" : "Administration / optimisation d'une base de données",
-                      "detail" : "Niveaux d'administration / d'optimisation et les liens entre ces différents niveaux : conceptuel, logique et physique. Fonctions d'administration : Sécurité logique (authentification) et physique (sauvegarde) de données, gestion du référentiel, surveillance du bon fonctionnement de la base, amélioration des performances, .... Règles de base pour garantir une bonne performance de la BD : Choix pertinent des index, répartition judicieuse des tablespaces. Optimisation des requêtes."
-                    },
-                    { 
-                      "title" : "Approches à la gestion des bases de données réparties ou fédérées",
-                      "detail" : "Définitions et typologies des SI réparties. Techniques utilisées dans la répartition des données : fragmentation et réplication. Méthode de conception d'une base de données réparties."
-                    }
-                  ],
+    "chapters" : [],
     "score": 14,
     "scoreMax": 20,
-    "date" : "Juin 2012"
+    "date" : "June 2012"
   },
   {
     "code" : "TET102",
     "category" : 1,
     "ects" : 6,
-    "title" : "Management social pour ingénieur et communication en entreprise",
+    "title" : "Social management for engineer, and business communication",
     "goals" : [ 
                "Sensibiliser les ingénieurs et cadres techniques aux aspects humains du fonctionnement des organisations.",
                "Mesurer les enjeux de la GRH et du Management.",
                "Acquérir des bases en droit social.",
                "Acquérir les outils et les repères théoriques  pour mieux communiquer en situation de travail"  
               ],
-    "chapters" : [ 
-                    { 
-                      "title" : "Les hommes dans les Organisations",
-                      "detail" : "La GRH et les personnes dans l'entreprise. Le besoin d'implication et de management de proximité. Séance panorama des différentes conceptions de l'homme et de l'entreprise."
-                    },
-                    { 
-                      "title" : "Le management d'équipes",
-                      "detail" : "La motivation des équipes. Leadership et autorité. Gestion des conflits et négociation."
-                    },
-                    { 
-                      "title" : "Les Pratiques de la gestion des ressources humaines",
-                      "detail" : "Introduction à la GRH. La gestion prévisionnelle des emplois et des compétences. L'évaluation en entreprise : du recrutement à la gestion des carrières."
-                    },
-                    { 
-                      "title" : "Initiation à la Communication",
-                      "detail" : "Les outils de la communication et de la coopération au travail. La communication professionnelle Droit social. Place et objet du droit du travail. Relations individuelles de travail. Relations collectives de travail."
-                    }
-                  ],
+    "chapters" : [],
     "score": 17.5,
     "scoreMax": 20,
-    "date" : "Juin 2012"
+    "date" : "June 2012"
   },
   {
     "code" : "RCP101",
     "category" : 3,
     "ects" : 6,
-    "title" : "Recherche opérationnelle et aide à la décision",
+    "title" : "Operations Research and Decision Support",
     "goals" : [ 
                "Présenter des notions de recherche opérationnelle et d'aide à la décision indispensables pour de futurs ingénieurs, décideurs, responsables de projets." 
              ],
-    "chapters" : [ 
-                    { 
-                      "title" : "Graphes et ordonnacement en gestion de projets",
-                      "detail" : "Rappels des concepts élémentaires de théorie des graphes. Problème du chemin de valeur optimale entre deux sommets. Ordonnancement de projets : méthodes PERT et MPM (chemin critique, marges). Traitement des contraintes cumulatives (budget)." 
-                    },
-                    { 
-                      "title" : "Programmation linéaire et applications",
-                      "detail" : "Généralités : origine, domaines d'application, pertinence. Introduction géométrique puis algébrique à l'algorithme du simplexe. Problème de la base initiale. Dualité. Analyse en sensibilité (paramétrages)." 
-                    },
-                    { 
-                      "title" : "Analyse multicritère",
-                      "detail" : "Méthodologie : modélisation d'un problème de décision ; concept de critères, approches monocritère et multicritère. Méthodes de surclassement : méthodes ELECTRE, Goal-programming et liens avec la programmation linéaire." 
-                    },
-                    { 
-                      "title" : "Elements de théorie des files d'attente et de sûreté de fonctionnement",
-                      "detail" : "Loi de Poisson, loi exponentielle. Processus de MARKOV : processus de naissance et de mort. File d'attente M/M/1 et applications. Fiabilité des composants, des systèmes (notions). Paramètres de la sûreté de fonctionnement." 
-                    }
-                  ],
+    "chapters" : [],
     "score": 18,
     "scoreMax": 20,
-    "date" : "Février 2013"
+    "date" : "February 2013"
   },
   {
     "code" : "NSY103",
     "category" : 9,
     "ects" : 6,
-    "title" : "Linux : Principes et programmation",
+    "title" : "Linux : Principles and programmation",
     "goals" : [ 
                "Savoir développer une application multi processus utilisant des outils de communication et de synchronisation sous Linux/Unix.",
                "Appréhender les mécanismes fondamentaux des systèmes d'exploitation" ,
                "Comprendre la problématique des systèmes temps réels et les particularités de ces systèmes" 
               ],
-    "chapters" : [ 
-                    { 
-                      "title" : "Introduction générale",
-                      "detail" : "Rappels d'architecture machine. Structure des systèmes informatiques. Structure des systèmes d'exploitation." 
-                    },
-                    { 
-                      "title" : "Gestion de processus",
-                      "detail" : "Processus : concepts, opérations sur les processus. Processus coopératifs, threads, communications inter-processus (tubes, files de messages, segments de mémoire partagée)." 
-                    },
-                    { 
-                      "title" : "Ordonnancement de l'unité centrale",
-                      "detail" : "Concepts et critères d'ordonnancement. Ordonnancement temps réel" 
-                    },
-                    { 
-                      "title" : "Synchronisation de processus",
-                      "detail" : "Section critique, sémaphores, problèmes classiques." 
-                    },
-                    { 
-                      "title" : "Interblocage",
-                      "detail" :  "Prévention, détection, correction"
-                    },
-                    { 
-                      "title" : "Gestion de la mémoire",
-                      "detail" : "Pagination. Segmentation. Mémoire virtuelle." 
-                    },
-                    { 
-                      "title" : "Systèmes de fichiers",
-                      "detail" : "Interfaces des systèmes de fichiers et implémentation." 
-                    },
-                    { 
-                      "title" : "Systèmes distribués",
-                      "detail" : "Structure des réseaux et structure des systèmes répartis. Programmation socket" 
-                    }
-                  ],
+    "chapters" : [],
     "score": 19,
     "scoreMax": 20,
-    "date" : "Février 2013"
+    "date" : "February 2013"
   },
   {
     "code" : "NFP121",
     "category" : 2,
     "ects" : 6,
-    "title" : "Programmation avancée",
+    "title" : "Advanced programming",
     "goals" : [
                "Maitriser les concepts avancés de la programmation objet en Java.",
                "Apprendre à identifier et utiliser les patrons (design pattern) adaptés à une situation de conception."
              ],
-    "chapters" : [ 
-                    { 
-                      "title" : "Structure des applications objets avec JAVA",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Types primitifs, Aspects impératifs du langage",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Interfaces, Types, Classes et polymorphisme",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Assertions et tests unitaires",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Programmation évènementielle",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Généricité et Collections",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Structures de données et Patterns de conception",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Introspection et réflexivité en Java",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Programmation des Entrées/Sorties",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "XML et JAVA",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Programmation concurrente",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Introduction à la programmation réseau",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Injection de dépendances",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Programmation par Contrat",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Validation des programmes",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Méthodes de développement et langage UML",
-                      "detail" : ""
-                    }
-                  ],
+    "chapters" : [],
     "score": 14.5,
     "scoreMax": 20,
-    "date" : "Février 2013"
+    "date" : "February 2013"
   },
   {
     "code" : "RCP110",
     "category" : 3,
     "ects" : 6,
-    "title" : "Recherche opérationnelle et programmation linéaire avancée",
+    "title" : "Operations research and advanced linear programming",
     "goals" : [ 
                "Approfondir un des thèmes majeurs de la recherche opérationnelle : la programmation linéaire" 
              ],
-    "chapters" : [ 
-    				{ "title" : "Systèmes d'équation linéaires et matrices",
-                      "detail" : "Notions de déterminant, inversion d'une matrice régulière" 
-                    }, 
-                    { 
-                      "title" : "Bases d'une programmation linéaire",
-                      "detail" : "Correspondance entre bases realisables et sommets admissibles d'une programmation linéaire. Algorithmes du simplexe (méthode algébrique, méthode des tableaux, complexité)" 
-                    }, 
-                    { 
-                      "title" : "Méthode révisée du simplex" ,
-                      "detail" : "Dualité (définition ; liens entre le primal et le dual, correspondance entre l'optimum du primal et du dual ; relations d'exclusion ; interprétation économique des variables duales)" 
-                    },
-                    { 
-                      "title" : "Théorie des jeux",
-                      "detail" : "Elements" 
-                    },
-                    { 
-                      "title" : "Analyse en sensibilité",
-                      "detail" : "Paramétrages : cas de la fonction économique, cas des seconds membres" 
-                    },
-                    { 
-                      "title" : "Modélisation",
-                      "detail" : "Modélisation de problème" 
-                    },
-                    { 
-                      "title" : "Programmation linéaire en nombres entiers",
-                      "detail" : "modélisation, algorithmes de résolution, saut de dualité" 
-                    }
-                  ],
+    "chapters" : [],
     "score": 17,
     "scoreMax": 20,
-    "date" : "Juin 2013"
+    "date" : "June 2013"
   },
   {
     "code" : "RSX112",
     "category" : 4,
     "ects" : 6,
-    "title" : "Sécurité et réseaux",
+    "title" : "Security and networks",
     "goals" : [ 
                "Ce cours présente les principaux aspects de la sécurité des réseaux.",
                "Il traite des problèmes généraux de sécurité (confidentialité, intégrité, authentification, protection, non répudiation), et des solutions types connues pour ces problèmes.",
                "Il présente la mise en oeuvre de ces solutions dans l'architecture Internet." 
               ],
-    "chapters" : [ 
-                    { 
-                      "title" : "Introduction",
-                      "detail" : "Positionnement des problèmes de sécurité Risques et menaces, contexte normatif, méthodologies d'analyse de sécurité (Marion, Melisa, Mehari). Les différents problèmes à résoudre. Situation des protocoles de sécurité dans l'architecture Internet. Contexte légal et aspects juridiques."
-                    },
-                    { 
-                      "title" : "Protection de l'accès aux données et protection des interfaces dans les systèmes",
-                      "detail" : "Gestion des droits dans les systèmes : politiques discrétionnaires et obligatoires. Architectures de machines à anneaux et à capacités. Exemple de la protection dans les systèmes de fichiers, dans les répertoires de pages Web."
-                    },
-                    { 
-                      "title" : "Protection dans les réseaux",
-                      "detail" : "Mécanismes de filtrages des messages, murs pare-feux (firewalls)."
-                    },
-                    { 
-                      "title" : "Cryptographie",
-                      "detail" : "Introduction aux problèmes de cryptographie Cryptographie à clés secrètes : concepts généraux, exemple des chiffres DES, IDEA, RC4, AES. Cryptographie à clé publique : concepts généraux, exemple du RSA. Fonctions de hachage sécuritaire : exemples MD5, SHA."
-                    },
-                    { 
-                      "title" : "Protocoles de sécurité dans les réseaux",
-                      "detail" : "Protocoles de confidentialité : mise en oeuvre des méthodes de chiffrement par blocs, par flots Protocoles d'intégrité et d'authentification des messages : MAC et signatures Protocoles d'authentification des usagers : protocoles à mots de passe (Radius), protocoles à clés publiques. Mécanismes de protection contre les virus."
-                    },
-                    { 
-                      "title" :"Mise en oeuvre des protocoles de sécurité" ,
-                      "detail" : "Infrastructures à clés publiques (PKI). Sécurité de la couche liaison (L2TP, protection des réseaux WIFI). Sécurité au niveau réseau : IPSEC. Sécurité au niveau transport : SSL, TLS. Sécurisation du DNS : normes DNSSEC. Sécurité du courrier électronique : SMIME, mécanismes anti spam. Sécurité des applications Web : sécurisation http, sécurisation des services Web. Introduction aux techniques de détection d'intrusion (IDS)."
-                    }
-                  ],
+    "chapters" : [],
     "score": 11,
     "scoreMax": 20,
-    "date" : "Juin 2013"
+    "date" : "June 2013"
   },
   {
     "code" : "RSX102",
     "category" : 4,
     "ects" : 6,
-    "title" : "Technologies pour les applications client-serveur",
+    "title" : "Technologies for client-server applications",
     "goals" : [ 
                "Ce cours concerne les applications en mode client serveur dans l'architecture Internet.",
                "Il détaille les protocoles des réseaux des couches hautes (niveaux session, présentation, application) avec une orientation marquée vers les protocoles d'application (DNS, SMTP... ) et les Web Services." 
               ],
-    "chapters" : [
-                    { 
-                      "title" : "Introduction",
-                      "detail" : "Généralités sur les architectures client serveur et l'architecture Internet couches hautes."
-                    },
-                    { 
-                      "title" : "Programmation en mode messages",
-                      "detail" : "Conception des applications en mode message, modélisation des protocoles par automates synchronisés : exemple de l'interface Socket, le bilan de cette phase d'enseignement est close par un TP sur les sockets."
-                    },
-                    { 
-                      "title" : "Programmation en mode Appel de Procédure à Distance",
-                      "detail" : "(RPC, Remote Procedure Call), Un cours/TP sur Java RMI illustrera cette partie du cours. Le protocole NFS (Network File System) d'accès à des fichiers à distance illustre l'utilisation du RPC."
-                    },
-                    { 
-                      "title" : "Applications Client/Serveur en Web Services",
-                      "detail" : "Programmation par web services avec XML/SOAP, un TP illustrera ce cours"
-                    },
-                    { 
-                      "title" : "Applications client serveur de l'Internet",
-                      "detail" : "Syntaxe abstraite, syntaxe de transfert : ASN1/BER et son utilisation pour la Gestion de Réseaux : Protocole SNMP (Simple Network Management Protocol)"
-                    },
-                    { 
-                      "title" : "Annuaires répartis",
-                      "detail" : "exemple de l'annuaire DNS."
-                    },
-                    { 
-                      "title" : "Messageries",
-                      "detail" : "Exemple du protocole SMTP, format MIME."
-                    }
-                  ],
+    "chapters" : [],
     "score": 14,
     "scoreMax": 20,
-    "date" : "Juin 2013"
+    "date" : "June 2013"
   },
   {
     "code" : "NFP107",
     "category" : 0,
     "ects" : 6,
-    "title" : "Systèmes de gestion de bases de données",
+    "title" : "Databases management system",
     "goals" : [ 
                "Connaissance approfondie des SGBD relationnels à tous les niveaux.",
                "Maitrise du langage SQL."
              ],
-    "chapters" : [ 
-                    { 
-                      "title" : "Modèle conceptuel de données et liens avec le modèle relationnel.",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Rappels sur l'algèbre relationnelle.",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Étude approfondie du langage de requêtes standard SQL.",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Architecture générale : les différentes fonctions, les différents niveaux",
-                      "detail" : "Le stockage physique des données. Les index. Algorithmes de jointure."
-                    },
-                    { 
-                      "title" : "Évaluation et optimisation des requêtes (ORACLE)",
-                      "detail" : "Plan d'exécution. Mécanismes d'optimisation."
-                    },
-                    { 
-                      "title" : "Concurrence d'accès et reprise sur panne",
-                      "detail" : "Principes de la concurrence d'accès et de la reprise . Verrouillage à deux phases et hiérarchique. Journalisation et reprise sur panne."
-                    }
-                  ],
+    "chapters" : [],
     "score": 18.25,
     "scoreMax": 20,
-    "date" : "Février 2014"
+    "date" : "February 2014"
   },
   {
     "code" : "NFE108",
     "category" : 5,
     "ects" : 6,
-    "title" : "Méthodologies des systèmes d'information",
+    "title" : "Methodologies of information systems",
     "goals" : [ 
                "Mener l'analyse et la conception d'un système d'information depuis l'analyse des besoins en appliquant une méthode orientée-objet inspirée des pratiques du processus unifié.",
                "Etre capable de prendre en compte la qualité du produit de l'analyse et ce en respectant les principes de la conception orientée-objet tels que la modularité et l'évolutivité." 
              ],
-    "chapters" : [ 
-                    { 
-                      "title" : "Introduction aux méthodologies des systèmes d'information",
-                      "detail" : "Le cycle de vie d'un système d'information. Les niveaux d'abstraction d'un système d'information."
-                    },
-                    { 
-                      "title" : "La méthode MERISE (Rappels)",
-                      "detail" : "Les notations. La démarche de conception."
-                    },
-                    { 
-                      "title" : "L'approche objet",
-                      "detail" : "Les concepts de base. Panorama des concepts objet."
-                    },
-                    { 
-                      "title" : "UML et processus unifié",
-                      "detail" : "Introduction au processus unifié. Capture des besoins (diagramme de cas d'utilisation). Analyse des besoins  : des besoins aux classes (diagramme de classes et diagramme de paquetage). Interaction entre objets (diagramme de séquence et diagramme de collaboration). Spécifications des contrôles et des opérations."
-                    },
-                    { 
-                      "title" : "De l'analyse à la conception",
-                      "detail" : "Une vue guidée par le processus unifié. Patterns d'analyse. Vue architecturale (architectures logicielles)."
-                    },
-                    { 
-                      "title" : "Les outils AGL (Atelier Génie Logiciel",
-                      "detail" : "Principes et exemples"
-                    }
-                  ],
+    "chapters" : [],
     "score": 20,
     "scoreMax": 20,
-    "date" : "Février 2013"
+    "date" : "February 2013"
   },
   {
     "code" : "NFE107",
     "category" : 8,
     "ects" : 6,
-    "title" : "Urbanisation et architecture des systèmes d'information",
+    "title" : "Urbanization and architecture of information systems",
     "goals" : [ 
                 "Présentation de l'ensemble des concepts de base, les pré-requis et les règles de bonnes pratiques qui sous-tendent une étude d'urbanisation et d'architecture structurée selon les trois visions suivantes : La vision métier (Quels métiers) / La vision fonctionnelle (Quoi) /La vision Informatique (Comment)."  
              ],
-    "chapters" : [ 
-                    { 
-                      "title" : "Introduction",
-                      "detail" : "Pourquoi 'Urbaniser un SI'. Quelles solutions. Définitions. Le parallèle entre l'urbanisation de la cité et l'urbanisation du SI. De la stratégie aux projets. La trajectoire de rationalisation. Les six activités clefs de l'urbanisme. Les missions de l'urbanisation."
-                    },
-                    { 
-                      "title" : "Vue Métier",
-                      "detail" : "Concepts et définitions. Vision métier et stratégie. Modélisation de la stratégie. Modélisation des processus métier. Conclusion : concepts et démarche."
-                    },
-                    { 
-                      "title" : "Vue fonctionnelle",
-                      "detail" : "Démarche de construction de la vue fonctionnelle. Règles d'urbanisation. Blocs fonctionnels communiquants : Zone fonctionnelle/Quartier fonctionnel/Îlot fonctionnel. Fonction / Service fonctionnel. Concepts de substance."
-                    },
-                    { 
-                      "title" : "Vue applicative 'fonctionnelle'",
-                      "detail" : "Les blocs applicatifs. Les prises. Le gestionnaire de flux (ou bus logiciel). Les flux et les messages échangés entre blocs applicatifs. Le positionnement de chaque application par rapport à son usage : front office (FO)/back office (BO)/middle office (MO). Les artères de communication."
-                    },
-                    { 
-                      "title" : "Vue Informatique",
-                      "detail" : "Architecture Applicative 'Technique'. Architecture logicielle. Architecture physique"
-                    },
-                    { 
-                      "title" : "Facteurs de succès d'un projet d'urbanisation",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Etude de cas",
-                      "detail" : "Une étude de cas a été réalisé à l'aide du logiciel Archimate"
-                    }
-                  ],
+    "chapters" : [],
     "score": 14.5,
     "scoreMax": 20,
-    "date" : "Février 2014"
+    "date" : "February 2014"
   },
   {
     "code" : "EME102",
     "category" : 6,
     "ects" : 6,
-    "title" : "Management et organisation des entreprises",
+    "title" : "Management and businesses organization",
     "goals" : [ 
                "Sensibiliser les ingénieurs et cadres de formation initiale technique aux aspects économiques et managériaux de leur métier.",
                "Les ouvrir à la complexité de l'environnement socio-économique de l'entreprise",
                "Leur faire connaître les outils de gestion des activités les concernant tout particulièrement : les aider à comprendre l'impact sur leur fonction et à développer un comportement adapté."
               ],
-    "chapters" : [ 
-                    { 
-                      "title" : "Une entreprise : une organisation à piloter",
-                      "detail" : "Les flux économiques de l'entreprise, la gestion financière, la gestion et la démarche prévisionnelle."
-                    },
-                    { 
-                      "title" : "Modélisation de l'activité, les outils de gestion de produits et processus",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Portefeuille d'activités et  sa gestion dans la concurrence",
-                      "detail" : ""
-                    }
-                  ],
+    "chapters" : [],
     "score": 14.5,
     "scoreMax": 20,
-    "date" : "Février 2014"
+    "date" : "February 2014"
   },
   {
     "code" : "NFE209",
     "category" : 7,
     "ects" : 6,
-    "title" : "Ingénierie des systèmes d'information - Audit et gouvernance",
+    "title" : "Engineering of information systems - Audit and Governance",
     "goals" : [ 
                "Maîtriser les méthodes, modèles et outils utilisées dans la planification et l'évaluation des systèmes d'information",
                "Elaborer un schéma stratégique des systèmes d'information",
                "Mettre en oeuvre une démarche d'audit informatique"
              ],
-    "chapters" : [ 
-                    { 
-                      "title" : "Introduction aux systèmes d'information",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Planification stratégique et urbanisation des systèmes d'information",
-                      "detail" : "Elaboration des schémas directeurs des systèmes d'information. Urbanisation des systèmes d'information. Gouvernance des systèmes d'information. Reconfiguration des processus et systèmes d'information. Cas d'application."
-                    },
-                    { 
-                      "title" : "Audit des systèmes d'information",
-                      "detail" : "Les concepts d'audit. Les normes et les référentiels d'audit. Le risque d'audit. Les démarches d'audit : COBIT et INFAUDITOR. Les outils d'audit. Cas d'application."
-                    }
-                  ],
+    "chapters" : [],
     "score": 13.5,
     "scoreMax": 20,
-    "date" : "Février 2014"
+    "date" : "February 2014"
   },
   {
     "code" : "NFE210",
     "category" : 7,
     "ects" : 6,
-    "title" : "Ingénierie des systèmes d'information - Méthodes avancées",
+    "title" : "Engineering of information systems - Advanced methods",
     "goals" : [ 
                "Maîtriser les méthodes, modèles et outils utilisés dans la conception et l'évolution des systèmes d'information",
                "Etre capable d'assurer l'évolution et la maintenance d'un système d'information existant",
                "Maîtriser les techniques et outils de gestion de projet informatique",
                "Etre en mesure d'adapter les méthodes existantes aux besoins spécifiques de certains systèmes d'information"
              ],
-    "chapters" : [ 
-                    { 
-                      "title" : "Ingénierie des besoins",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Estimation des charges",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Intégration de systèmes d'information",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Rétro-conception de systèmes d'information",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Qualité du système d'information",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Qualité du logiciel",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Conception physique de base de données",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Recettage fonctionnel",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Conduite du changement",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Sécurité du système d'information",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Maintenance et évolution du système d'information",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Documentation du système d'information",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Le référentiel ITIL",
-                      "detail" : ""
-                    }
-                  ],
+    "chapters" : [],
     "score": 12.5,
     "scoreMax": 20,
-    "date" : "Juin 2014"
+    "date" : "June 2014"
   },
   {
     "code" : "NFE103",
     "category" : 5,
     "ects" : 6,
-    "title" : "Méthodologies avancées d'informatisation",
+    "title" : "Advanced methodologies",
     "goals" : [ 
                "Acquérir les concepts et les notations utilisés par le langage UML.",
                "Maîtriser un atelier UML",
                "Acquérir les bases méthodologiques essentielles résultant des derniers développements des méthodes orientées objet.",
                "Faire la synthèse des techniques orientées-objet de conception des systèmes d'information d'entreprise."  
               ],
-    "chapters" : [ 
-                    { 
-                      "title" : "Introduction",
-                      "detail" : "Principes des Méthodologies Orientées-Objet"
-                    },
-                    { 
-                      "title" : "Concepts objets, Unified Modeling Language (UML)",
-                      "detail" : "Concepts objets, notations UML : Objets et classes ; Notations UML : diagramme de classes et d'instances ; Abstraction, encapsulation ; Liens et associations ; Agrégation. Héritage ; Autres concepts UML : Relation de dépendance ; Paquetage. Stéréotype. Interface. Note et Etiquette. K ; Contrainte, Object Constraint Language (OCL) ; Association et attribut dérivés. Profils UML ; Modélisation de la Dynamique : Cas d'utilisation, scénarios ; Evénements, état, transition ; Scénario : diagramme de séquence ; Etats : diagramme d'états ; Relation entre modèle objet et modèle dynamique 3. Méthodologies orientée-objets"
-                    },
-                    { 
-                      "title" : "Présentation des principales méthodologies orientées-objet",
-                      "detail" : "Cycle de vie. Construction des modèles statique et dynamique. Rational Unified Process (RUP). Méthode Larman. Méthodes Agiles : Extreme Programming (XP). Autres méthodes."
-                    },
-                    { 
-                      "title" : "Conception Objet",
-                      "detail" : "Diagramme de collaborations. Exceptions et règles de gestion. Traitement de la persistance. Passage au schéma relationnel."
-                    },
-                    { 
-                      "title" : "Objets réutilisables",
-                      "detail" : "Modèles de conception : patrons, frameworks. Exemples de patrons."
-                    },
-                    { 
-                      "title" : "Conception avec des objets réutilisables",
-                      "detail" : "Modèle-vue-contrôleur (STRUTS). Entreprise Java Beans (EJB). Profil UML de STRUTS et des EJBs."
-                    },
-                    { 
-                      "title" : "Extension d'UML 1. X",
-                      "detail" : "Apports d'UML 2.0. Model Driven Architecture (MDA)."
-                    }
-                  ],
+    "chapters" : [],
     "score": 13,
     "scoreMax": 20,
-    "date" : "Juin 2014"
+    "date" : "June 2014"
   },
   {
     "code" : "NFE102",
     "category" : 2,
     "ects" : 6,
-    "title" : "Infrastructures technologiques pour le commerce électronique",
+    "title" : "Technological infrastructure for e-commerce",
     "goals" : [ 
                "Maîtriser la conception et la mise en oeuvre des architectures technologiques d'un site de commerce électronique."
              ],
-    "chapters" : [ 
-                    { 
-                      "title" : "Introduction",
-                      "detail" : "Les différentes formes de commerce électronique (négociations et enchères). Présentation des concepts, des problèmes informatiques et des outils de base du commerce électronique."
-                    },
-                    { 
-                      "title" : "Les langages du WEB",
-                      "detail" : "Le langage HTML et les feuilles de style (CSS). Les langages de scripts Javascript, PHP et JSP. Programmation en PHP/MySQL. Un exemple d'un site simple de vente réalisé avec PHP/MySQL."
-                    },
-                    { 
-                      "title" : "Les bases du langage XML",
-                      "detail" : "Notion de documents valides : balises, entités, liens. Notion de documents bien formés : DTD. Les feuilles de site XSL : les langages Xpath et XSLT. L'environnement XML : RDF. Autres languages XML : RSS et Atom."
-                    },
-                    { 
-                      "title" : "Sécurité et moyens de paiement.",
-                      "detail" : "Sécurisation de l'accès - Le protocole SSL 3. Certificats. Solutions de paiement électronique - Le protocole SET."
-                    },
-                    { 
-                      "title" : "Les architectures du commerce électronique ",
-                      "detail" : "Architectures fonctionnelles, modèles d'affaires, portails. Les protocoles SOAP et UDDI. Le langage EbXML. Définition des services Web et le langage de description WSDL. Présentation d'un logiciel commercial."
-                    },
-                    { 
-                      "title" : "Une méthodologie de projet en commerce électronique",
-                      "detail" : "Présentation de l'UN/CEFACT Modeling methodology (UMM)."
-                    },
-                    { 
-                      "title" : "Aspects économiques, légaux et fiscaux.",
-                      "detail" : "Aperçu de la chaîne de valeur ajoutée et des flux inter-entreprises."
-                    },
-                    { 
-                      "title" : "Travaux pratiques",
-                      "detail" : "Réalisation d'un site en ZendFramework et Doctrine2 (et MySQL, CSS, JQuery)"
-                    }
-                  ],
+    "chapters" : [],
     "score": 17,
     "scoreMax": 20,
-    "date" : "Juin 2014"
+    "date" : "June 2014"
   },
   {
     "code" : "ENG210",
     "category" : 10,
     "ects" : 6,
-    "title" : "Exercer le métier d'ingénieur",
+    "title" : "Practice of the engineering profession",
     "goals" : [ 
                "Ouvrir l'horizon de l'élève-ingénieur en vue de l'exercice futur de ses responsabilités.",
                "Aborder les méthodologies de gestion de projet, de façon systémique ou au travers d'illustrations relatives à des projets identifiés."
              ],
-    "chapters" : [ 
-                    { 
-                      "title" : "Ouverture à d'autres champs de compétences que sa spécialité scientifique et technique, ainsi qu'à des thèmes généraux de comportement, de société, d'entreprise: qualité, éthique, sécurité, expatriation, grands projets, innovation, etc.",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Capacités et méthodes relatives à la gestion de projet ou de grand projet.",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Capacité d'écoute, de jugement et de synthèse. Capacité de confrontation d'une thématique à son expérience ou son environnement professionnel.",
-                      "detail" : ""
-                    },
-                    { 
-                      "title" : "Capacité rédactionnelle de résumé, de synthèse et de développement argumenté écrits, en vue de l'examen.",
-                      "detail" : ""
-                    }
-                  ],
+    "chapters" : [],
     "score": 0,
     "scoreMax": 20,
-    "date" : "Février 2015"
+    "date" : "February 2015"
   },
   {
     "code" : "ENG221",
     "category" : 10,
     "ects" : 6,
-    "title" : "Information et communication pour l'ingénieur",
+    "title" : "Information and Communication for the engineer",
     "goals" : [ 
                "Savoir maîtriser l'information spécialisée : Chercher l'information, l'évaluer, la valider ; Produire et communiquer l'information.",
                "Savoir communiquer en situation professionnelle par écrit et à l'oral."
              ],
-    "chapters" : [ 
-                    { 
-                      "title" : "La capacité à synthétiser l'information technique et scientifique sous forme écrite et orale.",
-                      "detail" : "Cette première partie est consacrée à l'acquisition des savoirs et savoir-faire en information et communication pour l'ingénieur et regroupe les élèves de plusieurs spécialités, si nécessaire."
-                    },
-                    { 
-                      "title" : "La capacité à présenter et défendre son travail devant un public professionnel averti.",
-                      "detail" : "La seconde partie est l'application à un sujet de la spécialité des compétences acquises dans la première partie et conduit à un document écrit et une soutenance. Cette partie fait l'objet d'un suivi tant du point de vue des techniques de la documentation que de la spécialité."
-                    }
-                  ],
+    "chapters" : [],
     "score": 0,
     "scoreMax": 20,
-    "date" : "Juin 2015"
+    "date" : "June 2015"
   }
 ]

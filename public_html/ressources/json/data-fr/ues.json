@@ -173,10 +173,10 @@
     "ects" : 6,
     "title" : "Programmation avancée",
     "goals" : [
-               "Maitriser les concepts avancés de la programmation objet en Java.",
+               "Maîtriser les concepts avancés de la programmation objet en Java.",
                "Apprendre à identifier et utiliser les patrons (design pattern) adaptés à une situation de conception."
              ],
-    "chapters" : [ 
+    "chapters" : [
                     { 
                       "title" : "Structure des applications objets avec JAVA",
                       "detail" : ""
@@ -522,7 +522,7 @@
     "code" : "NFE209",
     "category" : 7,
     "ects" : 6,
-    "title" : "Ingénierie des systèmes d'information - Audit et gouvernance",
+    "title" : "Ingéniérie des systèmes d'information - Audit et gouvernance",
     "goals" : [ 
                "Maîtriser les méthodes, modèles et outils utilisées dans la planification et l'évaluation des systèmes d'information",
                "Elaborer un schéma stratégique des systèmes d'information",
@@ -550,14 +550,14 @@
     "code" : "NFE210",
     "category" : 7,
     "ects" : 6,
-    "title" : "Ingénierie des systèmes d'information - Méthodes avancées",
+    "title" : "Ingéniérie des systèmes d'information - Méthodes avancées",
     "goals" : [ 
                "Maîtriser les méthodes, modèles et outils utilisés dans la conception et l'évolution des systèmes d'information",
                "Etre capable d'assurer l'évolution et la maintenance d'un système d'information existant",
                "Maîtriser les techniques et outils de gestion de projet informatique",
                "Etre en mesure d'adapter les méthodes existantes aux besoins spécifiques de certains systèmes d'information"
              ],
-    "chapters" : [ 
+    "chapters" : [
                     { 
                       "title" : "Ingénierie des besoins",
                       "detail" : ""

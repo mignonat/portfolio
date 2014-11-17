@@ -44,7 +44,7 @@
             <span>{{ goal }}</span>
         </p>
         
-        <span class="label label-perso" ng-show="!showMore" ng-click="showMore = !showMore">
+        <span class="label label-perso" ng-show="!showMore && ue.chapters" ng-click="showMore = !showMore">
             {{ "MoreDetails" | translate }} 
             <span class="glyphicon glyphicon-chevron-down"></span>
         </span>

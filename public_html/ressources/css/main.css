@@ -87,7 +87,8 @@ a.nounderline { text-decoration: none ; }
 .navLangImg {
     line-height: 50px;
     padding: 0px ;
-    padding-right: 8px ;
+    margin-right: 8px ;
+    margin-left: 12px ;
 }
 
 /*************************************/

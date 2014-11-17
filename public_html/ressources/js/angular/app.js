@@ -40,7 +40,7 @@ app.run(['$rootScope', 'fileData', function($rootScope, fileData) {
     
     var ressource = "ressources/" ;
     
-    $rootScope.currentLang = "en";
+    $rootScope.currentLang = "fr";
     $rootScope.urlRepRessource = "ressources/";
     $rootScope.urlRepAngular = ressource + "js/angular/" ;
     $rootScope.urlFileLanguages = ressource + "json/langages.json";
@@ -66,7 +66,7 @@ app.run(['$rootScope', 'fileData', function($rootScope, fileData) {
 //Management of the languages
 .controller('languagesController', [ '$rootScope', '$route', '$routeParams', 'fileData', 
     function ($rootScope, $route, $routeParams, fileData) {
-        
+        $rootScope.loadingok = true ;
         if ($routeParams.lang) {
             this.changeLanguage($routeParams.lang) ;
         }
@@ -99,7 +99,6 @@ app.run(['$rootScope', 'fileData', function($rootScope, fileData) {
                 console.log("Switching to language "+ lang + " finished") ; 
                 $route.reload() ; 
             }) ;
-            
         }
     }
 ])

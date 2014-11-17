@@ -116,11 +116,11 @@
                 "projects" : [{
                         "name": "FOXGUARD CIN",
                         "type": "JAVA SWING",
-                        "desc" : "Contrôle des accès avec lecteurs de badge de proximité sur plusieurs sites géographiques.",
+                        "desc" : "Contrôle des accès avec lecteurs de badges de proximité sur plusieurs sites géographiques.",
                         "id" : 9
                     }]
             },{
-                "employer" : "Frégate Anti Sous Marine - FASM Dupleix",
+                "employer" : "Frégate Anti-Sous-Marine - FASM Dupleix",
                 "place" : "Toulon",
                 "title" : "Administrateur systèmes/réseaux",
                 "begin" : "02-02-2007",
@@ -138,12 +138,12 @@
                 "projects" : [{ 
                         "name": "GEOGUARD",
                         "type": "JAVA SWING",
-                        "desc" : "Outil graphique pour création de cartes vectorielle.",
+                        "desc" : "Outil graphique pour création de cartes vectorielles.",
                         "id" : 10
                     },{
                         "name": "SITAC",
                         "type": "C++ QT",
-                        "desc" : "Gestion informatisé de la situation tactique du bâtiment en temps réel.",
+                        "desc" : "Gestion informatisée de la situation tactique du bâtiment en temps réel.",
                         "id" : 11
                     },{
                         "name": "SPACEGUARD",
@@ -153,12 +153,12 @@
                     },{
                         "name": "FOXGUARD",
                         "type": "JAVA SWING",
-                        "desc" : "Contrôle de présence avec un lecteur de badge de proximité.",
+                        "desc" : "Contrôle de présence avec un lecteur de badges de proximité.",
                         "id" : 13
                     },{
                         "name": "SHIPGUARD",
                         "type": "JAVA SWING",
-                        "desc" : "Cartographie et contrôle des navires émmettant AIS.",
+                        "desc" : "Cartographie et contrôle des navires émettant AIS.",
                         "id" : 14
                     }]
             },{
@@ -171,7 +171,7 @@
                 "details" : [
                     "Cours théoriques et pratiques d'ordre général et technique",
                     "Militaire, francais et histoire",
-                    "Administration système : Windows et Linux",
+                    "Administration systèmes : Windows et Linux",
                     "Réseaux informatiques",
                     "Réseaux de télécommunications",
                     "Communications radio-électriques",
@@ -200,7 +200,7 @@
             }
         ]
     },{
-        "group" : "Experiences au Canada",
+        "group" : "Expériences au Canada",
         "duration": "1 an et 4 mois",
         "experiences" : [{
                 "employer" : "Banque Royale du Canada",
