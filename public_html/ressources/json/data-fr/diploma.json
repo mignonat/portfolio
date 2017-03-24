@@ -3,18 +3,18 @@
         "name" : "Formation continue",
         "graduates" : [
             {
-                "title" : "Diplome d'ingénieur en ingéniérie des systèmes d'information",
-                "option" : "Obtention en cours du soir",
+                "title" : "Diplome d'ingénieur informatique",
+                "option" : "Option Ingéniérie des systèmes d'information",
                 "imageUrl" : "ressources/images/school/eicnam.png",
                 "level" : "Bac +5",
-                "school" : "École d’ingénieur du CNAM",
+                "school" : "Conservatoire national des arts et métiers",
                 "city" : "Aix-En-Provence",
                 "begin" : "Fev 2012",
                 "end" : ""
             },
             {
                 "title" : "Titre RNCP niveau II - Concepteur en architecture informatique",
-                "option" : "Option systèmes d'information, en cours du soir",
+                "option" : "Option systèmes d'information",
                 "imageUrl" : "ressources/images/school/cnam.png",
                 "level" : "Bac +4",
                 "school" : "Conservatoire national des arts et métiers",
